@@ -6,42 +6,48 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 ## Información general
 
-| Campo | Información |
-|---|---|
-| **Nombre del proyecto** | <!-- Nombre oficial o nombre temporal --> |
-| **Nombre clave** | <!-- Identificador interno si existe --> |
-| **Versión del GDD** | 0.1.0 |
-| **Estado del proyecto** | Concepto / Preproducción / Producción / Pruebas / Publicado |
-| **Equipo** | <!-- Integrantes --> |
-| **Responsable del proyecto** | <!-- Persona responsable --> |
-| **Fecha de inicio** | <!-- AAAA-MM-DD --> |
-| **Última actualización** | <!-- AAAA-MM-DD --> |
-| **Repositorio** | <!-- Enlace --> |
+| Campo                              | Información                                                                                       |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Nombre del proyecto**      | ONE MIND                                                                                           |
+| **Nombre clave**             | ONE MIND                                                                                           |
+| **Versión del GDD**         | 0.3.0                                                                                              |
+| **Estado del proyecto**      | **Concepto** / Preproducción / Producción / Pruebas / Publicado                            |
+| **Equipo**                   | Aron Balam, Carlos González, Kevin Javier Velázquez Molinero, Raul Arias, Sebastian Perez Viñas |
+| **Responsable del proyecto** | Sebastian Perez Viñas                                                                             |
+| **Fecha de inicio**          | 2026-09-25                                                                                         |
+| **Última actualización**   | 2026-10-16                                                                                         |
+| **Repositorio**              | NA                                                                                                 |
 
 ## Identidad del videojuego
 
-**Género principal:**  
-> Consulta [[01 - Géneros]] y elige el género que mejor describa la experiencia dominante.
+**Género principal:**
+Acción
 
-**Subgéneros:**  
-> Consulta [[02 - Subgéneros y Combinaciones]] y selecciona solamente los que aporten información útil.
+**Subgéneros:**
+FPS
 
 **Biblioteca de clasificación:** [[00 - Biblioteca de Clasificación]]
 
-**Plataforma objetivo:**  
-> Consulta [[03 - Plataformas y Consolas]] antes de elegir.
+**Plataforma objetivo:**
+PC
 
-**Modo de juego:**  
-> Consulta [[05 - Modos de Juego]].
+**Modo de juego:**
+Un jugador
 
-**Perspectiva:**  
-> Consulta [[04 - Perspectivas y Cámaras]].
+**Perspectiva:**
+Primera persona - cámara libre
 
-**Clasificaciones y etiquetas adicionales:**  
-> Consulta [[06 - Clasificaciones y Etiquetas]].
+**Clasificaciones y etiquetas adicionales:**
 
-**Tecnología principal:**  
-> Motor, lenguaje y herramientas principales.
+- Combate
+- Permadeath
+- Supervivencia
+
+**Tecnología principal:**
+
+- Unity
+- C#
+- Blender
 
 ## Elevator Pitch
 
@@ -50,11 +56,15 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 **Respuesta:**
 
+Controlas a Tannat, un robot que protege en su interior a Cuyus, una niña de 10 años que se refugió en él tras encontrarlo en un laboratorio.
+
+El objetivo es sobrevivir al mayor número de rondas frente a mutantes infectados por Neuroplex. Cada baja otorga puntos para comprar armas, obtener mejoras y abrir zonas del laboratorio.
+
 ## Estado actual
 
-- [ ] Concepto definido
-- [ ] Alcance inicial definido
-- [ ] Mecánica principal definida
+- [X] Concepto definido
+- [X] Alcance inicial definido
+- [X] Mecánica principal definida
 - [ ] Prototipo funcional
 - [ ] Vertical slice
 - [ ] Producción
@@ -65,5 +75,6 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 ¿Qué tendría que suceder para considerar que el videojuego cumplió su propósito?
 
+En el showcase de la UT Cancún, un jugador sin ayuda externa puede completar el bucle completo (combatir, ganar puntos, comprar, abrir la Zona 2 y morir), el juego se mantiene cerca de 60 FPS en equipos de gama media y el jugador quiere reintentar para superar la ronda alcanzada.
 
 > **Navegación:** [[00 - Índice]] · ← [[00 - Índice]] · [[02 - Visión del Juego]] →
