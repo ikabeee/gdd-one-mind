@@ -21,7 +21,9 @@ La accesibilidad busca que el mayor número posible de jugadores pueda comprende
 
 ## Consideraciones
 
-Documenta cualquier necesidad específica derivada del diseño del juego.
+Las opciones de esta lista aún no están aprobadas. Por su bajo costo, se proponen como prioritarias la **sensibilidad del mouse** y el **volumen independiente** (música y efectos). *(propuesta)*
+
+ El esquema actual es fijo de teclado y mouse; la reasignación y el soporte de mando quedan fuera de esta versión según el apartado de [[04 - Controles|controles]].
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - UI y Menús]] · [[04 - Guardado y Configuración]] →

@@ -9,7 +9,8 @@ Registra los cambios importantes realizados al GDD. Esto permite conocer cómo e
 | Versión | Fecha | Cambios principales | Responsable |
 |---|---|---|---|
 | 0.1.0 | | Creación del documento | |
-| | | | |
+| 0.2.0 | 2026-10-16 | Contenido del GDD de ONE MIND (secciones 01 a 07) | |
+| 0.3.0 | 2026-10-16 | Se completan las secciones 01 a 10; se agregan referencias visuales de personajes | |
 
 ## Convención sugerida
 

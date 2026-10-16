@@ -60,8 +60,8 @@ La cámara cambia automáticamente según acciones, eventos o contexto.
 
 ## Decisión del proyecto
 
-**Perspectiva principal:**  
-**Tipo de cámara:**  
-**¿Puede cambiar durante el juego?:**  
+**Perspectiva principal:**
+**Tipo de cámara:**
+**¿Puede cambiar durante el juego?:**
 
 **Justificación de diseño:**
