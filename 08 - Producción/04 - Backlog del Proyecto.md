@@ -25,13 +25,13 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 ### Prioridad alta
 
 - [ ] Movimiento de Tannat (WASD, salto simple) y cámara en primera persona.
-- [ ] Disparo con raycast y daño a los mutantes.
+- [ ] Disparo y daño a los mutantes.
 - [ ] Pistola inicial: cargador, reserva y recarga.
-- [ ] IA de mutantes: aparición, persecución con NavMesh y ataque cuerpo a cuerpo.
+- [ ] IA de mutantes: aparición, persecución y ataque cuerpo a cuerpo.
 - [ ] Sistema de rondas: cantidad y vida crecientes, transición entre rondas.
 - [ ] Sistema de economía: puntos por baja y validación de compras.
 - [ ] Vida de Tannat, derrota y reintentar.
-- [ ] Bloqueo de la Zona 2 y blockout de ambas zonas.
+- [ ] Bloqueo de la Zona 2 y versión básica del escenario de ambas zonas.
 
 ### Prioridad media
 

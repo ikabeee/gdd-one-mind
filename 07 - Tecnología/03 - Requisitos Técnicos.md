@@ -36,7 +36,7 @@ Define las condiciones técnicas necesarias para ejecutar y desarrollar el video
 
 **FPS objetivo:** 60, pendientes de comprobar en los equipos de prueba.
 
-**Tiempo de carga objetivo:** Menos de 10 segundos al iniciar una partida. *(propuesta)*
+**Tiempo de carga objetivo:**
 
 **Memoria máxima:**
 

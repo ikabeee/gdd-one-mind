@@ -61,7 +61,7 @@ Clic izquierdo para disparar, R para recargar, teclas 1 y 2 o rueda del mouse pa
 Arma equipada lista para disparar.
 
 **Estado final:**  
-Se descuenta munición y, si el disparo impacta, se aplica daño al mutante. El sistema utiliza raycasts; la escopeta distribuye varios en un cono.
+Se descuenta munición y, si el disparo impacta, se aplica daño al mutante. La escopeta dispara varios perdigones en forma de cono.
 
 **Recursos utilizados:**  
 Munición del arma equipada.

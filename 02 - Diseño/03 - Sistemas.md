@@ -9,7 +9,7 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 | Sistema | Propósito | Dependencias | Estado |
 |---|---|---|---|
 | Sistema de armas e inventario | Gestionar pistola, SMG y escopeta, su compra y el límite de dos armas equipadas. | Economía (puntos) | Por desarrollar |
-| Sistema de IA de mutantes | Controlar el spawn y comportamiento de mente colmena de los mutantes. | Sistema de rondas y sistema de zonas | Por desarrollar |
+| Sistema de IA de mutantes | Controlar la aparición y el comportamiento de mente colmena de los mutantes. | Sistema de rondas y sistema de zonas | Por desarrollar |
 | Sistema de rondas | Controlar el incremento de dificultad y la cantidad de mutantes por ronda. | Sistema de IA de mutantes | Por desarrollar |
 | Sistema de economía | Gestionar la obtención y gasto de puntos. | Sistema de rondas, sistema de armas | Por desarrollar |
 | Sistema de zonas | Abrir la puerta entre las dos zonas y habilitar los puntos de aparición de la Zona 2. | Economía (puntos) | Por desarrollar |
@@ -22,16 +22,16 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 Hacer que los mutantes localicen y persigan al jugador de forma constante, reforzando la tensión psicológica del juego.
 
 **Entradas:**  
-Posición del jugador, punto de spawn del mutante.
+Posición del jugador, punto de aparición del mutante.
 
 **Procesamiento / reglas:**  
-Al aparecer, cada mutante obtiene la posición de Tannat y calcula una ruta de navegación hacia él. Recalcula la ruta periódicamente mientras persigue. Al entrar en rango de ataque, se detiene y ataca cuerpo a cuerpo; si Tannat se aleja, vuelve a perseguir. Al recibir daño suficiente, queda eliminado y emite su evento de muerte.
+Al aparecer, cada mutante se dirige hacia Tannat y lo sigue mientras se mueve. Al entrar en rango de ataque, se detiene y ataca cuerpo a cuerpo; si Tannat se aleja, vuelve a perseguir. Al recibir daño suficiente, queda eliminado y emite su evento de muerte.
 
 **Salidas:**  
 Movimiento del mutante hacia el jugador; ataque al alcanzarlo.
 
 **Estados posibles:**  
-Spawnean, persiguiendo, atacando, eliminado.
+Apareciendo, persiguiendo, atacando, eliminado.
 
 **Dependencias:**  
 El sistema de rondas determina la cantidad de enemigos y el sistema de zonas limita los puntos de aparición a las áreas desbloqueadas.

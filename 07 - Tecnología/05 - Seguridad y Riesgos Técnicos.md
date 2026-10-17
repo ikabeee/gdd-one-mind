@@ -11,7 +11,7 @@ Documenta riesgos técnicos y medidas para reducir fallos, pérdida de datos o a
 | Atascos de mutantes y pérdida de rendimiento al acumularse en la puerta. | Pendiente de pruebas. | Puede impedir el avance de rondas o afectar la fluidez. | Validar recorridos y medir el rendimiento con distintas cantidades de enemigos antes de fijar un límite. |
 | Tannat queda atascado en bordes u obstáculos. | Media | Rompe el movimiento y frustra al jugador. | Revisar colisiones del escenario y probar el salto contra bordes. |
 | Un mutante no registra su muerte o la registra dos veces. | Media | La ronda no termina o se otorgan puntos de más. | Registrar la muerte una sola vez y probarlo en cada arma. |
-| Rendimiento por debajo de 60 FPS en los equipos del showcase. | Media | Mala experiencia en la presentación. | Limitar enemigos activos, reutilizar objetos (pooling) y probar en equipos similares. |
+| Rendimiento por debajo de 60 FPS en los equipos del showcase. | Media | Mala experiencia en la presentación. | Limitar enemigos activos, reutilizar objetos y probar en equipos similares. |
 | Economía desbalanceada. | Alta | Rondas demasiado fáciles o imposibles. | Ajustar costos y puntos con playtests. |
 
 ## Datos sensibles

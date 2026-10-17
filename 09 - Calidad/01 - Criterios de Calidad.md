@@ -30,7 +30,7 @@ Una característica se considera terminada cuando:
 
 - Cumple las reglas descritas en el GDD.
 - Cumple sus [[04 - Criterios de Aceptación]].
-- Fue probada en una build de Windows, no solo en el editor de Unity.
+- Fue probada en la versión jugable para Windows, no solo dentro de Unity.
 - Tiene su respuesta visual y sonora, si la requiere.
 - No introduce errores bloqueantes ni baja el rendimiento por debajo del objetivo.
 - Otro integrante del equipo la revisó.

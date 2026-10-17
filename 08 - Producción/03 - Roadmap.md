@@ -34,7 +34,7 @@ El roadmap organiza el desarrollo en etapas y entregables.
 
 **Objetivo:** Presentar el juego en el showcase de la UT Cancún.
 
-**Entregables:** Build de Windows estable y GDD actualizado.
+**Entregables:** Versión jugable estable para Windows y GDD actualizado.
 
 ## Hitos
 
@@ -44,7 +44,7 @@ El roadmap organiza el desarrollo en etapas y entregables.
 | MVP | Prototipo jugable de la Zona 1 | Se puede combatir, ganar puntos, comprar la SMG y morir | Pendiente |
 | Vertical slice | Ambas zonas con arte final | Cumple lo definido en [[01 - Alcance]] | Pendiente |
 | Beta | Juego con todo el alcance | Todos los sistemas integrados, sin errores bloqueantes | Pendiente |
-| Entrega | Build final para el showcase | Cumple los [[04 - Criterios de Aceptación]] | Pendiente |
+| Entrega | Versión final para el showcase | Cumple los [[04 - Criterios de Aceptación]] | Pendiente |
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Roles y Responsabilidades]] · [[04 - Backlog del Proyecto]] →

@@ -19,7 +19,7 @@ Durante una partida se necesitan vida, puntos, ronda, armas, munición y estado 
 
 ## Formato
 
-**Formato de guardado:** No aplica en esta versión. Si se decide guardar récords o configuración, se propone `PlayerPrefs` de Unity.
+**Formato de guardado:** No aplica en esta versión.
 
 **Ubicación:** No aplica.
 
