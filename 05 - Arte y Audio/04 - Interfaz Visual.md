@@ -46,7 +46,7 @@ Al disparar se actualiza la munición. Una compra válida descuenta puntos. Si f
 
 ## Pantallas
 
-- **Menú principal:** Niveles (BROTE y Cuarto de pruebas), Ajustes y Salir (con confirmación).
+- **Menú principal:** DISTORSION (abre la pantalla "NIVELES", con BROTE y Cuarto de pruebas), Ajustes y Salir (con confirmación).
 - **Pausa:** "PAUSA"; clic para seguir jugando, Q para volver al menú.
 - **Configuración:** sensibilidad, campo de visión, volumen general y música.
 - **Inventario:** dos ranuras de armas en el HUD; sin pantalla aparte.

@@ -10,7 +10,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | ---------------------------------- | -------------------------------------------------------------------------------------------------- |
 | **Nombre del proyecto**      | ONE MIND                                                                                           |
 | **Nombre clave**             | ONE MIND                                                                                           |
-| **Versión del GDD**         | 0.4.0                                                                                              |
+| **Versión del GDD**         | 0.4.2                                                                                              |
 | **Estado del proyecto**      | Concepto / Preproducción / **Producción** / Pruebas / Publicado                            |
 | **Equipo**                   | Aron Balam, Carlos González, Kevin Javier Velázquez Molinero, Raul Arias, Sebastian Perez Viñas |
 | **Responsable del proyecto** | Sebastian Perez Viñas                                                                             |
@@ -73,7 +73,7 @@ El objetivo es sobrevivir al mayor número de rondas frente a científicos infec
 - [ ] Versión final
 
 > [!info] Estado al 2026-11-09
-> El juego es jugable de principio a fin en dos niveles: **BROTE** (mapa principal, rondas sin fin en 6 zonas) y **Cuarto de pruebas** (recorrido de entrenamiento). Hay pruebas automatizadas unitarias y de flujo completo. Sigue en producción el texturizado del laboratorio y quedan pendientes el interruptor de energía, las rondas especiales y el científico EMZ.
+> El juego es jugable de principio a fin en dos niveles: **BROTE** (mapa principal, rondas sin fin en 6 zonas) y **Cuarto de pruebas** (recorrido de entrenamiento). Hay pruebas automatizadas unitarias y de flujo completo. Las seis zonas del laboratorio y el incinerador ya están texturizados y ambientados. Quedan pendientes la música, la mayoría de los efectos de sonido, el interruptor de energía, las rondas especiales y el científico EMZ.
 
 ## Criterio de éxito del proyecto
 

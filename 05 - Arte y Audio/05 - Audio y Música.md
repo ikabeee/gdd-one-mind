@@ -21,12 +21,13 @@ Define la identidad sonora y cómo el audio comunica información al jugador.
 
 ## Efectos de sonido
 
-Hoy solo los disparos y el combo tienen sonido en el juego; los demás eventos de la tabla están pendientes.
+Hoy solo los disparos, el combo y la navegación del menú principal tienen sonido en el juego; los demás eventos de la tabla están pendientes.
 
 | Evento | Sonido | Propósito |
 |---|---|---|
 | Disparo | Un sonido propio por arma (las ocho armas de pared y la pistola; falta el cohete). Implementado. | Confirmar el disparo junto con el fogonazo y el retroceso. |
 | Combo de bajas | Ocho notas armonizadas que suben con cada baja en cadena y una resolución final; baja el volumen del resto del juego mientras suena. Implementado. | Premiar las bajas encadenadas. |
+| Navegación del menú principal | Tic corto generado por código al cambiar de opción. Implementado. | Confirmar el cambio de selección. |
 | Compra válida / puntos insuficientes | Confirmación o rechazo; archivos pendientes. | Distinguir si se realizó la compra o faltan puntos. |
 | Recarga y cambio de arma | Sonido mecánico por arma. | Confirmar la acción sin mirar el HUD. |
 | Cargador vacío | Clic de arma vacía. | Avisar que hay que recargar. |

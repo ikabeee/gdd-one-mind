@@ -39,6 +39,8 @@ El diseño de un videojuego cambia. Esta sección evita que las modificaciones i
 | 2026-10-26 | Las balas son hitscan; el cohete es un proyectil | Respuesta inmediata del disparo | Combate | Implementado |
 | 2026-11-09 | GDD actualizado al juego: de 2 zonas y 3 armas a 6 zonas y 10 armas; descanso entre rondas de 10 s; regeneración de vida | El diseño se quedó atrás de la implementación | Todo el GDD | Registrado |
 | 2026-11-09 | Se eliminan los mensajes breves del sistema de Tannat | Nunca se implementaron en el juego | Narrativa, personajes | Aprobado |
+| 2026-11-09 | Correcciones del GDD contra el juego: la pared trituradora quita 100 de vida y puede terminar la partida; la primera opción del menú es DISTORSION; se documentan los orbes de dash, la recarga de 40 s de las trampas y el precio de la munición de armas mejoradas | Auditoría del GDD contra el repositorio del juego | Mecánicas, sistemas, economía, niveles, interfaz | Registrado |
+| 2026-11-09 | Segunda ronda de correcciones del GDD contra el juego: las seis zonas y el incinerador ya están texturizados y ambientados; la suite tiene 954 pruebas; el flujo pasa por DISTORSION; el menú tiene sonido de navegación; se documentan los colores de la interfaz y la luz de Pruebas Exo | Auditoría de las secciones de visión, experiencia, tecnología, producción y calidad | Visión, arte y audio, experiencia, producción, calidad | Registrado |
 
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Backlog del Proyecto]] · [[01 - Criterios de Calidad]] →

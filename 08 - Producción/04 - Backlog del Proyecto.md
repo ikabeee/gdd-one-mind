@@ -47,10 +47,10 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 - [x] Re-tematizar BROTE como el laboratorio de Neuroplex.
 - [x] Texturas e iluminación de la arquitectura (Sala de Contención y Laboratorio Central).
 - [x] Ambientación de Administración y la Morgue.
+- [x] Texturas y ambientación de las zonas restantes (Celdas, Pruebas Exo e incinerador), con techo, marco y letrero en cada puerta.
 
 ### En progreso
 
-- [ ] Texturas de las zonas restantes.
 - [ ] Storyboard del tráiler.
 
 ### Pendiente
@@ -68,6 +68,6 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 
 Prioriza aquello que desbloquea otras tareas o valida primero las partes más riesgosas del proyecto.
 
-El bucle principal ya está validado. Ahora va primero lo que se ve en el showcase (texturas, audio, rendimiento medido) y después el contenido nuevo (interruptor de energía, EMZ).
+El bucle principal ya está validado. Ahora va primero lo que se ve en el showcase (audio, calcomanías, rendimiento medido) y después el contenido nuevo (interruptor de energía, EMZ).
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Roadmap]] · [[05 - Gestión de Cambios]] →

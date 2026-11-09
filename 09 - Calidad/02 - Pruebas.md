@@ -32,7 +32,7 @@ Medir FPS con distintas cantidades de enemigos activos en equipos de gama media 
 
 ## Pruebas automatizadas
 
-El juego tiene pruebas unitarias (una regla en C# sin escena) y de flujo completo (arrancan el juego real desde `Bootstrap` y lo juegan a través de sus servicios: iniciar, jugar, ganar, perder y volver al menú). Ambas corren en la suite EditMode del Unity Test Framework con `./run-tests.sh` o desde *Window > General > Test Runner*. El 2026-11-05 la suite completa (891 pruebas) pasó en verde.
+El juego tiene pruebas unitarias (una regla en C# sin escena) y de flujo completo (arrancan el juego real desde `Bootstrap` y lo juegan a través de sus servicios: iniciar, jugar, ganar, perder y volver al menú). Ambas corren en la suite EditMode del Unity Test Framework con `./run-tests.sh` o desde *Window > General > Test Runner*. El 2026-11-07 la suite completa (954 pruebas) pasó en verde.
 
 Antes de la entrega se hizo una ronda "break the game" (intentar romper el juego) que corrigió, entre otros: mutantes que no pueden navegar, rondas que esperaban mutantes ajenos, vida infinita en rondas altas, empujes de explosión sin tope, reembolsos de movilidad por trampas y PURGA, y salir del mapa.
 

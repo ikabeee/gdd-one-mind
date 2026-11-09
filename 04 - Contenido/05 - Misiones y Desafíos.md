@@ -58,7 +58,7 @@ BROTE, con sus seis zonas.
 3. Tomar la llave de la cornisa (E) mientras la pared trituradora avanza.
 4. Volver a Pruebas Exo y pagar la mejora experimental (7,500).
 
-**Condición de fracaso:** La pared alcanza a Tannat: recibe daño y sale expulsado a la Sala de Contención; puede volver a intentarlo.
+**Condición de fracaso:** La pared cruza la sala en 30 s. Si alcanza a Tannat le quita 100 de vida, que es toda su vida base: sin BLINDAJE ni RESPALDO, la partida termina y hay que reiniciarla. Si Tannat sobrevive (BLINDAJE con más de 100 de vida) o se reinicia con RESPALDO, sale expulsado a la Sala de Contención y puede volver a bajar.
 
 **Recompensa:** Acceso al nivel MK4 (daño ×3.75).
 

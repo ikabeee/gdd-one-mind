@@ -7,7 +7,7 @@ UX (experiencia de usuario) describe qué tan comprensible, cómoda y coherente 
 ## Flujo principal
 
 ```text
-Menú principal → Niveles → BROTE (o Cuarto de pruebas) → Combate por rondas → Has caído → Repetir (R) o menú (Q)
+Menú principal → DISTORSION → Niveles → BROTE (o Cuarto de pruebas) → Combate por rondas → Has caído → Repetir (R) o menú (Q)
 ```
 
 Durante la partida se puede pausar (Esc) y volver al menú (Q) o seguir jugando (clic).

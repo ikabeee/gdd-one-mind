@@ -68,8 +68,9 @@ El drop permanece 30 s en el suelo y parpadea en los últimos 12 s.
 | Impresora 3D | Arma al azar; cambia de lugar entre 5 ubicaciones. | 950 |
 | Estación de mejora (Administración, Celdas) | MK1 a MK3 del arma en mano. | 3,000 a 6,000 |
 | Estación experimental (Pruebas Exo) | MK4; bloqueada hasta tener la llave. | 7,500 |
-| Trampa de descontaminación (Administración) | Mata mutantes en su área durante 20 s. | 1,000 |
-| Anillo eléctrico (Laboratorio Central) | Mata mutantes en su área durante 20 s. | 1,000 |
+| Trampa de descontaminación (Administración) | Mata mutantes en su área durante 20 s; después se recarga durante 40 s. | 1,000 |
+| Anillo eléctrico (Laboratorio Central) | Mata mutantes en su área durante 20 s; después se recarga durante 40 s. | 1,000 |
+| Orbes de dash (6 en el Laboratorio Central, 3 en Pruebas Exo) | Al tocarlos se recuperan el dash, los saltos aéreos y el stomp; reaparecen a los 2 s. | — |
 | Arnés del exotraje (Pruebas Exo) | Salto aéreo extra, más velocidad y enfriamientos cortos. | 1,500 |
 | Conductos (Administración, Pruebas Exo) | Bajan al incinerador. | 500 |
 | Llave del incinerador | Desbloquea la estación experimental. | — |

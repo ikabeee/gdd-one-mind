@@ -8,7 +8,7 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 
 El flujo de la aplicación es una máquina de estados (`GameFlowController`): Menú principal → Cargando → Jugando ⇄ Pausa, y Jugando → Fin de partida.
 
-- **Menú principal:** ofrece Niveles (BROTE o Cuarto de pruebas), Ajustes y Salir.
+- **Menú principal:** ofrece DISTORSION (abre la pantalla "NIVELES" para elegir BROTE o Cuarto de pruebas), Ajustes y Salir.
 - **Cargando:** se carga la escena del nivel; cualquier otra petición se ignora, y si la carga falla se vuelve al estado anterior.
 - **Inicio de partida:** Tannat aparece en la Sala de Contención con vida completa, 500 puntos y la pistola; las puertas están cerradas. La primera ronda empieza a los 3 s.
 - **Combate activo:** los mutantes aparecen en las zonas abiertas cercanas a Tannat. El jugador puede moverse, disparar, recargar y comprar durante la ronda.
@@ -48,12 +48,13 @@ Documenta excepciones importantes para evitar interpretaciones diferentes durant
 
 - Cambiar de arma durante una recarga la cancela sin añadir munición.
 - Comprar un arma con las dos ranuras ocupadas reemplaza el arma en la mano.
-- Si el jugador ya posee el arma de un soporte, compra su munición por la mitad del precio (más si está mejorada).
+- Si el jugador ya posee el arma de un soporte, compra su munición por la mitad del precio del arma; si está mejorada, ese precio se multiplica por su nivel de mejora + 1 (MK1 ×2, MK2 ×3, MK3 ×4, MK4 ×5).
 - Si faltan puntos, la compra no se realiza y aparece "Puntos insuficientes".
 - Antes de abrir una puerta, los mutantes no pueden aparecer en la zona que cierra.
 - Se puede comprar durante el combate, no solo en el descanso.
 - Si Tannat sale del área jugable, reaparece dentro del mapa.
 - Al bajar por un conducto, el incinerador se convierte en el punto de reaparición.
+- La pared trituradora del incinerador quita 100 de vida: sin BLINDAJE ni RESPALDO, la partida termina.
 - Salir desde la pausa mantiene el nivel congelado hasta que termina la transición.
 
 > **Navegación:** [[00 - Índice]] · ← [[06 - Economía y Recursos]] · [[01 - Premisa y Trama]] →

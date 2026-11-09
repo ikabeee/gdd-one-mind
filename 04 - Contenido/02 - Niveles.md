@@ -19,13 +19,13 @@ Entre 5 y 15 minutos como referencia de prueba. La partida puede extenderse mien
 Aumenta por ronda (cantidad, vida, velocidad, saltadores y corredores); no depende de la zona.
 
 **Mecánicas introducidas:**  
-En la Sala de Contención: movimiento, disparo y compras de pared. Al abrir zonas: impresora 3D, estaciones de mejora, pilas, trampas, arnés y conductos.
+En la Sala de Contención: movimiento, disparo y compras de pared. Al abrir zonas: impresora 3D, estaciones de mejora, pilas, trampas, orbes de dash, arnés y conductos.
 
 **Mecánicas utilizadas:**  
 Todas: exotraje, disparo, apuntado, recarga, cambio de arma, compras, power-ups y estilo.
 
 **Enemigos / obstáculos:**  
-Científicos infectados que persiguen, saltan y atacan cuerpo a cuerpo. Las puertas limitan el acceso. El mapa tiene pisos superiores, rampas y plataformas altas (hasta 10 m en el Laboratorio Central). En el incinerador, una pared trituradora empuja a Tannat fuera.
+Científicos infectados que persiguen, saltan y atacan cuerpo a cuerpo. Las puertas limitan el acceso. El mapa tiene pisos superiores, rampas y plataformas altas (hasta 10 m en el Laboratorio Central); nueve orbes de dash (seis en el Laboratorio Central y tres en Pruebas Exo) ayudan a cruzar los huecos. En el incinerador, una pared trituradora cruza la sala en 30 s; si alcanza a Tannat le quita 100 de vida, lo que termina la partida si no tiene BLINDAJE ni RESPALDO.
 
 **Recompensas:**  
 Puntos, power-ups y acceso a armas, mejoras y pilas.

@@ -25,6 +25,7 @@ El jugador corre, salta, hace dash, se desliza (slide) o cae en picada (stomp).
 - **Dash:** impulso de 45 m/s durante 0.15 s; una carga que se recupera al tocar el suelo; hace 200 de daño a los mutantes que atraviesa.
 - **Slide:** en el suelo, 18 m/s que se pierden con la fricción; acelera en pendientes.
 - **Stomp:** en el aire, Tannat cae a 70 m/s; al impactar hace de 150 a 600 de daño en un radio de 3 a 6 m (más caída, más fuerza) y rebota hacia arriba. Enfriamiento de 1.5 s.
+- **Orbes de dash:** orbes flotantes en el Laboratorio Central y en Pruebas Exo; al tocarlos se recuperan el dash, los saltos aéreos y el stomp, igual que con una baja. Cada orbe reaparece a los 2 s. Sirven para encadenar dashes sobre huecos largos.
 - **Explosiones:** el cohete no daña a Tannat y su explosión lo empuja (una vez por salto, con tope de 45 m/s).
 
 **Entrada:**  
@@ -95,7 +96,7 @@ Traduce el desempeño en combate (puntos) en equipo y en más mapa disponible.
 Acercarse a un punto de compra y pulsar E con los puntos necesarios.
 
 **Reglas:**  
-- **Armas de pared:** cada zona tiene una o dos. Si ya tienes el arma, compras su munición a la mitad del precio (más cara si el arma está mejorada).
+- **Armas de pared:** cada zona tiene una o dos. Si ya tienes el arma, compras su munición a la mitad del precio del arma; si está mejorada, ese precio se multiplica por su nivel de mejora + 1 (MK1 ×2, MK2 ×3, MK3 ×4, MK4 ×5).
 - **Impresora 3D (caja misteriosa):** 950 puntos; imprime un arma al azar que no llevas y tienes un tiempo para tomarla. Si la impresión falla, devuelve los puntos y se mueve a otra de sus cinco ubicaciones.
 - **Puertas:** cada puerta se paga una vez y queda abierta hasta terminar la partida.
 - **Estaciones de mejora:** mejoran el arma en mano un nivel y la recargan.
@@ -134,6 +135,6 @@ Lista las mecánicas que complementan la experiencia pero no constituyen el núc
 - **Power-ups:** los mutantes los sueltan al azar (ver [[03 - Sistemas]]).
 - **Medidor de estilo:** dañar y eliminar llena el medidor, el tiempo y los golpes recibidos lo vacían; los rangos son D, C, B, A y S.
 - **Interruptor de pisotón:** en las Celdas, un stomp lo bastante fuerte hunde la celda exterior y suelta un power-up al azar.
-- **Incinerador secreto:** se baja por un conducto (500 puntos); ahí está la llave que desbloquea la mejora experimental, mientras una pared trituradora avanza.
+- **Incinerador secreto:** se baja por un conducto (500 puntos); ahí está la llave que desbloquea la mejora experimental, mientras una pared trituradora avanza. Si la pared alcanza a Tannat le quita 100 de vida: sin BLINDAJE ni RESPALDO, la partida termina.
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Jugabilidad]] · [[03 - Sistemas]] →

@@ -36,7 +36,7 @@ Las trampas y la PURGA no devuelven cargas de movimiento; las trampas no dan pun
 | Rifle de asalto (pared) | 1,000 |
 | Rifle de tirador (pared) | 1,500 |
 | Ametralladora (pared) | 2,000 |
-| Munición de un arma de pared | Mitad del precio del arma (más cara si el arma está mejorada) |
+| Munición de un arma de pared | Mitad del precio del arma × (nivel de mejora + 1) |
 | Impresora 3D | 950 |
 | Puerta a Administración | 750 |
 | Puerta al Laboratorio Central | 1,250 |

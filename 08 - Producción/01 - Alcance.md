@@ -8,7 +8,7 @@ Define qué se va a construir y, sobre todo, qué queda fuera del proyecto.
 
 ### Incluido
 
-- BROTE: un laboratorio de seis zonas conectadas por puertas compradas, más el incinerador secreto. *(implementado; texturizado en curso)*
+- BROTE: un laboratorio de seis zonas conectadas por puertas compradas, más el incinerador secreto. *(implementado, texturizado y ambientado)*
 - Cuarto de pruebas: recorrido de entrenamiento con todas las mecánicas. *(implementado)*
 - Tannat en primera persona con exotraje: correr, doble salto, dash, slide y stomp. *(implementado)*
 - Diez armas, máximo dos equipadas, con miras de hierro y efectos de disparo. *(implementado)*
@@ -43,7 +43,7 @@ El **Producto Mínimo Viable** debe contener únicamente lo necesario para demos
 
 ¿Qué parte del juego debe estar completamente terminada para demostrar la calidad y dirección del producto?
 
-BROTE con las seis zonas texturizadas y ambientadas, todas las armas con sus efectos visuales y sonoros, el HUD completo, música y la narrativa ambiental de cada zona. **Estado: en curso** (faltan texturas en varias zonas, música y la mayoría de los efectos de sonido).
+BROTE con las seis zonas texturizadas y ambientadas, todas las armas con sus efectos visuales y sonoros, el HUD completo, música y la narrativa ambiental de cada zona. **Estado: en curso** (las zonas ya están texturizadas y ambientadas; faltan la música y la mayoría de los efectos de sonido).
 
 ## Criterios de recorte
 
@@ -51,7 +51,7 @@ Si el tiempo o los recursos son insuficientes, ¿qué se elimina primero?
 
 1. Científico EMZ y rondas especiales.
 2. Interruptor de energía.
-3. Texturas de las zonas lejanas (se quedan con colores de greybox).
+3. Atlas de piezas y calcomanías del laboratorio (las zonas ya están texturizadas).
 4. Detalles de narrativa ambiental.
 
 El núcleo no se recorta: movimiento, disparo, rondas, economía y las zonas ya construidas.

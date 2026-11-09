@@ -121,7 +121,7 @@ Cada baja tiene 3 % de probabilidad de soltar uno (máximo 4 por ronda), y adem�
 
 ### Trampas
 
-Cuestan 1,000 puntos: durante 20 s matan a todo mutante que pise su área, sin dar puntos ni estilo, y luego se recargan. Hay dos: la descontaminación de Administración y el anillo eléctrico del Laboratorio Central.
+Cuestan 1,000 puntos: durante 20 s matan a todo mutante que pise su área, sin dar puntos ni estilo; al terminar se recargan durante 40 s antes de poder comprarse otra vez. Hay dos: la descontaminación de Administración y el anillo eléctrico del Laboratorio Central.
 
 ### Arnés del exotraje
 

@@ -8,7 +8,7 @@ Define la estructura funcional de las interfaces y menús.
 
 ```text
 Menú principal (UI Toolkit)
-├── Niveles
+├── DISTORSION (modo principal) → pantalla "NIVELES"
 │   ├── BROTE
 │   └── Cuarto de pruebas
 ├── Ajustes (sensibilidad, campo de visión, volumen general, música)

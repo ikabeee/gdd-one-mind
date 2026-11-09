@@ -21,19 +21,25 @@ Representación estilizada mediante modelos low poly.
 **Formas predominantes:**  
 Geometría simplificada propia del estilo low poly. Tannat es robusto y cuadrado; los científicos tienen siluetas humanas deformadas por el tumor de Neuroplex.
 
-**Iluminación:** Luz ambiental baja, niebla casi negra y una luz de acento por zona (verde frío en las Celdas, cian en la Morgue, naranja en el incinerador, rojo en el pasillo rojo de Administración, baliza en el Laboratorio Central). Postproceso con bloom suave, viñeta, grano y dithering.
+**Iluminación:** Luz ambiental baja, niebla casi negra y una luz de acento por zona (verde frío en las Celdas, cian en la Morgue, naranja en el incinerador, rojo en el pasillo rojo de Administración, blanco azulado en Pruebas Exo, baliza en el Laboratorio Central). Postproceso con bloom suave, viñeta, grano y dithering.
 
 **Materiales:** Materiales URP Lit con texturas generadas en Blender (concreto, paneles de pared, metal y pintura amarilla), proyectadas en mosaicos de 4 m (2 m el metal). Los científicos usan texturas de 64 px de mugre y sangre.
 
 ## Paleta de color
 
-*(propuesta)*
+**Colores principales** *(propuesta)*: Blancos y grises fríos del laboratorio; negro para la pantalla de Tannat, como en los dibujos del equipo.
 
-**Colores principales:** Blancos y grises fríos del laboratorio; negro para la pantalla de Tannat, como en los dibujos del equipo.
+**Colores secundarios** *(propuesta)*: Verde de la vegetación que crece sobre Tannat; tonos verdosos y enfermizos para los mutantes infectados.
 
-**Colores secundarios:** Verde de la vegetación que crece sobre Tannat; tonos verdosos y enfermizos para los mutantes infectados.
+**Colores de la interfaz** *(implementados)*:
 
-**Colores para información jugable:** Rojo para alertas, daño y compras rechazadas (el costo parpadea en rojo); un color claro y de alto contraste para costos y avisos de interacción.
+| Uso | Color |
+|---|---|
+| Menú principal y base del HUD | Monocromo: negro `#0A0A0A`, blanco papel `#F2F2F2` y grises `#BDBDBD` y `#555555`. |
+| Acento del HUD (mira sobre un enemigo, placa del arma, contador de mutantes restantes) | Carmesí `#D0263F`. |
+| Combo, cadena aérea y power-ups activos | Amarillo cálido (≈ `#FFD94D`). |
+| Alertas, daño y compras rechazadas (el aviso "Puntos insuficientes") | Rojo (≈ `#FF4040`). |
+| Costos y avisos de interacción | Blanco, de alto contraste sobre el fondo oscuro. |
 
 ## Reglas visuales
 

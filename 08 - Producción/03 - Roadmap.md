@@ -22,7 +22,7 @@ El roadmap organiza el desarrollo en etapas y entregables.
 
 **Objetivo:** Construir todos los sistemas y recursos del alcance.
 
-**Entregables:** Diez armas, exotraje, IA de mutantes, rondas, economía, seis zonas, impresora 3D, mejoras, pilas, power-ups, HUD, menús, modelos low poly, animaciones y audio integrados. *(en curso: faltan texturas de varias zonas, audio, interruptor de energía y EMZ)*
+**Entregables:** Diez armas, exotraje, IA de mutantes, rondas, economía, seis zonas, impresora 3D, mejoras, pilas, power-ups, HUD, menús, modelos low poly, animaciones y audio integrados. *(en curso: faltan audio, interruptor de energía y EMZ)*
 
 ### Pruebas
 
@@ -42,7 +42,7 @@ El roadmap organiza el desarrollo en etapas y entregables.
 |---|---|---|---|
 | Concepto | GDD con visión, diseño y contenido | Secciones 01 a 07 del GDD completas | Terminado |
 | MVP | Prototipo jugable de la zona inicial | Se puede combatir, ganar puntos, comprar un arma y morir | Terminado |
-| Vertical slice | BROTE con arte y audio finales | Cumple lo definido en [[01 - Alcance]] | En progreso |
+| Vertical slice | BROTE con arte y audio finales | Cumple lo definido en [[01 - Alcance]] | En progreso (arte integrado; faltan música y efectos de sonido) |
 | Beta | Juego con todo el alcance | Todos los sistemas integrados, sin errores bloqueantes | En progreso (sistemas integrados; faltan interruptor de energía y EMZ) |
 | Entrega | Versión final para el showcase | Cumple los [[04 - Criterios de Aceptación]] | Pendiente |
 
