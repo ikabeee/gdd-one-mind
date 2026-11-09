@@ -16,14 +16,14 @@ El nivel jugable en Unity es **BROTE**: el laboratorio de Neuroplex sellado tras
 | Morgue | Cian | Escopeta de bomba | Blockout |
 | Celdas | Verde frío | Ametralladora | Blockout |
 | Pruebas Exo | Blanco azulado | Rifle de tirador | Blockout |
-| Incinerador | Naranja | — | Blockout |
+| Incinerador (sótano secreto) | Naranja | — | Blockout |
 
 Planos, blockout y capturas: [[06 - Galería de Arte]].
 
 ![[brote-plan-ground.png]]
 
 > [!warning] Por alinear
-> [[02 - Niveles]] todavía describe solo dos zonas. En BROTE la Zona 1 es la Sala de Contención y la Zona 2 es el Laboratorio Central, pero el nivel tiene siete.
+> [[02 - Niveles]] todavía describe solo dos zonas. En BROTE la Zona 1 es la Sala de Contención y la Zona 2 es el Laboratorio Central, pero el nivel tiene seis zonas y el Incinerador.
 
 ## Modularidad
 

@@ -181,7 +181,7 @@ Todas siguen el mismo lenguaje: bloques en blanco y negro con un pequeño detall
 
 ## Escenario: BROTE
 
-BROTE es el nivel jugable: el laboratorio de Neuroplex sellado tras el brote, con siete zonas que se abren con puertas de pago. La ambientación post-apocalíptica se aplica zona por zona: ya está en la Sala de Contención y el Laboratorio Central es la siguiente. Su dirección es "laboratorio con brechas": techos y muros rotos hacia el cielo, óxido, agua y vegetación, con materiales sucios y realistas.
+BROTE es el nivel jugable: el laboratorio de Neuroplex sellado tras el brote, con seis zonas que se abren con puertas de pago y un sótano secreto, el Incinerador, al que se baja por unos ductos. La ambientación post-apocalíptica se aplica zona por zona: ya está en la Sala de Contención y el Laboratorio Central es la siguiente. Su dirección es "laboratorio con brechas": techos y muros rotos hacia el cielo, óxido, agua y vegetación, con materiales sucios y realistas.
 
 | Zona | Color de acento |
 |---|---|
@@ -191,7 +191,7 @@ BROTE es el nivel jugable: el laboratorio de Neuroplex sellado tras el brote, co
 | Morgue | Cian |
 | Celdas | Verde frío |
 | Pruebas Exo | Blanco azulado |
-| Incinerador | Naranja |
+| Incinerador (sótano secreto) | Naranja |
 
 **Planta baja y planta alta:**
 
@@ -206,7 +206,7 @@ BROTE es el nivel jugable: el laboratorio de Neuroplex sellado tras el brote, co
 ![[brote-unity-captures.png]]
 
 > [!warning] Por alinear
-> [[02 - Niveles]] todavía describe dos zonas (Zona 1 y Zona 2). En BROTE la Zona 1 es la Sala de Contención y la Zona 2 es el Laboratorio Central, pero el nivel tiene siete zonas.
+> [[02 - Niveles]] todavía describe dos zonas (Zona 1 y Zona 2). En BROTE la Zona 1 es la Sala de Contención y la Zona 2 es el Laboratorio Central, pero el nivel tiene seis zonas y el Incinerador.
 
 ## Interfaz y menú
 
