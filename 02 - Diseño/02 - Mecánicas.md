@@ -6,42 +6,50 @@ Una mecánica es una regla o interacción mediante la cual el jugador puede actu
 
 Documenta cada mecánica con suficiente detalle para que otro integrante pueda implementarla.
 
+> [!info] Fuente de los valores
+> Los números de esta página son los valores actuales del juego, definidos en los ScriptableObjects de `Assets/_Game/Data/` del repositorio del juego. Si cambian allá, se actualizan aquí.
+
 ## Mecánicas principales
 
-### Mecánica 01 — Movimiento básico
+### Mecánica 01 — Movimiento con exotraje
 
 **Propósito:**  
-Permitir que Tannat mantenga distancia, cambie de posición y recorra el escenario durante el combate.
+Permitir que Tannat mantenga distancia, cambie de posición, use la altura del mapa y convierta el movimiento en ataque.
 
 **Activación:**  
-El jugador se mueve y salta.
+El jugador corre, salta, hace dash, se desliza (slide) o cae en picada (stomp).
 
 **Reglas:**  
-La velocidad base es constante, con ritmo de carrera ligera. Solo hay un salto de altura fija, que se activa desde el suelo.
+- **Correr:** 13 m/s, sin estamina.
+- **Salto:** 4 m de altura, con un salto extra en el aire (doble salto).
+- **Dash:** impulso de 45 m/s durante 0.15 s; una carga que se recupera al tocar el suelo; hace 200 de daño a los mutantes que atraviesa.
+- **Slide:** en el suelo, 18 m/s que se pierden con la fricción; acelera en pendientes.
+- **Stomp:** en el aire, Tannat cae a 70 m/s; al impactar hace de 150 a 600 de daño en un radio de 3 a 6 m (más caída, más fuerza) y rebota hacia arriba. Enfriamiento de 1.5 s.
+- **Explosiones:** el cohete no daña a Tannat y su explosión lo empuja (una vez por salto, con tope de 45 m/s).
 
 **Entrada:**  
-W, A, S y D para desplazarse; Espacio para saltar; movimiento del mouse para orientar la cámara.
+W, A, S, D para desplazarse; Espacio para saltar; Shift izquierdo para dash; Ctrl izquierdo o C para slide (en el suelo) o stomp (en el aire); mouse para orientar la cámara.
 
 **Estado inicial:**  
-Tannat en reposo o desplazándose a ritmo base.
+Tannat en reposo o desplazándose.
 
 **Estado final:**  
-Tannat reposicionado, habiendo evadido o alcanzado una posición de combate ventajosa.
+Tannat reposicionado y, si atravesó o aplastó mutantes, con daño aplicado.
 
 **Recursos utilizados:**  
-Ninguno; el movimiento no consume energía ni estamina.
+Ninguno; solo cargas y enfriamientos (dash, stomp, slide).
 
 **Recompensa:**  
-Evasión de daño, mejor posicionamiento táctico.
+Evasión de daño, mejor posición y bajas en movimiento (130 puntos y más estilo).
 
 **Penalización:**  
-Ninguna directa; un mal uso puede dejar a Tannat expuesto a los mutantes.
+Un mal uso puede dejar a Tannat expuesto a la horda o fuera de una plataforma.
 
 **Interacciones con otras mecánicas:**  
-Es posible disparar y recargar mientras se camina o salta, sin reducir la velocidad.
+Se puede disparar y recargar mientras se corre o se salta. La pila PISTÓN y el power-up IMPULSO mejoran el movimiento; el arnés del hangar da un salto aéreo extra.
 
 **Casos límite:**  
-Las colisiones deben impedir atravesar paredes y evitar que Tannat quede suspendido o atascado al saltar contra bordes.
+Las colisiones impiden atravesar paredes. Un stomp atorado en una pendiente empinada termina solo. Si Tannat sale del área jugable, reaparece dentro del mapa.
 
 ### Mecánica 02 — Disparo / Combate
 
@@ -49,75 +57,83 @@ Las colisiones deben impedir atravesar paredes y evitar que Tannat quede suspend
 Es la acción principal para eliminar mutantes, avanzar de ronda y ganar puntos.
 
 **Activación:**  
-Apuntar con la mira central, disparar con clic izquierdo y recargar con R.
+Apuntar con clic derecho (miras de hierro o mira telescópica), disparar con clic izquierdo y recargar con R.
 
 **Reglas:**  
-El catálogo incluye pistola, SMG y escopeta; se pueden portar dos armas a la vez. La pistola inicial es semiautomática y precisa; la SMG es automática, de alta cadencia y menor daño por bala; la escopeta dispara perdigones y resulta más efectiva a corta distancia.
+Todas las balas son instantáneas (hitscan), excepto el cohete, que es un proyectil con explosión. Se pueden portar dos armas a la vez. Hay diez armas (ver [[04 - Objetos y Coleccionables]]); cada una tiene daño, cadencia, cargador y reserva propios. Hay asistencia de apuntado con alcance distinto por arma. Los disparos a la cabeza dan más puntos.
 
 **Entrada:**  
-Clic izquierdo para disparar, R para recargar, teclas 1 y 2 o rueda del mouse para cambiar de arma.
+Clic izquierdo para disparar, clic derecho para apuntar, R para recargar, 1, 2 o rueda del mouse para cambiar de arma, G para soltar el arma.
 
 **Estado inicial:**  
 Arma equipada lista para disparar.
 
 **Estado final:**  
-Se descuenta munición y, si el disparo impacta, se aplica daño al mutante. La escopeta dispara varios perdigones en forma de cono.
+Se descuenta munición y, si el disparo impacta, se aplica daño. Las escopetas disparan 8 o 9 perdigones.
 
 **Recursos utilizados:**  
 Munición del arma equipada.
 
 **Recompensa:**  
-Puntos al eliminar mutantes.
+10 puntos por impacto y de 60 a 130 por baja.
 
 **Penalización:**  
-Agotar el cargador obliga a recargar; agotar la reserva requiere reabastecerse o usar la otra arma.
+Agotar el cargador obliga a recargar; agotar la reserva obliga a comprar munición, recoger MUNICIÓN MÁXIMA o usar la otra arma.
 
 **Interacciones con otras mecánicas:**  
-Depende de la compra de armas y del sistema de economía; se combina con el movimiento.
+Depende de la compra de armas y de la economía. Las mejoras de arma multiplican el daño; las pilas RÁFAGA, SERVO y DESCARGA cambian la cadencia y la recarga.
 
 **Casos límite:**  
-Cambiar de arma durante una recarga la cancela sin añadir munición. Si ambas ranuras están ocupadas, comprar otra arma reemplaza la activa. Estas reglas deben mantenerse iguales en las tres armas.
+Cambiar de arma durante una recarga la cancela sin añadir munición. Si ambas ranuras están ocupadas, comprar otra arma reemplaza la que está en la mano.
 
-### Mecánica 03 — Compra de armas, munición, mejoras y puerta
+### Mecánica 03 — Compras e interacción
 
 **Propósito:**  
-Traduce el desempeño en combate (puntos) en mejoras y en expansión del mapa disponible.
+Traduce el desempeño en combate (puntos) en equipo y en más mapa disponible.
 
 **Activación:**  
 Acercarse a un punto de compra y pulsar E con los puntos necesarios.
 
 **Reglas:**  
-La SMG se compra en la Zona 1 y la escopeta en la Zona 2. Una sola puerta conecta ambas áreas y permanece abierta después del pago hasta terminar la partida. Si el jugador ya posee el arma del soporte, puede comprar su munición por un costo menor.
+- **Armas de pared:** cada zona tiene una o dos. Si ya tienes el arma, compras su munición a la mitad del precio (más cara si el arma está mejorada).
+- **Impresora 3D (caja misteriosa):** 950 puntos; imprime un arma al azar que no llevas y tienes un tiempo para tomarla. Si la impresión falla, devuelve los puntos y se mueve a otra de sus cinco ubicaciones.
+- **Puertas:** cada puerta se paga una vez y queda abierta hasta terminar la partida.
+- **Estaciones de mejora:** mejoran el arma en mano un nivel y la recargan.
+- **Pilas:** se instalan en Tannat en las estaciones de carga.
+- **Trampas, arnés y conductos:** ver [[03 - Sistemas]].
 
 **Entrada:**  
 Tecla E frente al objeto interactuable.
 
 **Estado inicial:**  
-Puntos disponibles, arma/power-up/zona aún no adquirida.
+Puntos disponibles; compra aún no realizada.
 
 **Estado final:**  
-Se descuentan los puntos y se equipa el arma, se repone munición, se aplica la mejora o se abre la puerta.
+Se descuentan los puntos y se entrega la compra.
 
 **Recursos utilizados:**  
 Puntos.
 
 **Recompensa:**  
-Mejor equipamiento o acceso a la Zona 2, que ofrece más espacio para moverse.
+Mejor equipo o acceso a otra zona.
 
 **Penalización:**  
 Gastar puntos que ya no estarán disponibles para otra compra en esa misma partida.
 
 **Interacciones con otras mecánicas:**  
-Alimenta directamente el disparo (armas) y el movimiento/exploración (zonas).
+Alimenta directamente el disparo (armas y mejoras), la supervivencia (pilas) y el movimiento (zonas y arnés).
 
 **Casos límite:**  
-Si faltan puntos, no se realiza la compra; el costo parpadea en rojo y se reproduce un sonido de rechazo. La puerta solo se cobra una vez.
+Si faltan puntos, no se realiza la compra y aparece "Puntos insuficientes". Cada puerta solo se cobra una vez.
 
 ## Mecánicas secundarias
 
 Lista las mecánicas que complementan la experiencia pero no constituyen el núcleo.
 
-- **Mejoras:** abastecer munición, armadura (reduce el daño recibido) y restablecer vida. Se obtienen mediante compra con puntos y complementan el combate sin ser el núcleo de la experiencia.
-
+- **Regeneración de vida:** Tannat tiene 100 de vida; tras 2.5 s sin recibir daño recupera 60 por segundo.
+- **Power-ups:** los mutantes los sueltan al azar (ver [[03 - Sistemas]]).
+- **Medidor de estilo:** dañar y eliminar llena el medidor, el tiempo y los golpes recibidos lo vacían; los rangos son D, C, B, A y S.
+- **Interruptor de pisotón:** en las Celdas, un stomp lo bastante fuerte hunde la celda exterior y suelta un power-up al azar.
+- **Incinerador secreto:** se baja por un conducto (500 puntos); ahí está la llave que desbloquea la mejora experimental, mientras una pared trituradora avanza.
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Jugabilidad]] · [[03 - Sistemas]] →

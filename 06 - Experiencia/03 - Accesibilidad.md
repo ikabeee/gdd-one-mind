@@ -7,23 +7,21 @@ La accesibilidad busca que el mayor número posible de jugadores pueda comprende
 ## Opciones previstas
 
 - [ ] Tamaño de texto
-- [ ] Subtítulos
-- [ ] Contraste
+- [ ] Subtítulos (no aplica: no hay diálogos)
+- [x] Contraste (texto con sombra; pilas con ícono además de color)
 - [ ] Modo para daltonismo
 - [ ] Reasignación de controles
-- [ ] Sensibilidad
+- [x] Sensibilidad (ajuste de 1 a 10, mouse y stick)
+- [x] Campo de visión (de 60 a 110 grados)
 - [ ] Reducción de movimiento
 - [ ] Reducción de destellos
-- [ ] Asistencia de apuntado
+- [x] Asistencia de apuntado (siempre activa, con alcance distinto por arma)
 - [ ] Dificultad ajustable
-- [ ] Volumen independiente
+- [ ] Volumen independiente (hay volumen general y de música; falta el de efectos)
 - [ ] Indicadores visuales para sonidos importantes
 
 ## Consideraciones
 
-Las opciones de esta lista aún no están aprobadas. Por su bajo costo, se proponen como prioritarias la **sensibilidad del mouse** y el **volumen independiente** (música y efectos). *(propuesta)*
-
- El esquema actual es fijo de teclado y mouse; la reasignación y el soporte de mando quedan fuera de esta versión según el apartado de [[04 - Controles|controles]].
-
+Además del teclado y mouse, todo el juego se puede jugar con mando. El juego tiene glitches, destellos invertidos y efectos de cámara intensos: una opción para reducir destellos y movimiento sería la siguiente mejora de bajo costo. *(propuesta)*
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - UI y Menús]] · [[04 - Guardado y Configuración]] →

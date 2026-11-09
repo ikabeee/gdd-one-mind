@@ -7,45 +7,46 @@ Define la estructura funcional de las interfaces y menús.
 ## Mapa de navegación
 
 ```text
-Menú principal
-├── Jugar
-├── Controles
-└── Salir
+Menú principal (UI Toolkit)
+├── Niveles
+│   ├── BROTE
+│   └── Cuarto de pruebas
+├── Ajustes (sensibilidad, campo de visión, volumen general, música)
+└── Salir → "¿Salir de ONE MIND?" (Sí, salir / No)
 
 Durante la partida
-└── Pausa
-    ├── Reanudar
-    ├── Reiniciar
-    └── Volver al menú
+└── Pausa (Esc)
+    ├── Seguir jugando (clic)
+    └── Volver al menú (Q)
 
-Después de la derrota
-└── Reintentar (comienza una nueva partida)
+Fin de partida (Has caído / Nivel completado)
+├── Repetir (R)
+└── Volver al menú (Q)
 ```
 
-No hay opción de continuar una partida guardada. La configuración adicional queda pendiente.
+No hay opción de continuar una partida guardada.
 
 ## Pantallas
 
 ### Pantallas de la partida
 
 **Propósito:**  
-Iniciar el juego, consultar controles, pausar y conocer el resultado al terminar.
+Elegir nivel, ajustar opciones, pausar y conocer el resultado al terminar.
 
 **Elementos:**  
-Menú principal, pantalla de controles, HUD, menú de pausa y pantalla de derrota.
+Menú principal con selector de niveles (cada nivel tiene una tarjeta con su descripción), ajustes, HUD, pausa y pantalla de fin de partida.
 
 **Acciones disponibles:**  
-Jugar, consultar controles, salir, reanudar, reiniciar y volver al menú, según la pantalla.
+Elegir nivel, cambiar ajustes, salir, seguir jugando, repetir y volver al menú, según la pantalla. Todo se puede usar con teclado y mouse o con mando.
 
 **Estados:**  
-Menú, inicio, combate, transición entre rondas, pausa y derrota.
+Menú, cargando, jugando, pausa y fin de partida.
 
 **Transiciones:**  
-Jugar inicia en la Zona 1. Pausa permite reanudar o abandonar la sesión. Al reintentar tras la derrota se reinicia el estado de la partida.
+Elegir un nivel lo carga. La pausa congela el juego. Repetir vuelve a cargar el nivel desde cero.
 
 ## Confirmaciones
 
-Pendiente de decidir si reiniciar o salir al menú requiere confirmación. Ambas acciones interrumpen la partida y deben indicar al jugador qué ocurrirá con su progreso.
-
+Salir del juego pide confirmación ("SE CERRARA EL JUEGO"). Volver al menú desde la pausa no pide confirmación.
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - UX y Flujo del Jugador]] · [[03 - Accesibilidad]] →

@@ -13,13 +13,13 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Rol:** Protagonista y personaje controlado por el jugador.
 
-**Función jugable:** Se controla en primera persona. Se defiende con la pistola, la SMG y la escopeta, y cuenta con desplazamiento constante y salto simple.
+**Función jugable:** Se controla en primera persona; el jugador ve sus brazos y, al hacer slide, sus piernas. Usa diez armas y un exotraje con doble salto, dash, slide y stomp. Acepta hasta cuatro pilas que mejoran su vida, sus armas y su movimiento.
 
-**Función narrativa:** Funciona como armadura y mantiene con vida a Cuyus, que permanece en su interior durante toda la partida. Sus mensajes breves de sistema aportan contexto sobre lo ocurrido en el laboratorio.
+**Función narrativa:** Funciona como armadura y mantiene con vida a Cuyus, que permanece en su interior durante toda la partida.
 
 **Descripción física:** Robot grande y robusto. Su cabeza es una pantalla rectangular negra atravesada por una línea diagonal. El torso es ancho y tiene un compartimento frontal oscuro. Tiene rodilleras grandes y redondeadas, botas negras y manos mecánicas articuladas. En los dibujos aparece con brotes y hojas creciendo sobre su cuerpo y con un panel con luz roja en el costado, lo que sugiere que estuvo abandonado durante un tiempo.
 
-**Personalidad:** Silencioso y protector; solo se expresa mediante mensajes breves de sistema.
+**Personalidad:** Silencioso y protector; no se expresa con palabras.
 
 **Motivaciones:** Proteger a Cuyus.
 
@@ -31,11 +31,11 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Arco del personaje:** No aplica: al ser modo endless, no hay un arco narrativo cerrado.
 
-**Habilidades:** Uso de pistola, SMG y escopeta; desplazamiento constante; salto simple.
+**Habilidades:** Uso de diez armas; doble salto, dash, slide y stomp (el dash y el stomp dañan); regeneración de vida; espacio para cuatro pilas.
 
-**Debilidades:** Si su vida llega a cero, la partida termina y Cuyus queda desprotegida.
+**Debilidades:** Si su vida llega a cero sin una pila RESPALDO, la partida termina y Cuyus queda desprotegida.
 
-**Frases o tono de diálogo:** No habla. Solo muestra mensajes breves de sistema en texto.
+**Frases o tono de diálogo:** No habla ni muestra mensajes.
 
 **Referencias visuales:**
 
@@ -46,7 +46,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Rol:** Personaje narrativo; la niña a la que Tannat protege. No se controla por separado.
 
-**Función jugable:** Ninguna directa. Permanece dentro de Tannat durante toda la partida.
+**Función jugable:** No se controla. Su cara aparece en el HUD ("NINA A BORDO") y reacciona a la partida: se pone melancólica con poca vida, llora cuando Tannat cae y celebra cada 5 bajas en combo.
 
 **Función narrativa:** Es la razón por la que Tannat combate.
 
@@ -79,11 +79,11 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Rol:** Enemigos.
 
-**Función jugable:** Persiguen a Tannat y lo atacan cuerpo a cuerpo. Su cantidad y su vida aumentan con cada ronda.
+**Función jugable:** Persiguen a Tannat, lo atacan cuerpo a cuerpo y, desde la ronda 3, algunos saltan hacia él o corren. Su cantidad, vida y velocidad aumentan con cada ronda.
 
 **Función narrativa:** Son el personal del laboratorio infectado por Neuroplex.
 
-**Descripción física:** Modelos 3D low poly; pueden variar visualmente. Diseños pendientes.
+**Descripción física:** Científico infectado por Neuroplex, modelado en Blender en low poly: bata y ropa desgastadas, manchas de mugre y sangre (texturas de 64 px), un tumor de Neuroplex grande y un efecto de glitch (picos, remolino y destellos invertidos) que se intensifica con la "locura" de la horda. Es el único enemigo en todos los niveles.
 
 **Personalidad:** Mente colmena: comparten la misma conducta y conocen la posición de Tannat desde que aparecen.
 
@@ -97,13 +97,13 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Arco del personaje:** No aplica.
 
-**Habilidades:** Persecución mediante rutas de navegación y ataque cuerpo a cuerpo.
+**Habilidades:** Persecución mediante rutas de navegación, ataque cuerpo a cuerpo, salto y carrera.
 
-**Debilidades:** No se han definido puntos débiles.
+**Debilidades:** La cabeza: una baja con disparo a la cabeza da más puntos.
 
 **Frases o tono de diálogo:** No aplica.
 
-**Referencias visuales:** Pendientes.
+**Referencias visuales:** Modelo `Enemy_Scientist.blend` en `ArtSource/Characters/Enemies/` del repositorio del juego.
 
 ## NPC
 

@@ -6,55 +6,52 @@ Documenta la información que el juego muestra al jugador y las reglas visuales 
 
 ## HUD
 
-Elementos definidos por la jugabilidad: vida de Tannat, munición, puntos y avisos de interacción. La última imagen compartida por el equipo es la referencia visual del HUD; sus posiciones y medidas quedan pendientes de documentar.
+El HUD es de píxel, con una ligera perspectiva y balanceo que siguen a la cámara.
 
-- **Vida:** vida de Tannat.
-- **Energía:** no se ha definido una barra; el movimiento no consume estamina.
-- **Munición:** munición del arma equipada.
-- **Objetivo:** ronda actual; su presentación en el HUD está pendiente de confirmar.
-- **Mapa:** no se ha confirmado un minimapa ni una pantalla de mapa.
+- **Vida:** vida de Tannat (100, o 160 con BLINDAJE).
+- **Energía:** no hay estamina; los íconos de DASH y STOMP muestran si están disponibles.
+- **Munición:** cargador y reserva del arma en la mano, ícono del arma y avisos "RECARGANDO" y "SIN MUNICION".
+- **Objetivo:** ronda actual, anunciada con un glitch al empezar ("RONDA N"), y mutantes restantes.
+- **Mapa:** no hay minimapa.
 - **Recursos:** puntos disponibles.
-- **Indicadores contextuales:** costo y tecla E al acercarse a una compra.
+- **Pilas:** la bahía de pilas de Tannat, con color e ícono de cada pila instalada.
+- **Estilo:** rango (D a S), barra del rango, multiplicador ("ESTILO x2") y avisos de lo que lo subió ("HEADSHOT", "AEREA", "CADENA x3", "COMBO x5").
+- **Power-ups activos:** nombre y tiempo restante (PUNTOS DOBLES, LETAL, IMPULSO).
+- **Cuyus:** retrato con la cara que reacciona a la partida ("NINA A BORDO").
+- **Indicadores contextuales:** tecla E, acción y costo al acercarse a una compra; mira central que desaparece al apuntar.
 
 ## Jerarquía visual
 
 ¿Qué información debe verse primero, segundo y tercero?
 
-La distribución visual debe seguir la referencia elegida por el equipo. Falta confirmar la ubicación de cada indicador.
-
-Prioridad *(propuesta)*:
-
-1. Vida de Tannat y munición del arma equipada.
-2. Puntos disponibles y ronda actual.
-3. Indicadores contextuales (costo y tecla E).
+1. Vida de Tannat y munición del arma en la mano.
+2. Puntos, ronda y disponibilidad de dash y stomp.
+3. Estilo, pilas, power-ups e indicadores contextuales.
 
 ## Estados
 
-Al disparar se actualiza la munición. Una compra válida descuenta puntos y reproduce una confirmación. Si faltan puntos, el costo parpadea en rojo y se reproduce un rechazo. Al llegar a cero de vida se muestra la derrota.
+Al disparar se actualiza la munición. Una compra válida descuenta puntos. Si faltan puntos aparece "Puntos insuficientes". Al recibir daño, el HUD hace glitch. Con RESPALDO se muestra "RESPALDO reiniciando...". Al caer aparece "HAS CAIDO" con el progreso, las bajas y los puntos.
 
 ## Convenciones
 
-*(propuesta)*
+**Tipografía:** fuente de píxel; los textos van sin acentos porque la fuente no los dibuja.
 
-**Tipografía:** Sans serif legible y de estilo técnico, acorde al sistema de Tannat.
+**Iconografía:** íconos de píxel (dash y stomp de 9 px, armas de 16×7 px, pilas de 7×7 px).
 
-**Iconografía:** Iconos simples y planos para vida, munición y puntos.
+**Tamaños mínimos:** texto legible a 1920 × 1080 desde la distancia de juego del showcase (pendiente de comprobar en sitio).
 
-**Tamaños mínimos:** Texto legible a 1920 × 1080 desde la distancia de juego del showcase.
+**Contraste:** texto con sombra para leerse sobre cualquier zona; las pilas se distinguen por ícono además de por color.
 
-**Contraste:** Texto claro con contorno o fondo oscuro para leerse sobre cualquier zona del laboratorio.
-
-**Animaciones:** Parpadeo rojo del costo cuando faltan puntos; actualización visible de puntos y munición.
+**Animaciones:** glitch de ronda y de daño, cuadros de impacto, efecto de dash y balanceo del HUD.
 
 ## Pantallas
 
-- **Menú principal:** Jugar, Controles y Salir.
-- **Pausa:** reanudar, reiniciar partida o volver al menú.
-- **Configuración:** opciones pendientes de acordar.
-- **Inventario:** dos ranuras de armas; no se ha definido una pantalla independiente.
-- **Mapa:** pantalla no confirmada.
-- **Victoria:** no aplica como final del modo endless.
-- **Derrota:** muestra las rondas superadas y los puntos totales obtenidos, con posibilidad de reintentar.
-
+- **Menú principal:** Niveles (BROTE y Cuarto de pruebas), Ajustes y Salir (con confirmación).
+- **Pausa:** "PAUSA"; clic para seguir jugando, Q para volver al menú.
+- **Configuración:** sensibilidad, campo de visión, volumen general y música.
+- **Inventario:** dos ranuras de armas en el HUD; sin pantalla aparte.
+- **Mapa:** no hay.
+- **Victoria:** solo en el Cuarto de pruebas ("NIVEL COMPLETADO", con tiempo, bajas, puntos y mejor estilo).
+- **Derrota:** "HAS CAIDO" con el progreso, las bajas y los puntos; R para repetir, Q para volver al menú.
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Entornos]] · [[05 - Audio y Música]] →

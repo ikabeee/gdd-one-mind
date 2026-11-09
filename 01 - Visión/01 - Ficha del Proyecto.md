@@ -10,13 +10,13 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | ---------------------------------- | -------------------------------------------------------------------------------------------------- |
 | **Nombre del proyecto**      | ONE MIND                                                                                           |
 | **Nombre clave**             | ONE MIND                                                                                           |
-| **Versión del GDD**         | 0.3.0                                                                                              |
-| **Estado del proyecto**      | **Concepto** / Preproducción / Producción / Pruebas / Publicado                            |
+| **Versión del GDD**         | 0.4.0                                                                                              |
+| **Estado del proyecto**      | Concepto / Preproducción / **Producción** / Pruebas / Publicado                            |
 | **Equipo**                   | Aron Balam, Carlos González, Kevin Javier Velázquez Molinero, Raul Arias, Sebastian Perez Viñas |
 | **Responsable del proyecto** | Sebastian Perez Viñas                                                                             |
 | **Fecha de inicio**          | 2026-09-25                                                                                         |
-| **Última actualización**   | 2026-10-16                                                                                         |
-| **Repositorio**              | NA                                                                                                 |
+| **Última actualización**   | 2026-11-09                                                                                         |
+| **Repositorio**              | [ikabeee/one-mind](https://github.com/ikabeee/one-mind) (juego) · [ikabeee/gdd-one-mind](https://github.com/ikabeee/gdd-one-mind) (GDD) |
 
 ## Identidad del videojuego
 
@@ -24,7 +24,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 Acción
 
 **Subgéneros:**
-FPS
+FPS, supervivencia por rondas (estilo "zombies")
 
 **Biblioteca de clasificación:** [[00 - Biblioteca de Clasificación]]
 
@@ -35,17 +35,18 @@ PC
 Un jugador
 
 **Perspectiva:**
-Primera persona - cámara libre
+Primera persona 
 
 **Clasificaciones y etiquetas adicionales:**
 
 - Combate
 - Permadeath
 - Supervivencia
+- Movimiento rápido (exotraje: dash, slide y stomp)
 
 **Tecnología principal:**
 
-- Unity
+- Unity 6 (6000.6.3f1)
 - C#
 - Blender
 
@@ -56,25 +57,28 @@ Primera persona - cámara libre
 
 **Respuesta:**
 
-Controlas a Tannat, un robot que protege en su interior a Cuyus, una niña de 10 años que se refugió en él tras encontrarlo en un laboratorio.
+Controlas a Tannat, un robot con exotraje que protege en su interior a Cuyus, una niña de 10 años que se refugió en él tras encontrarlo en un laboratorio.
 
-El objetivo es sobrevivir al mayor número de rondas frente a mutantes infectados por Neuroplex. Cada baja otorga puntos para comprar armas, obtener mejoras y abrir zonas del laboratorio.
+El objetivo es sobrevivir al mayor número de rondas frente a científicos infectados por Neuroplex, moviéndote sin parar con dash, slide y stomp. Cada impacto y cada baja otorgan puntos para comprar armas, abrir las seis zonas del laboratorio, mejorar armas e instalar pilas en Tannat.
 
 ## Estado actual
 
 - [X] Concepto definido
 - [X] Alcance inicial definido
 - [X] Mecánica principal definida
-- [ ] Prototipo funcional
-- [ ] Vertical slice
-- [ ] Producción
+- [X] Prototipo funcional
+- [x] Vertical slice ✅ 2026-11-09
+- [X] Producción
 - [ ] Pruebas
 - [ ] Versión final
+
+> [!info] Estado al 2026-11-09
+> El juego es jugable de principio a fin en dos niveles: **BROTE** (mapa principal, rondas sin fin en 6 zonas) y **Cuarto de pruebas** (recorrido de entrenamiento). Hay pruebas automatizadas unitarias y de flujo completo. Sigue en producción el texturizado del laboratorio y quedan pendientes el interruptor de energía, las rondas especiales y el científico EMZ.
 
 ## Criterio de éxito del proyecto
 
 ¿Qué tendría que suceder para considerar que el videojuego cumplió su propósito?
 
-En el showcase de la UT Cancún, un jugador sin ayuda externa puede completar el bucle completo (combatir, ganar puntos, comprar, abrir la Zona 2 y morir), el juego se mantiene cerca de 60 FPS en equipos de gama media y el jugador quiere reintentar para superar la ronda alcanzada.
+En el showcase de la UT Cancún, un jugador sin ayuda externa puede completar el bucle completo (combatir, ganar puntos, comprar, abrir una zona nueva y morir), el juego se mantiene cerca de 60 FPS en equipos de gama media y el jugador quiere reintentar para superar la ronda alcanzada.
 
 > **Navegación:** [[00 - Índice]] · ← [[00 - Índice]] · [[02 - Visión del Juego]] →

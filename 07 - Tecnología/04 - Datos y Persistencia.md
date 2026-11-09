@@ -7,21 +7,23 @@ Define qué información necesita conservar el juego y cómo se estructura.
 ## Datos persistentes
 
 - **Progreso:** no se conserva entre partidas.
-- **Configuración:** persistencia pendiente de decidir.
-- **Inventario:** las armas compradas se pierden al reiniciar la partida.
-- **Estadísticas:** el resultado se muestra al terminar; guardar récords entre sesiones sigue pendiente.
-- **Desbloqueos:** la puerta vuelve a estar cerrada al iniciar una nueva partida.
+- **Configuración:** sensibilidad, campo de visión y volúmenes, guardados en `PlayerPrefs` por `SettingsService`.
+- **Inventario:** armas, mejoras y pilas se pierden al reiniciar la partida.
+- **Estadísticas:** el resultado se muestra al terminar; no se guardan récords entre sesiones.
+- **Desbloqueos:** las puertas vuelven a estar cerradas y la estación experimental bloqueada al iniciar una nueva partida.
 - **Otros:** no se han definido otros datos persistentes.
 
 ## Modelo de datos
 
-Durante una partida se necesitan vida, puntos, ronda, armas, munición y estado de la puerta. Esto describe la información del juego; todavía no se ha definido una estructura de archivos ni un modelo de guardado.
+- **Configuración del juego (ScriptableObjects en `Assets/_Game/Data/`):** armas (`WeaponDefinitionSO`), rondas (`RoundSettings`), mutantes (`ZombieSettings` y variantes), puntos (`PointsSettings`), power-ups, pilas, movimiento, estilo, asistencia de apuntado y expresiones de Cuyus.
+- **Estado de la partida (objetos de C#, se destruyen con la escena):** vida, puntos, ronda, armas, munición, niveles de mejora, pilas, puertas abiertas, power-ups activos y estilo.
+- **Datos del nivel:** `Outbreak_Level.json` (geometría, zonas y marcadores de juego como compras, puertas y puntos de aparición), exportado desde Blender y leído por `OutbreakBuilder`.
 
 ## Formato
 
-**Formato de guardado:** No aplica en esta versión.
+**Formato de guardado:** `PlayerPrefs` (valores flotantes de 0 a 1 con la clave `settings.<ajuste>`), solo para ajustes.
 
-**Ubicación:** No aplica.
+**Ubicación:** la ubicación estándar de `PlayerPrefs` en Windows (registro del usuario).
 
 **Versionado de datos:** No aplica.
 

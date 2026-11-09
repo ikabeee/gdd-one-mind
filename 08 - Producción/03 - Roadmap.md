@@ -16,13 +16,13 @@ El roadmap organiza el desarrollo en etapas y entregables.
 
 **Objetivo:** Validar que el bucle principal funciona.
 
-**Entregables:** Prototipo del MVP en Unity con geometría básica (ver [[01 - Alcance]]), plano de las dos zonas y primer balance de puntos y costos.
+**Entregables:** Prototipo del MVP en Unity con geometría básica (ver [[01 - Alcance]]), plano del mapa y primer balance de puntos y costos. *(terminado)*
 
 ### Producción
 
 **Objetivo:** Construir todos los sistemas y recursos del alcance.
 
-**Entregables:** Las tres armas, IA de mutantes, rondas, economía, zonas, mejoras, HUD, menús, modelos low poly, animaciones y audio integrados.
+**Entregables:** Diez armas, exotraje, IA de mutantes, rondas, economía, seis zonas, impresora 3D, mejoras, pilas, power-ups, HUD, menús, modelos low poly, animaciones y audio integrados. *(en curso: faltan texturas de varias zonas, audio, interruptor de energía y EMZ)*
 
 ### Pruebas
 
@@ -41,9 +41,9 @@ El roadmap organiza el desarrollo en etapas y entregables.
 | Hito | Entregable | Criterio de finalización | Estado |
 |---|---|---|---|
 | Concepto | GDD con visión, diseño y contenido | Secciones 01 a 07 del GDD completas | Terminado |
-| MVP | Prototipo jugable de la Zona 1 | Se puede combatir, ganar puntos, comprar la SMG y morir | Pendiente |
-| Vertical slice | Ambas zonas con arte final | Cumple lo definido en [[01 - Alcance]] | Pendiente |
-| Beta | Juego con todo el alcance | Todos los sistemas integrados, sin errores bloqueantes | Pendiente |
+| MVP | Prototipo jugable de la zona inicial | Se puede combatir, ganar puntos, comprar un arma y morir | Terminado |
+| Vertical slice | BROTE con arte y audio finales | Cumple lo definido en [[01 - Alcance]] | En progreso |
+| Beta | Juego con todo el alcance | Todos los sistemas integrados, sin errores bloqueantes | En progreso (sistemas integrados; faltan interruptor de energía y EMZ) |
 | Entrega | Versión final para el showcase | Cumple los [[04 - Criterios de Aceptación]] | Pendiente |
 
 

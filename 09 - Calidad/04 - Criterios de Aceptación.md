@@ -22,15 +22,15 @@ Los criterios de aceptación permiten decidir objetivamente si una característi
 
 **Cuando:** pulsa E.
 
-**Entonces:** se descuenta el costo, el arma ocupa la ranura libre (o reemplaza la activa si ambas están ocupadas) y el HUD se actualiza.
+**Entonces:** se descuenta el costo, el arma ocupa la ranura libre (o reemplaza la que está en la mano si ambas están ocupadas) y el HUD se actualiza.
 
-### Apertura de la Zona 2
+### Apertura de una zona
 
-**Dado que:** el jugador tiene al menos 1,250 puntos y la puerta está cerrada.
+**Dado que:** el jugador tiene los puntos de la puerta (750 a 1,250) y la puerta está cerrada.
 
 **Cuando:** pulsa E frente a la puerta.
 
-**Entonces:** se descuenta el costo una sola vez, la puerta queda abierta hasta terminar la partida y se habilitan los puntos de aparición de la Zona 2.
+**Entonces:** se descuenta el costo una sola vez, la puerta queda abierta hasta terminar la partida y se habilitan los puntos de aparición de esa zona.
 
 ### Fin de ronda
 
@@ -38,23 +38,23 @@ Los criterios de aceptación permiten decidir objetivamente si una característi
 
 **Cuando:** muere el último mutante.
 
-**Entonces:** comienza la transición entre rondas y después una ronda con más mutantes y con más vida.
+**Entonces:** comienzan 10 s de descanso y después una ronda con más mutantes, con más vida y más rápidos.
 
 ### Derrota
 
 **Dado que:** la partida está en curso.
 
-**Cuando:** la vida de Tannat llega a 0.
+**Cuando:** la vida de Tannat llega a 0 sin una pila RESPALDO.
 
-**Entonces:** se desactiva el control y se muestran las rondas superadas y los puntos totales, con la opción de reintentar.
+**Entonces:** se desactiva el control, aparece "HAS CAIDO" con el progreso, las bajas y los puntos, y se puede repetir (R) o volver al menú (Q).
 
 ## Criterios del proyecto
 
-- [ ] El bucle principal funciona: combatir, ganar puntos, comprar y pasar de ronda.
-- [ ] La condición de derrota funciona (no hay condición de victoria: modo endless).
-- [ ] Reintentar reinicia todo el progreso (no hay guardado de partida).
-- [ ] Los sistemas principales están integrados: armas, IA, rondas, economía y zonas.
-- [ ] Las pruebas críticas están aprobadas.
+- [x] El bucle principal funciona: combatir, ganar puntos, comprar y pasar de ronda.
+- [x] La condición de derrota funciona (en BROTE no hay condición de victoria: modo endless).
+- [x] Reintentar reinicia todo el progreso (no hay guardado de partida).
+- [x] Los sistemas principales están integrados: armas, IA, rondas, economía y zonas.
+- [x] Las pruebas críticas están aprobadas (suite automatizada en verde el 2026-11-05).
 - [ ] El rendimiento cumple el objetivo definido: 60 FPS en equipos de gama media.
 - [ ] No existen errores bloqueantes conocidos.
 

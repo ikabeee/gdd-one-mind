@@ -10,7 +10,7 @@ Cuyus, una niña de 10 años, encuentra a Tannat en un laboratorio. Permanece de
 
 ## Sinopsis
 
-La historia se presenta mediante detalles del laboratorio y mensajes breves del sistema de Tannat. Recorrer las dos zonas permite conocer el origen del brote y la situación de Cuyus sin detener el combate.
+La historia se presenta mediante detalles del laboratorio y la cara de Cuyus en el HUD. Recorrer las seis zonas permite conocer el origen del brote y la situación de Cuyus sin detener el combate.
 
 ## Estructura narrativa
 
@@ -18,13 +18,13 @@ La historia se presenta mediante detalles del laboratorio y mensajes breves del 
 
 El jugador comienza dentro de Tannat con Cuyus en su interior. Las cápsulas rotas, las anotaciones apresuradas y los rastros del brote muestran **qué ocurrió**: el virus Neuroplex se propagó dentro del laboratorio e infectó al personal.
 
-### Etapa 2 — Apertura de la puerta (Zona 2)
+### Etapa 2 — Apertura del laboratorio (Laboratorio Central y alas)
 
-Al pagar la puerta se accede al Laboratorio Central de Neuroplex. Los monitores con alertas de cuarentena y el área del experimento revelan **dónde se originó** el virus.
+Al pagar la puerta de seguridad se accede al Laboratorio Central de Neuroplex; las demás puertas abren Administración, la Morgue, las Celdas y Pruebas Exo. Los monitores con alertas de cuarentena y el área del experimento revelan **dónde se originó** el virus.
 
 ### Etapa 3 — Supervivencia
 
-Con ambas zonas abiertas, la partida continúa ronda tras ronda hasta la derrota. Los mensajes breves del sistema de Tannat refuerzan que protegerla es su única misión.
+Con el laboratorio abierto, la partida continúa ronda tras ronda hasta la derrota.
 
 ## Eventos principales
 
@@ -33,14 +33,15 @@ Con ambas zonas abiertas, la partida continúa ronda tras ronda hasta la derrota
 | 1 | Inicio de partida: Tannat aparece con Cuyus en su interior | Ninguna; comienza la ronda 1 | Se establece la premisa |
 | 2 | Hallazgo de los rastros del brote en la Zona 1 | Recorrer la Zona 1 mientras combate | Se entiende que Neuroplex se propagó en el laboratorio |
 | 3 | Apertura de la puerta de seguridad | Pagar la puerta con puntos | Se accede al Laboratorio Central de Neuroplex |
-| 4 | Monitores de cuarentena y área del experimento | Explorar la Zona 2 | Se revela el origen del virus |
-| 5 | Derrota | La vida de Tannat llega a 0 | Termina la partida |
+| 4 | Monitores "CONTENCION FALLIDA" y tanque del experimento | Explorar el Laboratorio Central | Se revela el origen del virus |
+| 5 | Descenso al incinerador | Bajar por un conducto y tomar la llave | Se desbloquea la mejora experimental |
+| 6 | Derrota | La vida de Tannat llega a 0 sin RESPALDO | Termina la partida |
 
 ## Finales
 
 Documenta los finales posibles y las condiciones que los provocan.
 
-Existe un único final por partida: la **derrota**, que ocurre cuando la vida de Tannat llega a cero. No hay final narrativo ni condición de victoria (modo endless). La pantalla de derrota muestra solo un texto con las estadísticas del jugador: rondas superadas y puntos totales obtenidos, con opción de reintentar.
+Existe un único final por partida: la **derrota**, que ocurre cuando la vida de Tannat llega a cero. No hay final narrativo ni condición de victoria (modo endless). La pantalla de fin de partida muestra solo estadísticas, con opción de reintentar (R) o volver al menú (Q).
 
 > [!warning] ⚠️ Spoilers
 > Si el documento será compartido con estudiantes o colaboradores, considera separar información sensible de la documentación general.

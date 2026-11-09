@@ -14,7 +14,37 @@ Registra juegos, películas, libros, fotografías, artículos, diseños o cualqu
 
 **Qué nos interesa:** Supervivencia por rondas sin final, puntos por baja, compra de armas en soportes y apertura de zonas con puntos.
 
-**Qué NO queremos copiar:** Su complejidad (muchos mapas, armas, power-ups y secretos). ONE MIND se limita a dos zonas y tres armas.
+**Qué NO queremos copiar:** Su escala (muchos mapas y cientos de armas) ni sus recursos protegidos. ONE MIND toma la estructura (impresora 3D como caja misteriosa, estaciones de mejora, pilas en lugar de perks, trampas, secretos) en un solo mapa de seis zonas con diez armas.
+
+### Call of Duty: Advanced Warfare — Exo Zombies
+
+**Tipo:** Videojuego (modo de juego).
+
+**Enlace:**
+
+**Qué nos interesa:** El exotraje (dash, slam) dentro de un modo de zombies y enemigos que lo contrarrestan (EMZ).
+
+**Qué NO queremos copiar:** Su mapa, personajes y recursos.
+
+### Call of Duty: Modern Warfare (2019)
+
+**Tipo:** Videojuego.
+
+**Enlace:**
+
+**Qué nos interesa:** La calidad y el lenguaje de las animaciones en primera persona (recargas, apuntado, carrera).
+
+**Qué NO queremos copiar:** Su estilo realista; ONE MIND es low poly.
+
+### Halo 3 y CICADAMATA
+
+**Tipo:** Videojuego y referencia visual.
+
+**Enlace:**
+
+**Qué nos interesa:** Ritmo y forma de los efectos de disparo (Halo 3, Black Ops 2 Zombies) y su aspecto plano (CICADAMATA).
+
+**Qué NO queremos copiar:** Sus recursos.
 
 ### Shooters clásicos (por ejemplo, DOOM) *(propuesta)*
 

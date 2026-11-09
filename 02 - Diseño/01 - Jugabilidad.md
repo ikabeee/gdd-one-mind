@@ -14,63 +14,64 @@ Describe el ciclo que se repite durante la experiencia.
 
 **Bucle del proyecto:**
 
-`Combatir la ronda → Eliminar mutantes y ganar puntos → Comprar armas, munición o mejoras y abrir zonas → Afrontar la siguiente ronda → Repetir hasta morir`
+`Combatir la ronda → Dañar y eliminar mutantes para ganar puntos y estilo → Comprar armas, puertas, mejoras y pilas → Afrontar la siguiente ronda → Repetir hasta caer`
 
-En la propuesta híbrida también pueden recogerse objetos que dejan los enemigos.
+Los mutantes también sueltan power-ups al azar (puntos dobles, letal, purga, munición máxima e impulso).
 
 ## Acciones principales del jugador
 
-| Acción                                       | Propósito                                                                               | Resultado                                                                                       |
-| --------------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| Movimiento básico (WASD y salto)             | Mantener distancia y buscar rutas para evitar que los mutantes rodeen al jugador.        | Tannat se desplaza a velocidad constante y salta obstáculos pequeños.                         |
-| Disparar / combatir                           | Eliminar mutantes con la pistola, SMG o escopeta para avanzar de ronda y obtener puntos. | El mutante recibe daño o muere, otorgando puntos al jugador.                                   |
-| Comprar armas, munición, mejoras y la puerta | Mejorar el equipo y acceder a la Zona 2.                                                 | Se descuentan puntos y se entrega la compra o se abre la puerta durante el resto de la partida. |
+| Acción | Propósito | Resultado |
+| --- | --- | --- |
+| Moverse con el exotraje (correr, doble salto, dash, slide, stomp) | Mantener distancia, cruzar el mapa en vertical y evitar que la horda rodee a Tannat. | Tannat se reposiciona rápido; el dash y el stomp dañan a los mutantes que toca. |
+| Disparar / apuntar | Eliminar mutantes para avanzar de ronda y obtener puntos. | Cada impacto da 10 puntos y cada baja de 60 a 130 según cómo se logre. |
+| Comprar (E) | Armas, munición, puertas, mejoras de arma, pilas, trampas, arnés y conductos. | Se descuentan puntos y se entrega la compra durante el resto de la partida. |
+| Recoger power-ups | Aprovechar los drops de los mutantes. | Efecto inmediato o de 30 segundos. |
 
 ## Experiencia segundo a segundo
 
 ¿Qué hace el jugador durante los primeros minutos?
 
-El jugador aprende a desplazarse con WASD, saltar y disparar con la pistola en la Zona 1. Las primeras rondas permiten conocer las rutas y reunir puntos para la primera compra.
+Tannat aparece en la Sala de Contención con la pistola y 500 puntos. Las primeras rondas (6, 8, 13 y 18 mutantes) sirven para aprender a correr, saltar, hacer dash y disparar, y para reunir puntos para la primera puerta o la primera arma de pared.
 
 ## Experiencia minuto a minuto
 
 ¿Qué actividades se repiten durante una sesión?
 
-El jugador combate, revisa su munición y decide si compra la SMG, ahorra para abrir la Zona 2 o adquiere una mejora. Una vez abierta la segunda zona, puede comprar la escopeta y recorrer ambas áreas para mantener distancia.
+El jugador combate, revisa su munición y decide en qué gastar: un arma de pared, la impresora 3D (950 puntos, arma al azar), abrir otra zona, mejorar el arma en mano o instalar una pila. Conforme se abren zonas, la horda aparece en la zona donde está Tannat y en las vecinas, así que moverse por el mapa cambia de dónde vienen los mutantes.
 
 ## Experiencia a largo plazo
 
 ¿Qué hace que el jugador quiera continuar?
 
-La motivación es superar la ronda alcanzada en partidas anteriores, aprender a controlar las hordas en las dos zonas y aprovechar las combinaciones de las tres armas disponibles.
+La motivación es superar la ronda alcanzada en partidas anteriores, subir el rango de estilo, completar la secuencia del incinerador (llave → mejora experimental MK4) y encontrar la combinación de armas y pilas que mejor le funciona.
 
 ## Condición de victoria
 
 ¿Qué debe lograr el jugador para avanzar o terminar?
 
-No aplica como tal — es modo endless; el objetivo es llegar lo más lejos posible.
+En BROTE no aplica: es modo endless y el objetivo es llegar lo más lejos posible. En el Cuarto de pruebas, despejar la última arena completa el nivel y muestra la pantalla de resultados.
 
 ## Condición de derrota
 
 ¿Qué situaciones provocan fracaso?
 
-La derrota ocurre cuando la vida de Tannat llega a cero. Al reintentar comienza otra partida en la ronda 1, con la pistola inicial, sin puntos ni mejoras y con la Zona 2 cerrada.
+La derrota ocurre cuando la vida de Tannat llega a cero y no tiene una pila RESPALDO instalada. Con RESPALDO, Tannat se reinicia y pierde esa pila junto con la última que instaló. Al reintentar comienza otra partida en la ronda 1, con la pistola inicial y 500 puntos, sin mejoras ni pilas y con todas las puertas cerradas.
 
 ## Ritmo
 
 Describe cómo alternan:
 
-- **Exploración** — reunir puntos para abrir la Zona 2 y conocer sus rutas y puntos de compra.
+- **Exploración** — reunir puntos para abrir zonas y conocer sus rutas, alturas y puntos de compra.
 - **Acción** — combate continuo contra oleadas de mutantes en cada ronda.
-- **Descanso** — una transición breve entre rondas. Durante el combate, los mutantes persiguen al jugador de forma continua.
-- **Desafío** — crece con cada ronda conforme aumenta la cantidad/dificultad de mutantes.
-- **Recompensa** — puntos obtenidos al eliminar mutantes, usados de inmediato en compras.
-- **Historia** — se revela de forma ambiental al llegar a ciertos puntos del mapa, sin interrumpir el ritmo de acción.
+- **Descanso** — 10 segundos entre rondas. Durante el combate, los mutantes persiguen al jugador de forma continua.
+- **Desafío** — crece con cada ronda: más mutantes, más vida, más velocidad, más saltadores (desde la ronda 3) y más corredores (desde la ronda 3, todos a partir de la 10).
+- **Recompensa** — puntos por impacto y por baja, power-ups y rango de estilo.
+- **Historia** — se revela de forma ambiental en cada zona del laboratorio, sin interrumpir la acción.
 
 ## Principios de interacción
 
 ¿Qué reglas debe seguir el juego para que las acciones del jugador sean claras, consistentes y predecibles?
 
-El movimiento debe responder de forma inmediata, sin estamina ni inercia pesada. Los impactos y las compras deben tener respuesta visual y sonora. Al acercarse a un arma, estación o puerta, se muestra su costo y la tecla de interacción.
+El movimiento responde de inmediato, sin estamina. Los impactos y las compras tienen respuesta visual y sonora. Al acercarse a un arma, estación, puerta o pila, se muestra la tecla E, la acción y su costo; si faltan puntos aparece "Puntos insuficientes".
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Pilares de Diseño]] · [[02 - Mecánicas]] →

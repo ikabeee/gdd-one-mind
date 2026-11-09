@@ -6,53 +6,72 @@ Documenta cualquier recurso cuantificable: dinero, vida, energía, munición, ex
 
 ## Recursos
 
-- **Puntos:** se obtienen al eliminar mutantes y se gastan en armas, munición, mejoras comprables y la puerta de la Zona 2. Para el balance inicial se propone otorgar 100 puntos por baja. Se pierden al terminar la partida.
-- **Munición:** cada arma tiene cargador y reserva propios. Puede comprarse en el soporte correspondiente; el modelo híbrido también contempla un drop que repone los cargadores y las reservas de las armas equipadas.
-- **Vida y blindaje:** determinan la supervivencia de Tannat. La recuperación de vida y el blindaje dependen del modelo de mejoras elegido. Llegar a cero de vida termina la partida.
+- **Puntos:** se empieza con 500. Se ganan al dañar y eliminar mutantes, multiplicados por el rango de estilo y por PUNTOS DOBLES. Se gastan en armas, munición, puertas, mejoras, pilas, trampas, el arnés, la impresora 3D y los conductos. Se pierden al terminar la partida.
+- **Munición:** cada arma tiene cargador y reserva propios. Se repone comprándola en la pared, con MUNICIÓN MÁXIMA o al mejorar el arma.
+- **Vida:** Tannat tiene 100 (160 con BLINDAJE) y se regenera sola: 60 por segundo después de 2.5 s sin recibir daño. Llegar a cero sin RESPALDO termina la partida.
 
 ## Fuentes y sumideros
 
 **Fuentes:** formas en las que el jugador obtiene recursos.
 
-- Bajas de mutantes: 100 puntos por baja (valor de prueba).
-- Drops de los enemigos: munición y mejoras, solo si se integra el modelo híbrido.
+| Fuente | Puntos |
+|---|---:|
+| Impacto a un mutante | 10 |
+| Baja | 60 |
+| Baja con disparo a la cabeza | 100 |
+| Baja en movimiento | 130 |
+| PURGA | 400 |
+
+Las trampas y la PURGA no devuelven cargas de movimiento; las trampas no dan puntos.
 
 **Sumideros:** formas en las que el jugador los gasta.
 
-| Compra | Costo (prueba) |
+| Compra | Costo |
 |---|---:|
-| SMG | 750 |
-| Munición de SMG | 350 |
-| Puerta a la Zona 2 | 1,250 |
-| Escopeta | 1,500 |
-| Munición de escopeta | 750 |
-| Mejoras (munición, armadura, vida) | 1,500 – 2,000 |
-| Munición de pistola | Sin definir |
+| Rifle (pared) | 500 |
+| Escopeta (pared) | 500 |
+| Blaster (pared) | 750 |
+| Subfusil (pared) | 1,250 |
+| Escopeta de bomba (pared) | 1,250 |
+| Rifle de asalto (pared) | 1,000 |
+| Rifle de tirador (pared) | 1,500 |
+| Ametralladora (pared) | 2,000 |
+| Munición de un arma de pared | Mitad del precio del arma (más cara si el arma está mejorada) |
+| Impresora 3D | 950 |
+| Puerta a Administración | 750 |
+| Puerta al Laboratorio Central | 1,250 |
+| Puertas a la Morgue y a las Celdas | 1,000 |
+| Puertas a Pruebas Exo | 1,250 |
+| Mejora MK1 / MK2 / MK3 / MK4 | 3,000 / 4,500 / 6,000 / 7,500 |
+| Pila | 2,000 + 500 por pila instalada |
+| Pila RESPALDO | 500 |
+| Trampa | 1,000 |
+| Arnés | 1,500 |
+| Conducto al incinerador | 500 |
 
 ## Reglas
 
 Define límites, regeneración, acumulación, intercambio y condiciones especiales.
 
 - Los puntos no tienen límite de acumulación y no se regeneran solos.
-- No se pueden vender ni intercambiar armas.
-- La puerta se cobra una sola vez por partida.
-- Cada arma tiene cargador y reserva propios e independientes.
-- La vida no se regenera sola: solo se recupera con la mejora de restablecer vida (o con drops, si se integran).
-- Al terminar la partida se pierden puntos, armas, mejoras y el acceso a la Zona 2.
+- No se pueden vender armas; sí se pueden soltar (G).
+- Cada puerta se cobra una sola vez por partida.
+- Cada arma tiene cargador, reserva y nivel de mejora propios.
+- Tannat tiene cuatro espacios de pila; RESPALDO se puede instalar tres veces por partida.
+- Al terminar la partida se pierden puntos, armas, mejoras, pilas y las puertas abiertas.
 
 ## Balance
 
-### Balance económico inicial
+### Balance económico actual
 
-Para las pruebas iniciales se plantean estos costos de referencia (ajustables según la duración de las rondas y la disponibilidad de balas): la pistola inicial es gratuita, la SMG cuesta 750 puntos (350 su recarga de munición), el acceso a la Zona 2 requiere 1,250 puntos, la escopeta está fijada en 1,500 puntos (750 su recarga) y las mejoras equivalentes oscilan entre 1,500 y 2,000 puntos. La tarifa para reponer munición de la pistola permanece sin definir. Los drops no consumen puntos y únicamente estarán disponibles si se decide integrar dicho sistema.
+Los valores anteriores son los del juego al 2026-11-09 y siguen sujetos a playtests. Las armas de pared más baratas (rifle y escopeta, 500) están en la zona inicial, junto a una salida barata (Administración, 750); las armas fuertes y la mejora experimental están en las zonas más lejanas. La impresora 3D es la única forma de conseguir el cohete.
 
 ¿Qué comportamiento queremos incentivar?
 
-Tomar decisiones de compra activas, abrir la Zona 2 para ganar espacio de maniobra y moverse constantemente.
+Tomar decisiones de compra activas, abrir zonas para ganar espacio y moverse constantemente (las bajas en movimiento valen más del doble que una baja normal).
 
 ¿Qué comportamiento queremos evitar?
 
-Quedarse quieto en una esquina, acumular puntos sin gastarlos nunca, y que la munición sobre tanto que comprarla no importe o falte tanto que resulte frustrante.
-
+Quedarse quieto en una esquina (el estilo se vacía más rápido), acumular puntos sin gastarlos nunca, y que la munición sobre tanto que comprarla no importe o falte tanto que resulte frustrante.
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Progresión]] · [[07 - Reglas y Estados del Juego]] →

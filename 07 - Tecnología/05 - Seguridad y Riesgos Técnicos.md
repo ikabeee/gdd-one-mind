@@ -8,11 +8,14 @@ Documenta riesgos técnicos y medidas para reducir fallos, pérdida de datos o a
 
 | Riesgo | Probabilidad | Impacto | Mitigación |
 |---|---|---|---|
-| Atascos de mutantes y pérdida de rendimiento al acumularse en la puerta. | Pendiente de pruebas. | Puede impedir el avance de rondas o afectar la fluidez. | Validar recorridos y medir el rendimiento con distintas cantidades de enemigos antes de fijar un límite. |
-| Tannat queda atascado en bordes u obstáculos. | Media | Rompe el movimiento y frustra al jugador. | Revisar colisiones del escenario y probar el salto contra bordes. |
-| Un mutante no registra su muerte o la registra dos veces. | Media | La ronda no termina o se otorgan puntos de más. | Registrar la muerte una sola vez y probarlo en cada arma. |
-| Rendimiento por debajo de 60 FPS en los equipos del showcase. | Media | Mala experiencia en la presentación. | Limitar enemigos activos, reutilizar objetos y probar en equipos similares. |
-| Economía desbalanceada. | Alta | Rondas demasiado fáciles o imposibles. | Ajustar costos y puntos con playtests. |
+| Mutantes atascados o rezagados que impiden terminar la ronda. | Media | La ronda no termina. | Implementado: un mutante sin poder navegar 10 s vuelve a su punto de aparición; los rezagados (30 s sin contacto, o 10 s a más de 40 m) reaparecen cerca del jugador; la ronda espera solo a los mutantes que generó. |
+| Tannat queda atascado o sale del mapa. | Media | Rompe el movimiento y frustra al jugador. | Implementado: si sale del área jugable reaparece dentro; un stomp atorado en pendiente termina solo. |
+| Un mutante no registra su muerte o la registra dos veces. | Baja | La ronda no termina o se otorgan puntos de más. | Cubierto por pruebas unitarias y de flujo completo. |
+| Valores que crecen sin límite en rondas altas. | Baja | Vida o cantidad de mutantes infinitas. | Implementado: la vida tiene tope de 2^24 y la cantidad de mutantes por ronda siempre es finita. |
+| Explosiones que lanzan a Tannat sin control. | Baja | Movimiento roto. | Implementado: un empuje por salto, con tope de 45 m/s. |
+| Rendimiento por debajo de 60 FPS en los equipos del showcase. | Media | Mala experiencia en la presentación. | Tope de 32 mutantes vivos; falta medir en una build de Windows en equipos similares. |
+| Economía desbalanceada. | Media | Rondas demasiado fáciles o imposibles. | Ajustar costos y puntos con playtests. |
+| El maestro intenta "romper el juego" una semana antes de la entrega. | Alta | Errores visibles en la evaluación. | Ronda de pruebas "break the game" ya hecha y corregida; seguir agregando pruebas por cada error encontrado. |
 
 ## Datos sensibles
 

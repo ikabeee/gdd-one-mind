@@ -6,16 +6,22 @@ Define la relación entre las acciones del jugador y las entradas físicas del d
 
 ## Mapa de controles
 
-| Acción | Teclado | Mouse | Control | Táctil |
-|---|---|---|---|---|
-| Mover | W, A, S, D | | | |
-| Interactuar / comprar | E | | | |
-| Ataque principal | | Clic izquierdo | | |
-| Mirar / apuntar | | Movimiento del mouse | | |
-| Saltar | Espacio | | | |
-| Menú / pausa | Esc o M | | | |
+| Acción | Teclado y mouse | Mando |
+|---|---|---|
+| Mover / mirar | W, A, S, D / mouse | Stick izquierdo / stick derecho |
+| Saltar (y doble salto en el aire) | Espacio | A (botón inferior) |
+| Dash | Shift izquierdo | LB |
+| Slide (en el suelo) / stomp (en el aire) | Ctrl izquierdo o C | B para slide, RB para stomp |
+| Apuntar / disparar | Clic derecho / clic izquierdo | LT / RT |
+| Recargar | R | X (botón izquierdo) |
+| Interactuar / comprar | E | X (botón izquierdo) |
+| Cambiar de arma | 1, 2 o rueda del mouse | Y (botón superior) |
+| Soltar arma | G | Cruceta abajo |
+| Pausa | Esc | Start |
+| Volver al menú (en pausa o al terminar) | Q | Select |
+| Reiniciar el nivel (al terminar) | R | A (botón inferior) |
 
-**Controles adicionales:** R para recargar; 1 y 2 o rueda del mouse para cambiar entre las dos armas equipadas. El prototipo no contempla apuntado con mira adicional, controles táctiles ni mando.
+**Controles adicionales:** los enlaces viven en `Assets/_Game/Input/PlayerControls.inputactions` (Input System de Unity). No hay controles táctiles.
 
 ## Principios de control
 
@@ -28,13 +34,12 @@ Define la relación entre las acciones del jugador y las entradas físicas del d
 
 ¿El jugador puede cambiar los controles?
 
-El esquema de teclado y mouse será fijo en el prototipo académico. La reasignación y el soporte de control quedan fuera del alcance de esta versión.
+No en esta versión: el esquema es fijo. Los ajustes permiten cambiar la sensibilidad y el campo de visión (ver [[04 - Guardado y Configuración]]).
 
 ## Entrada y retroalimentación
 
 Describe qué ocurre inmediatamente después de cada entrada importante.
 
-Al disparar se muestran el retroceso, el fogonazo y el cambio de munición, junto con el sonido del arma. Al saltar, la cámara acompaña el movimiento de Tannat. Al comprar, se reproduce una confirmación, se actualizan los puntos y se entrega el objeto o se abre la puerta.
-
+Al disparar se muestran el retroceso, el fogonazo, el trazador y el impacto, con el sonido del arma; al apuntar desaparece la mira central (el rifle de tirador muestra su mira telescópica). El dash y el stomp tienen efectos en el HUD y en la cámara. Al comprar, se actualizan los puntos y se entrega la compra; si faltan puntos aparece "Puntos insuficientes". Las bajas en cadena reproducen un sonido de combo.
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Sistemas]] · [[05 - Progresión]] →

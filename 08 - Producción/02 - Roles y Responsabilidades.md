@@ -6,13 +6,13 @@ Define quién es responsable de cada área y evita que tareas importantes queden
 
 ## Equipo
 
-| Integrante | Rol principal | Responsabilidades |
-|---|---|---|
-| Sebastian Perez Viñas | Responsable del proyecto | Coordinar el proyecto. Otras responsabilidades por asignar. |
-| Aron Balam | Por asignar | |
-| Carlos González | Por asignar | |
-| Kevin Javier Velázquez Molinero | Por asignar | |
-| Raul Arias | Por asignar | |
+| Integrante                      | Rol principal            | Responsabilidades                                           |
+| ------------------------------- | ------------------------ | ----------------------------------------------------------- |
+| Sebastian Perez Viñas           | Responsable del proyecto | Coordinar el proyecto. Otras responsabilidades por asignar. |
+| Aron Balam                      | Por asignar              |                                                             |
+| Carlos González                 | Por asignar              |                                                             |
+| Kevin Javier Velázquez Molinero | Por asignar              |                                                             |
+| Raul Arias                      | Por asignar              |                                                             |
 
 ## Áreas
 
@@ -21,7 +21,7 @@ Define quién es responsable de cada área y evita que tareas importantes queden
 - **Arte:** modelos low poly de Tannat, mutantes, armas y laboratorio (Blender).
 - **Animación:** disparo, recarga y cambio de arma; persecución, ataque y eliminación de mutantes.
 - **Audio:** efectos de armas, compras, mutantes y música.
-- **Narrativa:** textos ambientales del laboratorio y mensajes de sistema de Tannat.
+- **Narrativa:** textos ambientales del laboratorio.
 - **QA:** pruebas funcionales, de rendimiento y playtests de balance.
 - **Gestión:** roadmap, backlog y entregas.
 

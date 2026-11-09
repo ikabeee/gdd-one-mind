@@ -6,15 +6,15 @@ Define cómo se presenta la historia al jugador y cómo funcionan los diálogos.
 
 ## Métodos narrativos
 
-La narrativa se cuenta a través del entorno y de mensajes breves del sistema de Tannat. El juego **no tiene diálogos**: no hay conversaciones, voces ni cinemáticas que interrumpan las rondas.
+La narrativa se cuenta a través del entorno y de la cara de Cuyus en el HUD. El juego **no tiene diálogos**: no hay conversaciones, voces ni cinemáticas que interrumpan las rondas.
 
-En la Zona 1, las cápsulas rotas, las anotaciones apresuradas y los rastros del brote ayudan a mostrar lo ocurrido. En la Zona 2, los monitores con alertas de cuarentena y el área del experimento aportan contexto sobre Neuroplex.
+En la Sala de Contención, las cápsulas rotas, las anotaciones apresuradas y los monitores de "CUARENTENA" muestran lo ocurrido. En el Laboratorio Central, el tanque del experimento y el monitor "EXPERIMENTO NEUROPLEX · CONTENCION FALLIDA" aportan contexto sobre Neuroplex. La cara de Cuyus en el HUD reacciona a la partida.
 
 - [ ] Diálogo
 - [ ] Cinemáticas
-- [x] Texto ambiental (anotaciones, monitores y mensajes breves del sistema de Tannat)
+- [x] Texto ambiental (anotaciones, letreros de zona y monitores)
 - [x] Objetos (cápsulas rotas)
-- [x] Exploración (recorrer las dos zonas)
+- [x] Exploración (recorrer las seis zonas y el incinerador)
 - [ ] Audio
 - [ ] Narración
 
@@ -26,7 +26,7 @@ No aplica: el juego no tiene diálogos ni conversaciones.
 
 Describe el lenguaje, humor, formalidad y estilo de comunicación.
 
-Sombrío y tenso, sin humor. Los textos del entorno son breves, técnicos y fríos: anotaciones apresuradas del personal, alertas de cuarentena y mensajes de sistema de Tannat.
+Sombrío y tenso, sin humor. Los textos del entorno son breves, técnicos y fríos: anotaciones apresuradas del personal y alertas de cuarentena.
 
 ## Decisiones narrativas
 
@@ -36,7 +36,7 @@ No aplica: el jugador no toma decisiones narrativas. Sus decisiones son de comba
 
 ¿El juego tendrá diferentes idiomas?
 
-Idiomas previstos: Español. *(propuesta)*
+Idioma: español. Los textos del juego van sin acentos porque la fuente de píxel no los dibuja (por ejemplo, "RAFAGA" por "RÁFAGA").
 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Personajes]] · [[01 - Estructura del Contenido]] →

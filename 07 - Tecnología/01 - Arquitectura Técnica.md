@@ -6,33 +6,42 @@ Explica cómo está construido técnicamente el videojuego y cómo se comunican 
 
 ## Arquitectura
 
-Diseño previsto: las entradas del jugador controlan movimiento, cámara y armas. Los sistemas de combate, rondas, economía y zonas actualizan el estado de la partida y la información del HUD. La organización concreta en scripts y componentes todavía debe contrastarse con el proyecto de Unity.
+El código está organizado **por feature** (`Assets/_Game/Scripts/<Feature>/`): cada carpeta tiene su código, sus herramientas de editor (`Editor/`) y sus pruebas (`Editor/Tests/`). Las dependencias se conectan con **VContainer** en tres raíces de composición, una por tiempo de vida. Solo `GameFlow` cambia de escena. Las escenas se **generan** con constructores del editor (*OneMind > Build Project*), así que el código es la fuente de verdad. Detalle en `ARCHITECTURE.md` y `AGENTS.md` del repositorio del juego.
 
 ```text
-Entrada (teclado y mouse)
-  ↓
-Movimiento, cámara y armas
-  ↓
-Sistemas: combate, rondas, economía, zonas
-  ↓
-Estado de la partida
-  ↓
-HUD
+Escena Bootstrap ─ GameLifetimeScope (vive toda la aplicación)
+│                   SceneLoader, TimeScaleService, SettingsService, GameFlowController
+│
+├── Escena MainMenu ─ MainMenuLifetimeScope (mientras está el menú)
+│                     MainMenuView, MainMenuController, SettingsController
+│
+└── Escena de nivel ─ GameplayLifetimeScope (una partida: TestingRoom u Outbreak)
+                      jugador, ZombieHorde, PlayerPoints, PowerUpController,
+                      GameplaySession, HudPresenter, …
+```
+
+Flujo de una acción del usuario:
+
+```text
+MainMenuView ──evento──► MainMenuController ──► GameFlowController ──► SceneLoader ──► SceneManager de Unity
 ```
 
 ## Componentes principales
 
-| Componente | Responsabilidad | Dependencias |
+| Área | Carpetas | Responsabilidad |
 |---|---|---|
-| Armas e inventario | Controlar las tres armas, dos ranuras, disparo, recarga y munición. | Compras, combate y HUD. |
-| Zonas | Abrir la puerta y habilitar los puntos de aparición de la Zona 2. | Economía y aparición de enemigos. |
-| IA y aparición de mutantes | Generar enemigos en zonas activas, perseguir y atacar a Tannat. | Rondas, zonas y combate. |
-| Rondas | Controlar enemigos pendientes y vivos y el paso a la siguiente ronda. | Aparición de mutantes y registro de bajas. |
-| Economía | Registrar puntos y comprobar y descontar el costo de compras. | Bajas, armas, mejoras, puerta y HUD. |
+| Aplicación y flujo | `ApplicationLifecycle`, `GameFlow`, `Infrastructure` | Arranque, máquina de estados (Menú → Cargando → Jugando ⇄ Pausa → Fin), escenas, ajustes, tiempo. |
+| Menús y ajustes | `MainMenu`, `Settings`, `Shared/UI` | Menú principal, selector de niveles y ajustes (UI Toolkit). |
+| Jugador | `Player`, `Movement`, `FirstPerson`, `Aiming` | Vida, exotraje, brazos y piernas en primera persona, apuntado y asistencia. |
+| Combate y armas | `Combat`, `Weapons`, `RandomWeapons`, `WeaponUpgrades` | Daño, armas, impresora 3D y mejoras. |
+| Enemigos y rondas | `Enemies`, `Gameplay` | Horda, rondas, zonas de aparición y sesión de juego. |
+| Economía y energía | `Economy`, `PowerUps`, `Batteries`, `Harness`, `Interaction` | Puntos, power-ups, pilas, arnés e interacción con E. |
+| Presentación | `Hud`, `Expressions`, `Style`, `Rendering` | HUD, cara de Cuyus, estilo y efectos de render. |
+| Niveles | `TestingRoom`, `Outbreak`, `Traps` | Cuarto de pruebas, BROTE (conductos, incinerador, interruptor) y trampas. |
 
 ## Comunicación
 
-Al morir un mutante, se actualizan los puntos y el conteo de enemigos de la ronda. Una compra comprueba los puntos y entrega el arma, mejora o acceso correspondiente. El HUD refleja los cambios de vida, munición y puntos. El mecanismo de comunicación entre scripts aún no está confirmado.
+Los MonoBehaviours leen la entrada y hablan con Unity; las reglas viven en clases de C# simples registradas en el scope (`GameplaySession`, `ZombieHorde`, `PlayerPoints`…). Las vistas exponen eventos de C# (`PlayClicked`, `LevelChosen`…) y nunca deciden qué significan. Los valores de ajuste son ScriptableObjects en `Assets/_Game/Data/`; el estado de la partida vive en objetos de C#, nunca en esos assets. Al descargar una escena se destruye su scope, y recargar el nivel es cómo se reinicia una partida.
 
 ## Principios técnicos
 
@@ -41,6 +50,6 @@ Al morir un mutante, se actualizan los puntos y el conteo de enemigos de la rond
 - Código mantenible.
 - Datos separados de lógica cuando corresponda.
 - Evitar dependencias innecesarias.
-
+- Sin `GameManager` global, sin Service Locator y sin singletons por todas partes.
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Guardado y Configuración]] · [[02 - Motor y Herramientas]] →
