@@ -11,6 +11,7 @@ Registra los cambios importantes realizados al GDD. Esto permite conocer cómo e
 | 0.1.0 | | Creación del documento | |
 | 0.2.0 | 2026-10-16 | Contenido del GDD de ONE MIND (secciones 01 a 07) | |
 | 0.3.0 | 2026-10-16 | Se completan las secciones 01 a 10; se agregan referencias visuales de personajes | |
+| 0.4.0 | 2026-11-09 | Se agrega la Galería de Arte (bocetos, personajes, enemigo, armas, escenario e interfaz) y se actualizan Dirección de Arte, Personajes y Animación, Entornos e Interfaz Visual con el arte del proyecto de Unity | |
 
 ## Convención sugerida
 

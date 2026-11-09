@@ -41,4 +41,4 @@ El desafío está en mantener distancia, apuntar y administrar los recursos fren
 - **Por qué perdió:** la partida termina cuando la vida llega a cero; la pantalla de derrota resume el resultado.
 
 
-> **Navegación:** [[00 - Índice]] · ← [[05 - Audio y Música]] · [[02 - UI y Menús]] →
+> **Navegación:** [[00 - Índice]] · ← [[06 - Galería de Arte]] · [[02 - UI y Menús]] →

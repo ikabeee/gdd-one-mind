@@ -32,13 +32,19 @@ Prioridad *(propuesta)*:
 
 Al disparar se actualiza la munición. Una compra válida descuenta puntos y reproduce una confirmación. Si faltan puntos, el costo parpadea en rojo y se reproduce un rechazo. Al llegar a cero de vida se muestra la derrota.
 
+## Referencia visual
+
+El HUD es un visor de casco: los módulos laterales giran hacia el centro en perspectiva y el HUD se retrasa un poco respecto a la cámara al moverse. A la izquierda va el retrato: la pantalla de Tannat con la cara de Cuyus, que reacciona y se distorsiona con el daño, y debajo la bahía de pilas. Más imágenes en [[06 - Galería de Arte]].
+
+![[hud-in-game.png]]
+
 ## Convenciones
 
-*(propuesta)*
+**Tipografía:** Fuente pixel Pixelmix (regular y negrita) con sombra negra dura. No dibuja acentos, así que los textos del juego van sin ellos.
 
-**Tipografía:** Sans serif legible y de estilo técnico, acorde al sistema de Tannat.
+**Paleta:** papel `#F2F2F2`, negro `#0A0A0A` y acento rojo `#D0263F`.
 
-**Iconografía:** Iconos simples y planos para vida, munición y puntos.
+**Iconografía:** Iconos pixel simples y planos (armas, dash, stomp y pilas); la mira es de 1 px.
 
 **Tamaños mínimos:** Texto legible a 1920 × 1080 desde la distancia de juego del showcase.
 

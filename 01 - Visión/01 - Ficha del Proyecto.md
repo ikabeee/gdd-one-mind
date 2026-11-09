@@ -10,12 +10,12 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | ---------------------------------- | -------------------------------------------------------------------------------------------------- |
 | **Nombre del proyecto**      | ONE MIND                                                                                           |
 | **Nombre clave**             | ONE MIND                                                                                           |
-| **Versión del GDD**         | 0.3.0                                                                                              |
+| **Versión del GDD**         | 0.4.0                                                                                              |
 | **Estado del proyecto**      | **Concepto** / Preproducción / Producción / Pruebas / Publicado                            |
 | **Equipo**                   | Aron Balam, Carlos González, Kevin Javier Velázquez Molinero, Raul Arias, Sebastian Perez Viñas |
 | **Responsable del proyecto** | Sebastian Perez Viñas                                                                             |
 | **Fecha de inicio**          | 2026-09-25                                                                                         |
-| **Última actualización**   | 2026-10-16                                                                                         |
+| **Última actualización**   | 2026-11-09                                                                                         |
 | **Repositorio**              | NA                                                                                                 |
 
 ## Identidad del videojuego

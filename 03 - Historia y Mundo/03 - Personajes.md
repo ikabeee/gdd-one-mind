@@ -83,7 +83,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Función narrativa:** Son el personal del laboratorio infectado por Neuroplex.
 
-**Descripción física:** Modelos 3D low poly; pueden variar visualmente. Diseños pendientes.
+**Descripción física:** Científicos del laboratorio en 3D low poly: bata gastada con sangre y suciedad, un tumor de Neuroplex que sale del cráneo y lentes rotos. Es el único diseño de enemigo en el juego.
 
 **Personalidad:** Mente colmena: comparten la misma conducta y conocen la posición de Tannat desde que aparecen.
 
@@ -103,7 +103,9 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Frases o tono de diálogo:** No aplica.
 
-**Referencias visuales:** Pendientes.
+**Referencias visuales:** Render del modelo usado en el juego. Más vistas en [[06 - Galería de Arte]].
+
+![[scientist-model.png|360]]
 
 ## NPC
 
