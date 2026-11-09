@@ -22,14 +22,14 @@ Iniciar una partida. No se ha definido un sistema de misiones independientes.
 **Pasos:**
 
 1. Desplazarse y combatir a los mutantes de la ronda.
-2. Administrar puntos y munición, comprar equipo y decidir cuándo abrir la segunda zona.
+2. Administrar puntos y munición, comprar equipo y decidir qué zonas abrir.
 3. Eliminar los enemigos restantes y prepararse para la siguiente ronda.
 
 **Condición de éxito:**  
 No quedan mutantes vivos ni pendientes de aparecer en la ronda.
 
 **Condición de fracaso:**  
-La vida de Tannat llega a cero.
+Tannat cae sin la pila RESPALDO instalada.
 
 **Recompensa:**  
 Puntos por las bajas y avance a una nueva ronda; no se ha definido un premio adicional por completarla.
@@ -41,7 +41,7 @@ La siguiente ronda aumenta la presión. La derrota elimina el progreso de la par
 Tannat, Cuyus y mutantes infectados por Neuroplex.
 
 **Nivel relacionado:**  
-Laboratorio, con sus dos zonas.
+BROTE, con sus seis zonas y el Incinerador (ver [[02 - Niveles]]).
 
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Objetos y Coleccionables]] · [[01 - Dirección de Arte]] →

@@ -26,7 +26,7 @@ Los criterios de aceptación permiten decidir objetivamente si una característi
 
 ### Apertura de la Zona 2
 
-**Dado que:** el jugador tiene al menos 1,250 puntos y la puerta está cerrada.
+**Dado que:** el jugador tiene al menos 1,250 puntos y la puerta 2 está cerrada.
 
 **Cuando:** pulsa E frente a la puerta.
 
@@ -42,11 +42,11 @@ Los criterios de aceptación permiten decidir objetivamente si una característi
 
 ### Derrota
 
-**Dado que:** la partida está en curso.
+**Dado que:** la partida está en curso y Tannat no tiene RESPALDO instalado.
 
-**Cuando:** la vida de Tannat llega a 0.
+**Cuando:** Tannat cae.
 
-**Entonces:** se desactiva el control y se muestran las rondas superadas y los puntos totales, con la opción de reintentar.
+**Entonces:** se desactiva el control y la pantalla «HAS CAIDO» muestra las rondas sobrevividas, las bajas y los puntos, con la opción de reintentar (R) o volver al menú (Q).
 
 ## Criterios del proyecto
 

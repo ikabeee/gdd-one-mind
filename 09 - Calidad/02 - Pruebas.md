@@ -10,7 +10,7 @@ Define cómo se comprobará que el videojuego funciona como fue diseñado.
 
 Comprueban que una característica haga lo que debe.
 
-Movimiento y salto, disparo y recarga de cada arma, cambio de arma, compras, apertura de la puerta, mejoras, derrota y reintentar.
+Movimiento (salto, doble salto, deslizamiento, dash y stomp), disparo y recarga de cada arma, cambio de arma, compras, apertura de la puerta, mejoras, derrota y reintentar.
 
 ### Pruebas de integración
 
@@ -28,7 +28,7 @@ Playtests con jugadores del público objetivo (18 a 25 años) que no conozcan el
 
 Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
-Medir FPS con distintas cantidades de enemigos activos en equipos de gama media para fijar el límite de enemigos. Sesiones largas (más de 15 minutos) para revisar estabilidad.
+Medir FPS con distintas cantidades de enemigos activos en equipos de gama media para comprobar el límite de 32 mutantes vivos. Sesiones largas (más de 15 minutos) para revisar estabilidad.
 
 ## Casos de prueba
 
@@ -36,11 +36,11 @@ Medir FPS con distintas cantidades de enemigos activos en equipos de gama media 
 
 **Objetivo:** Comprobar que no se puede comprar sin puntos.
 
-**Precondiciones:** Partida iniciada con menos de 750 puntos.
+**Precondiciones:** Partida con menos de 500 puntos (por ejemplo, después de comprar el Rifle).
 
 **Pasos:**
 
-1. Acercarse al soporte de la SMG.
+1. Acercarse a la compra de pared de la Escopeta, en la Sala de Contención.
 2. Pulsar E.
 
 **Resultado esperado:** No se realiza la compra; el costo parpadea en rojo y suena un rechazo. Los puntos no cambian.
@@ -51,13 +51,13 @@ Medir FPS con distintas cantidades de enemigos activos en equipos de gama media 
 
 ### Apertura de la puerta
 
-**Objetivo:** Comprobar que la puerta se cobra una vez y habilita la Zona 2.
+**Objetivo:** Comprobar que la puerta 2 se cobra una vez y habilita la Zona 2 (Laboratorio Central).
 
 **Precondiciones:** Partida iniciada con al menos 1,250 puntos.
 
 **Pasos:**
 
-1. Acercarse a la puerta de seguridad y pulsar E.
+1. Acercarse a la puerta 2 y pulsar E.
 2. Volver a pulsar E frente a la puerta abierta.
 3. Esperar a la siguiente ronda.
 
@@ -89,15 +89,15 @@ Medir FPS con distintas cantidades de enemigos activos en equipos de gama media 
 
 **Objetivo:** Comprobar que reintentar reinicia todo el progreso.
 
-**Precondiciones:** Partida con armas compradas, mejoras y la Zona 2 abierta.
+**Precondiciones:** Partida con armas compradas, mejoras, sin RESPALDO y con la Zona 2 abierta.
 
 **Pasos:**
 
 1. Dejar que la vida de Tannat llegue a 0.
 2. Revisar la pantalla de derrota.
-3. Pulsar Reintentar.
+3. Pulsar R (o X / botón sur en el mando).
 
-**Resultado esperado:** La pantalla muestra rondas superadas y puntos totales. La nueva partida empieza en la ronda 1, Zona 1, con la pistola, 0 puntos, sin mejoras y con la puerta cerrada.
+**Resultado esperado:** La pantalla «HAS CAIDO» muestra las rondas sobrevividas, las bajas y los puntos. La nueva partida empieza en la ronda 1, Zona 1, con la pistola, 500 puntos, sin mejoras y con las puertas cerradas.
 
 **Resultado obtenido:**
 

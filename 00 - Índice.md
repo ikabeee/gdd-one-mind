@@ -59,6 +59,7 @@ Cada sección explica **qué información debe escribirse**, por qué es importa
 - [[03 - Entornos]]
 - [[04 - Interfaz Visual]]
 - [[05 - Audio y Música]]
+- [[06 - Galería de Arte]]
 
 ### 06 — Experiencia
 - [[01 - UX y Flujo del Jugador]]

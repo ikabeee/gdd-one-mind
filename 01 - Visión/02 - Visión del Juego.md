@@ -8,7 +8,7 @@ Aquí se define la **idea central** del videojuego. Esta sección funciona como 
 
 **El videojuego trata sobre:**
 
-ONE MIND es un shooter de supervivencia en primera persona, para un jugador y basado en rondas. El escenario tiene zonas conectadas por una puerta que se abre con puntos. Tannat comienza con una pistola y puede comprar armas durante la evolución de la partida, además de munición y mejoras. No hay una ronda final: la partida termina cuando su vida llega a cero y, al reintentar, se reinician el progreso del jugador.
+ONE MIND es un shooter de supervivencia en primera persona, para un jugador y basado en rondas. El nivel BROTE tiene seis zonas conectadas por puertas que se abren con puntos, y un sótano secreto. Tannat comienza con una pistola y puede comprar armas durante la evolución de la partida, además de munición y mejoras. No hay una ronda final: la partida termina cuando su vida llega a cero y, al reintentar, se reinician el progreso del jugador.
 
 El combate toma como referencia el desplazamiento constante de los shooters clásicos, con cámara libre en primera persona. Sobrevivir depende de apuntar, mantener distancia y aprovechar el espacio.
 
@@ -46,10 +46,11 @@ Partidas cortas (5 a 15 minutos) de supervivencia intensa, con decisiones de com
 Lista las características que definen la experiencia.
 
 1. Supervivencia por rondas sin final (modo endless).
-2. Economía de puntos para comprar armas, munición, mejoras y abrir la Zona 2.
-3. Tres armas con roles distintos (pistola, SMG y escopeta), con un máximo de dos equipadas.
-4. Mapa de dos zonas conectadas por una puerta que se desbloquea con puntos.
+2. Economía de puntos para comprar armas, munición, mejoras y pilas, y abrir nuevas zonas.
+3. Diez armas con roles distintos, con un máximo de dos equipadas.
+4. Nivel de seis zonas (BROTE) conectadas por siete puertas que se desbloquean con puntos, más un sótano secreto.
 5. Mutantes con comportamiento de mente colmena que siempre conocen la posición del jugador.
+6. Movimiento rápido: carrera constante, doble salto, deslizamiento, dash y stomp.
 
 ## Diferenciadores
 
@@ -70,6 +71,6 @@ Lista las características que definen la experiencia.
 - No tiene sigilo ni escondites.
 - No tiene diálogos ni cinemáticas.
 - No tiene progresión persistente entre partidas.
-- No es un mundo abierto: solo existen dos zonas de un laboratorio.
+- No es un mundo abierto: toda la acción ocurre en un laboratorio (seis zonas y un sótano en BROTE).
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Ficha del Proyecto]] · [[03 - Público y Plataforma]] →

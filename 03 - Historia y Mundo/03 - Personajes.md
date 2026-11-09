@@ -13,7 +13,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Rol:** Protagonista y personaje controlado por el jugador.
 
-**Función jugable:** Se controla en primera persona. Se defiende con la pistola, la SMG y la escopeta, y cuenta con desplazamiento constante y salto simple.
+**Función jugable:** Se controla en primera persona. Se defiende con diez armas (dos a la vez) y se mueve con carrera constante, doble salto, deslizamiento, dash y stomp.
 
 **Función narrativa:** Funciona como armadura y mantiene con vida a Cuyus, que permanece en su interior durante toda la partida. Sus mensajes breves de sistema aportan contexto sobre lo ocurrido en el laboratorio.
 
@@ -31,9 +31,9 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Arco del personaje:** No aplica: al ser modo endless, no hay un arco narrativo cerrado.
 
-**Habilidades:** Uso de pistola, SMG y escopeta; desplazamiento constante; salto simple.
+**Habilidades:** Uso de diez armas; carrera constante a 13 m/s, doble salto, deslizamiento, dash y stomp.
 
-**Debilidades:** Si su vida llega a cero, la partida termina y Cuyus queda desprotegida.
+**Debilidades:** Si cae sin la pila RESPALDO, la partida termina y Cuyus queda desprotegida.
 
 **Frases o tono de diálogo:** No habla. Solo muestra mensajes breves de sistema en texto.
 
@@ -48,7 +48,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Función jugable:** Ninguna directa. Permanece dentro de Tannat durante toda la partida.
 
-**Función narrativa:** Es la razón por la que Tannat combate.
+**Función narrativa:** Es la razón por la que Tannat combate. Su rostro en el HUD reacciona a lo que ocurre en la partida (ver [[04 - Diálogos y Narrativa]]).
 
 **Descripción física:** Niña de 10 años con cabello a la altura de los hombros y un fleco que le cubre parte de un ojo. Viste un vestido sin mangas de falda acampanada con un corazón en el pecho, medias largas y zapatos redondeados.
 
@@ -79,11 +79,11 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Rol:** Enemigos.
 
-**Función jugable:** Persiguen a Tannat y lo atacan cuerpo a cuerpo. Su cantidad y su vida aumentan con cada ronda.
+**Función jugable:** Persiguen a Tannat y lo atacan cuerpo a cuerpo. Su cantidad, su vida y su velocidad aumentan con cada ronda; desde la ronda 3 saltan y enloquecen. Valores en [[03 - Enemigos y NPC]].
 
 **Función narrativa:** Son el personal del laboratorio infectado por Neuroplex.
 
-**Descripción física:** Modelos 3D low poly; pueden variar visualmente. Diseños pendientes.
+**Descripción física:** Científicos del laboratorio en 3D low poly: bata gastada con sangre y suciedad, un tumor de Neuroplex que sale del cráneo y lentes rotos. Es el único diseño de enemigo en el juego.
 
 **Personalidad:** Mente colmena: comparten la misma conducta y conocen la posición de Tannat desde que aparecen.
 
@@ -97,13 +97,15 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Arco del personaje:** No aplica.
 
-**Habilidades:** Persecución mediante rutas de navegación y ataque cuerpo a cuerpo.
+**Habilidades:** Persecución mediante rutas de navegación, ataque cuerpo a cuerpo y salto (desde la ronda 3).
 
 **Debilidades:** No se han definido puntos débiles.
 
-**Frases o tono de diálogo:** No aplica.
+**Frases o tono de diálogo:** No hablan; sus voces no son verbales.
 
-**Referencias visuales:** Pendientes.
+**Referencias visuales:** Render del modelo usado en el juego. Más vistas en [[06 - Galería de Arte]].
+
+![[scientist-model.png|360]]
 
 ## NPC
 

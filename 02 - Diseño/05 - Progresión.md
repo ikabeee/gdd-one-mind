@@ -8,9 +8,9 @@ Explica cómo cambia la experiencia desde el inicio hasta el final. La progresi�
 
 Describe las etapas principales del juego.
 
-1. **Inicio:** Tannat aparece en la Zona 1, ronda 1, con la pistola básica, sin mejoras y con la puerta a la Zona 2 cerrada.
+1. **Inicio:** Tannat aparece en la Sala de Contención (Zona 1), ronda 1, con la pistola básica, 500 puntos, sin mejoras y con las puertas cerradas.
 2. **Introducción de sistemas:** el jugador aprende a moverse, disparar y comprar con los puntos ganados.
-3. **Desarrollo:** el jugador decide entre comprar la SMG, conseguir mejoras o ahorrar para abrir la Zona 2, donde podrá comprar la escopeta.
+3. **Desarrollo:** el jugador decide entre comprar armas de pared, invertir en pilas o mejoras MK, o ahorrar para abrir nuevas zonas con más armas.
 4. **Dominio:** el jugador aprende a controlar el espacio, apuntar y alternar sus dos armas equipadas para mantener a la horda a distancia.
 5. **Clímax:** no aplica como punto fijo, al ser un modo endless; cada partida llega a su propio clímax individual en la ronda donde el jugador finalmente muere.
 6. **Final:** la muerte del jugador, que reinicia el progreso por completo.
@@ -19,16 +19,16 @@ Describe las etapas principales del juego.
 
 ¿Qué aprende el jugador y en qué orden?
 
-Primero se practican WASD, salto y disparo con la pistola. Después se aprende a administrar puntos y munición, y a decidir cuándo comprar la SMG o abrir la Zona 2. Finalmente se aprovechan los recorridos entre ambas áreas y el alcance de cada arma.
+Primero se practican correr, saltar y disparar con la pistola. Después se aprende a administrar puntos y munición, a encadenar deslizamiento, dash y stomp, y a decidir qué comprar o qué puerta abrir. Finalmente se aprovechan los recorridos entre zonas, el alcance de cada arma y las mejoras.
 
 ## Progresión del personaje
 
 ¿Qué mejora el personaje?
 
-- **Vida y resistencia:** recuperación de vida y blindaje según el modelo de mejoras que elija el equipo.
-- **Armamento:** la SMG y la escopeta ofrecen distinta cadencia, alcance y daño respecto a la pistola.
-- **Movimiento:** WASD y salto simple están disponibles desde el inicio y no se desbloquean habilidades adicionales.
-- **Equipo:** hasta dos armas y las mejoras obtenidas durante la partida.
+- **Vida y resistencia:** la vida se regenera sola; la pila BLINDAJE sube la vida máxima a 160 y FILTRO acelera la regeneración.
+- **Armamento:** diez armas con distinta cadencia, alcance y daño; las estaciones MK multiplican el daño hasta ×3.75.
+- **Movimiento:** correr, doble salto, deslizamiento, dash y stomp están disponibles desde el inicio; el arnés Exo, la pila PISTÓN y el power-up IMPULSO los potencian.
+- **Equipo:** hasta dos armas, 4 pilas y las mejoras obtenidas durante la partida.
 - **Recursos:** puntos acumulados durante la partida.
 - **Conocimiento:** el jugador aprende el mapa y el comportamiento de los mutantes.
 
@@ -36,21 +36,24 @@ Primero se practican WASD, salto y disparo con la pistola. Después se aprende a
 
 | Desbloqueo | Requisito | Efecto |
 |---|---|---|
-| SMG y escopeta | Puntos suficientes en el soporte correspondiente | Nueva arma disponible para equipar (máx. 2 a la vez) |
-| Mejoras | Compra o recogida de drops, según el modelo elegido | Efecto aplicado de inmediato a Tannat |
-| Zona 2 | Pagar la puerta que conecta ambas zonas | Acceso a la segunda zona durante esa partida |
+| Armas de pared | Puntos suficientes en la pared correspondiente | Nueva arma disponible para equipar (máx. 2 a la vez) |
+| Mejoras | Compra con puntos: reponer munición, estaciones MK, impresora 3D y arnés Exo | Efecto aplicado de inmediato |
+| Pilas | Compra en su estación de carga (máx. 4 instaladas) | Ventaja mientras siga instalada |
+| Power-ups | Recogerlos cuando un mutante los suelta | Efecto inmediato o de 30 s |
+| Zonas | Pagar la puerta correspondiente | Acceso a la zona durante esa partida |
+| MK4 | Tomar la llave del incinerador | Cuarto nivel en la estación Experimental |
 
 ## Curva de dificultad
 
 Describe cómo aumenta el desafío y qué nuevos elementos aparecen.
 
-Con cada ronda aumentan la cantidad y la vida de los mutantes. La dificultad depende de la ronda, no de la zona. Abrir la Zona 2 amplía el espacio de maniobra y permite comprar la escopeta; permanecer en la Zona 1 dificulta evitar que la horda rodee al jugador.
+Con cada ronda aumentan la cantidad, la vida y la velocidad de los mutantes. Desde la ronda 3 aparecen saltadores, corredores permanentes y mutantes enloquecidos; desde la ronda 10 todos corren. La dificultad depende de la ronda, no de la zona. Abrir zonas amplía el espacio de maniobra y da acceso a más armas; permanecer en la Sala de Contención dificulta evitar que la horda rodee al jugador.
 
 ## Curva de aprendizaje
 
 ¿Qué debe dominar el jugador antes de introducir el siguiente concepto?
 
-Aprender movimiento y disparo antes de administrar compras; comprender los costos antes de decidir entre la SMG y la puerta; conocer ambas zonas antes de aprovechar recorridos más largos con la escopeta y las mejoras.
+Aprender movimiento y disparo antes de administrar compras; comprender los costos antes de decidir entre un arma y una puerta; conocer las zonas antes de aprovechar recorridos más largos, el movimiento avanzado y las mejoras.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Controles]] · [[06 - Economía y Recursos]] →

@@ -50,4 +50,4 @@ Define prioridades, volumen relativo y comportamiento de la música ante eventos
 Prioridad *(propuesta)*: sonidos de peligro (mutantes, daño) > armas > interfaz > música. La música baja de volumen cuando hay muchos efectos simultáneos.
 
 
-> **Navegación:** [[00 - Índice]] · ← [[04 - Interfaz Visual]] · [[01 - UX y Flujo del Jugador]] →
+> **Navegación:** [[00 - Índice]] · ← [[04 - Interfaz Visual]] · [[06 - Galería de Arte]] →

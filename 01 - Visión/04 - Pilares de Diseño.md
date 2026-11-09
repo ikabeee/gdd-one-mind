@@ -10,7 +10,7 @@ Los pilares son los principios que deben mantenerse durante todo el desarrollo. 
 El combate debe ser rápido y constante, sin tiempos muertos prolongados entre oleadas.
 
 **¿Cómo se refleja en el juego?**  
-Tannat se desplaza con WASD a una velocidad constante y puede realizar un salto simple. El jugador evita quedar rodeado mediante su posición y sus rutas de movimiento, mientras dispara y recarga.
+Tannat corre siempre a 13 m/s y combina doble salto, deslizamiento, dash y stomp; el dash y el stomp también sirven para atacar. El jugador evita quedar rodeado mediante su posición y sus rutas de movimiento, mientras dispara y recarga.
 
 ## Pilar 2 — Riesgo total
 
@@ -18,7 +18,7 @@ Tannat se desplaza con WASD a una velocidad constante y puede realizar un salto 
 Cada decisión debe sentirse importante porque no hay red de seguridad: morir cuesta todo el progreso de la partida.
 
 **¿Cómo se refleja en el juego?**  
-Al reintentar tras morir, se vuelve a la ronda 1 con la pistola inicial, sin puntos ni mejoras y con la puerta de la Zona 2 cerrada. Cada compra obliga a decidir qué conviene priorizar durante esa partida.
+Al reintentar tras morir, se vuelve a la ronda 1 con la pistola inicial, 500 puntos, sin mejoras y con las puertas cerradas. Cada compra obliga a decidir qué conviene priorizar durante esa partida.
 
 ## Pilar 3 — Tensión psicológica constante
 
