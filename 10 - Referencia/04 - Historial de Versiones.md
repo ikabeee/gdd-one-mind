@@ -12,6 +12,7 @@ Registra los cambios importantes realizados al GDD. Esto permite conocer cómo e
 | 0.2.0 | 2026-10-16 | Contenido del GDD de ONE MIND (secciones 01 a 07) | |
 | 0.3.0 | 2026-10-16 | Se completan las secciones 01 a 10; se agregan referencias visuales de personajes | |
 | 0.4.0 | 2026-11-09 | Se agrega la Galería de Arte (bocetos, personajes, enemigo, armas, escenario e interfaz) y se actualizan Dirección de Arte, Personajes y Animación, Entornos e Interfaz Visual con el arte del proyecto de Unity | |
+| 0.5.0 | 2026-11-09 | Se alinea el diseño con el juego en Unity según el feedback del equipo: BROTE con seis zonas y el Incinerador, diez armas, movimiento de Tannat, valores de los mutantes, mejoras y recarga de munición; Diálogos y Narrativa queda pendiente de decisión del equipo | |
 
 ## Convención sugerida
 

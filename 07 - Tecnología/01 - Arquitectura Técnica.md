@@ -24,8 +24,8 @@ HUD
 
 | Componente | Responsabilidad | Dependencias |
 |---|---|---|
-| Armas e inventario | Controlar las tres armas, dos ranuras, disparo, recarga y munición. | Compras, combate y HUD. |
-| Zonas | Abrir la puerta y habilitar los puntos de aparición de la Zona 2. | Economía y aparición de enemigos. |
+| Armas e inventario | Controlar las diez armas, dos ranuras, disparo, recarga y munición. | Compras, combate y HUD. |
+| Zonas | Abrir las puertas y limitar la aparición a la zona de Tannat y a las zonas abiertas conectadas con ella. | Economía y aparición de enemigos. |
 | IA y aparición de mutantes | Generar enemigos en zonas activas, perseguir y atacar a Tannat. | Rondas, zonas y combate. |
 | Rondas | Controlar enemigos pendientes y vivos y el paso a la siguiente ronda. | Aparición de mutantes y registro de bajas. |
 | Economía | Registrar puntos y comprobar y descontar el costo de compras. | Bajas, armas, mejoras, puerta y HUD. |

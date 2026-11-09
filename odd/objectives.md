@@ -7,5 +7,5 @@
 > TAMBIEN TENGO INFORMACION DE FEEDBACK DE MI EQUIPO"
 
 1. [Art gallery in the GDD](tasks/art-gallery.md) — done
-2. [Team feedback alignment with the Unity game](tasks/team-feedback.md) — pending
+2. [Team feedback alignment with the Unity game](tasks/team-feedback.md) — done
 3. [Mirror the repository GDD into the Google Doc](tasks/google-doc-mirror.md) — pending

@@ -176,8 +176,7 @@ Todas siguen el mismo lenguaje: bloques en blanco y negro con un pequeño detall
 - **Impacto en un enemigo:** aspas y cuadros rojos.
 - **Balas y cohete:** las balas llegan al instante; el cohete es el único proyectil que viaja.
 
-> [!warning] Por alinear
-> [[04 - Objetos y Coleccionables]] todavía describe tres armas (pistola, SMG y escopeta). El juego tiene las diez de esta tabla; el catálogo de diseño debe actualizarse.
+Daño, munición y mejoras de cada arma: [[04 - Objetos y Coleccionables]].
 
 ## Escenario: BROTE
 
@@ -205,8 +204,7 @@ BROTE es el nivel jugable: el laboratorio de Neuroplex sellado tras el brote, co
 
 ![[brote-unity-captures.png]]
 
-> [!warning] Por alinear
-> [[02 - Niveles]] todavía describe dos zonas (Zona 1 y Zona 2). En BROTE la Zona 1 es la Sala de Contención y la Zona 2 es el Laboratorio Central, pero el nivel tiene seis zonas y el Incinerador.
+Puertas, obstáculos y trampas de cada zona: [[02 - Niveles]].
 
 ## Interfaz y menú
 
@@ -223,8 +221,8 @@ BROTE es el nivel jugable: el laboratorio de Neuroplex sellado tras el brote, co
 ## Pendientes
 
 - [ ] Renders finales de cada zona de BROTE con la ambientación post-apocalíptica.
-- [ ] Actualizar el catálogo de armas en [[04 - Objetos y Coleccionables]].
-- [ ] Actualizar las zonas en [[02 - Niveles]].
+- [x] Actualizar el catálogo de armas en [[04 - Objetos y Coleccionables]].
+- [x] Actualizar las zonas en [[02 - Niveles]].
 - [ ] Definir el nombre del enemigo en pantalla (el juego no lo muestra todavía).
 
 

@@ -19,10 +19,11 @@ Durante la partida
     └── Volver al menú
 
 Después de la derrota
-└── Reintentar (comienza una nueva partida)
+├── Reintentar (R o X / botón sur; comienza una nueva partida)
+└── Volver al menú (Q o Select)
 ```
 
-No hay opción de continuar una partida guardada. La configuración adicional queda pendiente.
+El menú principal presenta los dos niveles: BROTE («6 ZONAS», «INSTALACION DE INVESTIGACION TOMADA») y PRUEBAS («CUARTO DE PRUEBAS»). No hay opción de continuar una partida guardada. La configuración adicional queda pendiente.
 
 ## Pantallas
 

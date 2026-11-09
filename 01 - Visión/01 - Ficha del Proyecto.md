@@ -10,7 +10,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | ---------------------------------- | -------------------------------------------------------------------------------------------------- |
 | **Nombre del proyecto**      | ONE MIND                                                                                           |
 | **Nombre clave**             | ONE MIND                                                                                           |
-| **Versión del GDD**         | 0.4.0                                                                                              |
+| **Versión del GDD**         | 0.5.0                                                                                              |
 | **Estado del proyecto**      | **Concepto** / Preproducción / Producción / Pruebas / Publicado                            |
 | **Equipo**                   | Aron Balam, Carlos González, Kevin Javier Velázquez Molinero, Raul Arias, Sebastian Perez Viñas |
 | **Responsable del proyecto** | Sebastian Perez Viñas                                                                             |

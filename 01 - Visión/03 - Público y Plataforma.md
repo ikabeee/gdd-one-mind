@@ -26,7 +26,7 @@ Familiaridad con controles básicos de FPS: movimiento WASD, salto y apuntado co
 | ----------------------- | ------------------------------------ |
 | Plataforma principal    | PC (Windows)                         |
 | Plataformas secundarias | Ninguna para el prototipo académico |
-| Método de entrada      | Teclado y mouse                      |
+| Método de entrada      | Teclado y mouse, o mando             |
 | Resolución objetivo    | 1920 × 1080                         |
 | Relación de aspecto    | 16:9                                 |
 | Rendimiento objetivo    | 60 FPS como objetivo                 |
@@ -34,7 +34,7 @@ Familiaridad con controles básicos de FPS: movimiento WASD, salto y apuntado co
 
 ## Restricciones de plataforma
 
-El prototipo se plantea para equipos de gama media durante el showcase de la UT Cancún. Se buscarán 60 FPS mediante un mapa de tres zonas, un límite de enemigos activos y reutilización de objetos. Ese límite y el rendimiento deberán comprobarse en los equipos de prueba.
+El prototipo se plantea para equipos de gama media durante el showcase de la UT Cancún. Se buscarán 60 FPS mediante un nivel de seis zonas, un límite de 32 mutantes vivos a la vez y reutilización de objetos. El rendimiento con ese límite deberá comprobarse en los equipos de prueba.
 
 ## Sesión de juego
 
@@ -52,7 +52,7 @@ Prototipo académico. Sin venta directa; se presenta en un showcase en la UT Can
 
 ## Consideraciones
 
-- [x] Controles adaptados a la plataforma (esquema fijo de teclado y mouse)
+- [x] Controles adaptados a la plataforma (esquemas fijos de teclado y mouse, y de mando)
 - [ ] Interfaz legible (pendiente de definir el HUD)
 - [x] Rendimiento considerado (60 FPS, límite de enemigos activos)
 - [x] Resoluciones consideradas (1920 × 1080, 16:9)

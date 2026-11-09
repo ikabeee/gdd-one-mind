@@ -42,7 +42,7 @@ Define las condiciones técnicas necesarias para ejecutar y desarrollar el video
 
 ## Restricciones
 
-El alcance actual es un prototipo para PC con teclado y mouse, dos zonas y tres armas. El límite de enemigos activos y el rendimiento deben determinarse con pruebas.
+El alcance actual es un prototipo para PC con teclado y mouse o mando, dos niveles (BROTE, con seis zonas y el Incinerador, y PRUEBAS) y diez armas. Como máximo hay 32 mutantes vivos a la vez; el rendimiento con ese límite debe comprobarse con pruebas.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Motor y Herramientas]] · [[04 - Datos y Persistencia]] →

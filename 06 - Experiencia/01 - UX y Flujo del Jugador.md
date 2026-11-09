@@ -14,7 +14,7 @@ Durante la partida se puede abrir la pausa para reanudar, reiniciar o volver al 
 
 ## Primeros minutos
 
-El jugador comienza con la pistola en la Zona 1. Aprende a desplazarse, saltar, apuntar y recargar mientras enfrenta las primeras rondas. Los puntos obtenidos permiten comprar equipo y abrir la Zona 2. El formato de las ayudas iniciales todavía no está definido.
+El jugador comienza con la pistola en la Zona 1. Aprende a correr, saltar, deslizarse, hacer dash y stomp, apuntar y recargar mientras enfrenta las primeras rondas. Los puntos obtenidos permiten comprar equipo y abrir nuevas zonas. El formato de las ayudas iniciales todavía no está definido.
 
 ## Retroalimentación
 
@@ -35,10 +35,10 @@ El desafío está en mantener distancia, apuntar y administrar los recursos fren
 ¿Cómo sabe el jugador:
 
 - **Qué hacer:** sobrevivir y eliminar los mutantes de cada ronda.
-- **Dónde ir:** se inicia en la Zona 1 y se puede ampliar el recorrido pagando la puerta hacia la Zona 2.
+- **Dónde ir:** se inicia en la Sala de Contención (Zona 1) y se puede ampliar el recorrido pagando las puertas hacia las demás zonas.
 - **Con qué interactuar:** los puntos de compra muestran su costo y la tecla E al acercarse.
 - **Qué ocurrió:** los cambios de munición y puntos y las respuestas visuales y sonoras confirman las acciones.
-- **Por qué perdió:** la partida termina cuando la vida llega a cero; la pantalla de derrota resume el resultado.
+- **Por qué perdió:** la partida termina cuando Tannat cae sin RESPALDO; la pantalla «HAS CAIDO» resume las rondas, las bajas y los puntos.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[06 - Galería de Arte]] · [[02 - UI y Menús]] →

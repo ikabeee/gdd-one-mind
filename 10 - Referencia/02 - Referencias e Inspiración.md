@@ -14,7 +14,7 @@ Registra juegos, películas, libros, fotografías, artículos, diseños o cualqu
 
 **Qué nos interesa:** Supervivencia por rondas sin final, puntos por baja, compra de armas en soportes y apertura de zonas con puntos.
 
-**Qué NO queremos copiar:** Su complejidad (muchos mapas, armas, power-ups y secretos). ONE MIND se limita a dos zonas y tres armas.
+**Qué NO queremos copiar:** Su complejidad (muchos mapas, armas, power-ups y secretos). ONE MIND se limita a un nivel (BROTE, con seis zonas y el Incinerador) y diez armas.
 
 ### Shooters clásicos (por ejemplo, DOOM) *(propuesta)*
 

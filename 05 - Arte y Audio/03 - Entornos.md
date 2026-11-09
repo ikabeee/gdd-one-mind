@@ -22,8 +22,7 @@ Planos, blockout y capturas: [[06 - Galería de Arte]].
 
 ![[brote-plan-ground.png]]
 
-> [!warning] Por alinear
-> [[02 - Niveles]] todavía describe solo dos zonas. En BROTE la Zona 1 es la Sala de Contención y la Zona 2 es el Laboratorio Central, pero el nivel tiene seis zonas y el Incinerador.
+Puertas, obstáculos y trampas de cada zona: [[02 - Niveles]].
 
 ## Modularidad
 
