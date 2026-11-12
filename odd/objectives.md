@@ -9,3 +9,4 @@
 1. [Art gallery in the GDD](tasks/art-gallery.md) — done
 2. [Team feedback alignment with the Unity game](tasks/team-feedback.md) — done
 3. [Mirror the repository GDD into the Google Doc](tasks/google-doc-mirror.md) — done
+4. [Delivery state of the game in the GDD](tasks/delivery-state.md) — done

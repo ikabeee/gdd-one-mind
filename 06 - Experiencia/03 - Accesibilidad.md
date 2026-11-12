@@ -11,19 +11,19 @@ La accesibilidad busca que el mayor número posible de jugadores pueda comprende
 - [ ] Contraste
 - [ ] Modo para daltonismo
 - [ ] Reasignación de controles
-- [ ] Sensibilidad
+- [x] Sensibilidad
 - [ ] Reducción de movimiento
 - [ ] Reducción de destellos
-- [ ] Asistencia de apuntado
+- [x] Asistencia de apuntado (con mando)
 - [ ] Dificultad ajustable
-- [ ] Volumen independiente
+- [x] Volumen independiente (general y de música)
 - [ ] Indicadores visuales para sonidos importantes
 
 ## Consideraciones
 
-Las opciones de esta lista aún no están aprobadas. Por su bajo costo, se proponen como prioritarias la **sensibilidad del mouse** y el **volumen independiente** (música y efectos). *(propuesta)*
+Ya están en el juego la **sensibilidad**, el **volumen** (general y de música) y la **asistencia de apuntado** con mando.
 
- El esquema actual es fijo de teclado y mouse; la reasignación y el soporte de mando quedan fuera de esta versión según el apartado de [[04 - Controles|controles]].
+ El esquema es fijo de teclado y mouse, con soporte de mando; la reasignación queda fuera de esta versión según el apartado de [[04 - Controles|controles]].
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - UI y Menús]] · [[04 - Guardado y Configuración]] →

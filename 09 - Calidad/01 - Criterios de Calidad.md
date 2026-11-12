@@ -35,5 +35,12 @@ Una característica se considera terminada cuando:
 - No introduce errores bloqueantes ni baja el rendimiento por debajo del objetivo.
 - Otro integrante del equipo la revisó.
 
+## Pendiente de verificar en la entrega (2026-11-12)
+
+- 60 FPS en equipos de gama media (medición solo en editor por lotes; el dueño reporta problemas tras la ronda 1).
+- Builds de macOS y Windows en máquina real (Windows sin ejecutar; sin partida completa jugada).
+- Respuesta sonora de compra, denegación, puertas y rondas (sin implementar).
+- Audio escuchado en juego (menú, pasos, ambiente, murmullo).
+
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Gestión de Cambios]] · [[02 - Pruebas]] →

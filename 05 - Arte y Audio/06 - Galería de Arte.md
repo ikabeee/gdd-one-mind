@@ -8,18 +8,19 @@ Reúne el arte que ya existe del juego: bocetos, personajes, enemigos, armas, es
 > - **Bocetos:** dibujos del equipo y storyboard del tráiler (tinta negra sobre blanco con un acento rojo).
 > - **Modelos:** renders de Blender de los modelos que usa el proyecto de Unity, capturas del juego y planos del nivel BROTE.
 > - **Ubicación:** todas las imágenes están en `assets/`, con una carpeta por tema.
-> - **Última revisión:** 2026-11-09, contra el proyecto de Unity.
+> - **Última revisión:** 2026-11-12, contra el proyecto de Unity.
 
 ## Resumen
 
 | Categoría | Qué hay | Estado |
 |---|---|---|
 | Bocetos | 4 dibujos del equipo y 46 paneles del storyboard del tráiler | Aprobados como referencia |
-| Personajes | Tannat y Cuyus: modelo 3D, vistas, caras de la pantalla | En el juego |
-| Enemigos | Científico infectado por Neuroplex (único enemigo) | En el juego |
-| Armas | 10 armas con modelo 3D y animaciones en primera persona | En el juego |
-| Escenario | Nivel BROTE: planos, blockout y capturas | Blockout jugable; ambientación en curso |
-| Interfaz | HUD de visor y menú principal con diorama | En el juego |
+| Personajes | Tannat y Cuyus: modelo 3D, vistas, caras de la pantalla, poses de rig y mano en primera persona v5 | En el juego |
+| Enemigos | Científico infectado por Neuroplex (único enemigo): modelo, vistas y poses de rig | En el juego |
+| Armas | 9 armas obtenibles con modelo 3D y animaciones en primera persona; los renders muestran los modelos antes de la remodelación del 2026-11-11 | En el juego |
+| Escenario | Nivel BROTE: planos, blockout y capturas; Administración y Pruebas Exo selladas, Incinerador inaccesible | 4 zonas abiertas en el juego |
+| Máquinas y objetos | Máquina de pilas, impresora 3D, instalación con Cuyus y los cinco power-ups | En el juego |
+| Interfaz | HUD, menú principal con diorama y menú de pausa | En el juego |
 
 ## Bocetos
 
@@ -119,6 +120,14 @@ Robot de 1.80 m. Tiene una armadura blanca sobre un traje oscuro continuo, y su 
 
 ![[tannat-screen-faces.png|560]]
 
+**Poses del rig:** el rig que comparten el juego y el tráiler, en alcance, agachado y manos en primer plano.
+
+![[tannat-rig-poses.jpg|560]]
+
+**Mano en primera persona v5:** la mano anterior (arriba) y la mano v5 que usa el juego (abajo), con el rifle, desde cuatro vistas.
+
+![[tannat-hands-v5.jpg|560]]
+
 ### Cuyus
 
 Niña de 1.22 m con vestido, fleco sobre un ojo y un corazón en el pecho. La cara se arma en el juego con capas (ojos, boca y efectos) para que pueda parpadear y cambiar de expresión sin redibujarla.
@@ -131,6 +140,10 @@ Niña de 1.22 m con vestido, fleco sobre un ojo y un corazón en el pecho. La ca
 
 ![[cuyus-face-cells.png|560]]
 
+**Poses del rig:** el rig que comparten el juego y el tráiler, en alcance, agachado y manos en primer plano.
+
+![[cuyus-rig-poses.jpg|560]]
+
 ## Enemigos
 
 ### Científico infectado por Neuroplex
@@ -140,6 +153,10 @@ Es el único enemigo de los niveles: el personal del laboratorio infectado por e
 ![[scientist-model.png|360]] ![[scientist-head.png|360]]
 
 ![[scientist-turnaround.png]]
+
+**Poses del rig:** alcance, embestida y agachado; la mano con guante y el crecimiento de Neuroplex en el cráneo.
+
+![[scientist-rig-poses.jpg|560]]
 
 **Animaciones:** reposo, caminar, correr, atacar, salto (inicio, aire y caída), frenesí, golpe leve, golpe fuerte, muerte y muerte por explosión. Al morir cae como ragdoll.
 
@@ -154,20 +171,23 @@ Fue la primera propuesta de enemigo, en tres tamaños (chico, mediano y grande).
 
 ## Armas
 
-Todas siguen el mismo lenguaje: bloques en blanco y negro con un pequeño detalle de color. Cada arma tiene animaciones en primera persona para sacar, sostener, recargar, reacomodar la mano, guardar, recoger y soltar.
+Todas siguen el mismo lenguaje: bloques en blanco y negro con un pequeño detalle de color. Cada arma tiene animaciones en primera persona para sacar, sostener, recargar, reacomodar la mano, guardar, recoger y soltar. Estos renders muestran los modelos antes de la remodelación del 2026-11-11.
 
 | Render | Nombre en el juego | Disparo | Dónde se consigue |
 |---|---|---|---|
 | ![[weapon-pistol.png\|200]] | Pistola | Semiautomático | Arma inicial |
 | ![[weapon-rifle.png\|200]] | Rifle | Semiautomático | Pared · 500 · Sala de Contención |
 | ![[weapon-shotgun.png\|200]] | Escopeta | Perdigones (8), doble cañón | Pared · 500 · Sala de Contención |
-| ![[weapon-blaster.png\|200]] | Blaster | Semiautomático, disparo de energía | Pared · 750 · Administración |
+| ![[weapon-blaster.png\|200]] | Blaster | Semiautomático, disparo de energía | Impresora 3D |
 | ![[weapon-assault-rifle.png\|200]] | Rifle de asalto | Automático | Pared · 1,000 · Laboratorio Central |
-| ![[weapon-machine-pistol.png\|200]] | Subfusil | Automático | Pared · 1,250 · Administración |
+| ![[weapon-machine-pistol.png\|200]] | Subfusil | Automático | Impresora 3D |
 | ![[weapon-pump-shotgun.png\|200]] | Escopeta de bomba | Perdigones (9), de bomba | Pared · 1,250 · Morgue |
-| ![[weapon-marksman.png\|200]] | Rifle de tirador | Semiautomático, con mira | Pared · 1,500 · Pruebas Exo |
+| ![[weapon-marksman.png\|200]] | Rifle de tirador | Semiautomático, con mira | Impresora 3D |
 | ![[weapon-lmg.png\|200]] | Ametralladora | Automático | Pared · 2,000 · Celdas |
-| ![[weapon-rocket-launcher.png\|200]] | Cohete | Proyectil explosivo | Solo en la impresora 3D (caja misteriosa) |
+
+**Iconos del HUD:** hoja de diseño con tres tratamientos (A, B y C) a 1x y 4x; el juego usa el tratamiento A, la silueta blanca, a 48 x 21 píxeles.
+
+![[weapon-icons-sheet.png|560]]
 
 **Efectos de disparo:** son planos y gráficos, no realistas.
 - **Fogonazo:** aspas naranjas, amarillas y blancas con un núcleo hexagonal.
@@ -180,17 +200,17 @@ Daño, munición y mejoras de cada arma: [[04 - Objetos y Coleccionables]].
 
 ## Escenario: BROTE
 
-BROTE es el nivel jugable: el laboratorio de Neuroplex sellado tras el brote, con seis zonas que se abren con puertas de pago y un sótano secreto, el Incinerador, al que se baja por unos ductos. La ambientación post-apocalíptica se aplica zona por zona: ya está en la Sala de Contención y el Laboratorio Central es la siguiente. Su dirección es "laboratorio con brechas": techos y muros rotos hacia el cielo, óxido, agua y vegetación, con materiales sucios y realistas.
+BROTE es el nivel jugable: el laboratorio de Neuroplex sellado tras el brote, con cuatro zonas abiertas conectadas por puertas de pago. Administración y Pruebas Exo están selladas y el Incinerador es una cáscara inaccesible bajo el nivel. La ambientación post-apocalíptica se aplica zona por zona. Su dirección es "laboratorio con brechas": techos y muros rotos hacia el cielo, óxido, agua y vegetación, con materiales sucios y realistas.
 
-| Zona | Color de acento |
-|---|---|
-| Sala de Contención (inicio) | Rojo de emergencia y azul |
-| Administración y Pasillo rojo | Blanco frío; rojo en el pasillo |
-| Laboratorio Central | Rojo |
-| Morgue | Cian |
-| Celdas | Verde frío |
-| Pruebas Exo | Blanco azulado |
-| Incinerador (sótano secreto) | Naranja |
+| Zona | Color de acento | Estado |
+|---|---|---|
+| Sala de Contención (inicio) | Rojo de emergencia y azul | Abierta |
+| Laboratorio Central | Rojo | Se abre con la puerta 2 |
+| Morgue | Cian | Se abre con la puerta 4 |
+| Celdas | Verde frío | Se abre con la puerta 5 |
+| Administración y Pasillo rojo | Blanco frío; rojo en el pasillo | Sellada |
+| Pruebas Exo | Blanco azulado | Sellada |
+| Incinerador (sótano) | Naranja | Cáscara inaccesible |
 
 **Planta baja y planta alta:**
 
@@ -198,9 +218,13 @@ BROTE es el nivel jugable: el laboratorio de Neuroplex sellado tras el brote, co
 
 ![[brote-plan-upper.png]]
 
+Los planos muestran el nivel antes de los recortes: Administración, Pruebas Exo y el Incinerador con sus estaciones, cinco sitios de impresora, la estación del arnés y los orbes de dash ya no están en la partida.
+
 **Blockout y capturas en Unity:**
 
 ![[brote-blockout.png|360]]
+
+El blockout muestra el nivel antes de los recortes: Administración, Pruebas Exo y el Incinerador con sus estaciones, cinco sitios de impresora, la estación del arnés y los orbes de dash ya no están en la partida.
 
 ![[brote-unity-captures.png]]
 
@@ -212,11 +236,45 @@ Puertas, obstáculos y trampas de cada zona: [[02 - Niveles]].
 
 ![[hud-in-game.png]]
 
+El HUD como está en la entrega, sobre un fondo gris neutro: retrato de Cuyus con la bahía de cuatro pilas (arriba a la izquierda), ronda 03 (abajo a la izquierda), los tres iconos de power-up con duración (x2, calavera y flecha) sobre «RESTANTES 08» (abajo al centro), puntos 2450 y rango de estilo x2 D (derecha), y el icono del arma con munición 7/64 y las dos ranuras (abajo a la derecha).
+
 **Menú principal:** muestra a Tannat y Cuyus en un diorama en blanco y negro, junto a las opciones del menú.
 
 ![[main-menu.png]]
 
+El menú como está en la entrega: título ONE MIND, opciones JUGAR (ENTRAR AL BROTE), AJUSTES y SALIR, el diorama con Tannat sentado y Cuyus trepando hacia él, y la esquina «+ ONEMIND_01 / VER. 0.1_PROTO».
+
 ![[menu-diorama.png|360]]
+
+**Menú de pausa:** PAUSA con CONTINUAR, AJUSTES, CONTROLES, REINICIAR PARTIDA, MENU PRINCIPAL y SALIR DEL JUEGO. La captura se tomó en el nivel de pruebas (PRUEBAS), al que ya no se llega desde el menú.
+
+![[pause-menu.png]]
+
+## Máquinas y objetos
+
+**Máquina de pilas (BLINDAJE):** hoja de modelo con vistas frontal y de tres cuartos a la luz del día, su silueta a 20 m y en un cuarto oscuro.
+
+![[battery-machine.png|560]]
+
+La máquina de BLINDAJE en la partida, con su señal hexagonal encendida y el marco amarillo en la pared.
+
+![[battery-machine-in-game.jpg|560]]
+
+**Instalación con Cuyus:** tira de cuadros de la instalación en primera persona (render gris de vista previa): Tannat lanza la pila con la mano izquierda, Cuyus sube desde el borde inferior de la pantalla, la atrapa en el aire y vuelve a esconderse.
+
+![[battery-install-cuyus.jpg|560]]
+
+**Impresora 3D:** hoja de modelo de la impresora cerrada (CoreXY, 2.3 x 1.04 x 1.45 m) con vistas frontal y de tres cuartos, silueta a 15 m y cuarto oscuro.
+
+![[printer-3d.png|560]]
+
+La impresora 3D en el piso de la Rotonda en la partida, con una pieza sobre su cama.
+
+![[printer-3d-in-game.jpg|560]]
+
+**Power-ups:** los modelos de los cinco power-ups (x2 de PUNTOS DOBLES, calavera de LETAL, bote de PURGA, caja de MUNICION MAXIMA y jeringa de IMPULSO), a la luz del día, en cuarto oscuro y siluetas a 15 m.
+
+![[power-ups.png|560]]
 
 ## Pendientes
 
@@ -224,6 +282,17 @@ Puertas, obstáculos y trampas de cada zona: [[02 - Niveles]].
 - [x] Actualizar el catálogo de armas en [[04 - Objetos y Coleccionables]].
 - [x] Actualizar las zonas en [[02 - Niveles]].
 - [ ] Definir el nombre del enemigo en pantalla (el juego no lo muestra todavía).
+
+## Recortado
+
+### Cohete
+
+Proyectil explosivo; era la décima arma y salía solo de la impresora 3D. Se recortó porque el objeto no estaba completo.
+
+![[weapon-rocket-launcher.png|200]]
+
+> [!warning] Recortado para la entrega (2026-11-12)
+> El Cohete salió de la partida y de la impresora; el recurso, el código y las pruebas quedan en el proyecto. Ver [[05 - Gestión de Cambios]].
 
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Audio y Música]] · [[01 - UX y Flujo del Jugador]] →

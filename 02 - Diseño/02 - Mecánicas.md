@@ -25,7 +25,7 @@ Tannat corre siempre a 13 m/s: no hay caminar ni sprint aparte. Acelera a 100 m/
 | Salto | Espacio / botón sur | Alcanza 4 m de altura en 0.49 s. *Coyote time* de 0.1 s (todavía puede saltar 0.1 s después de dejar un borde) y búfer de 0.1 s (un salto pulsado justo antes de aterrizar se ejecuta al tocar el suelo). |
 | Doble salto | Espacio en el aire | 1 salto en el aire, unos 8 m de altura en total. |
 | Deslizamiento | Ctrl izquierdo o C al correr en el suelo / botón este | 18 m/s con un impulso de +8 m/s durante 0.5 s. Dura al menos 0.45 s, termina por debajo de 6 m/s y tiene un enfriamiento de 0.6 s. Saltar mientras se desliza da ×1.25 de altura y +2 m/s. |
-| Dash | Shift izquierdo / LB | En el suelo y en el aire: 45 m/s durante 0.15 s. 1 carga con enfriamiento de 0.3 s; se recarga al aterrizar, al matar y con los orbes de dash. Golpea por 200 de daño o el 60 % de la vida máxima del objetivo, y da 0.3 s de invulnerabilidad. |
+| Dash | Shift izquierdo / LB | En el suelo y en el aire: 45 m/s durante 0.15 s. 1 carga con enfriamiento de 0.3 s; se recarga al aterrizar y al matar. Golpea por 200 de daño o el 60 % de la vida máxima del objetivo, y da 0.3 s de invulnerabilidad. |
 | Stomp | Ctrl izquierdo o C en el aire / RB | Solo en el aire: cae a 70 m/s y hace de 150 a 600 de daño (o del 35 al 100 % de la vida del objetivo) en un radio de 3 a 6 m. Alcanza la potencia máxima tras 0.3 s de caída. Enfriamiento de 1.5 s; rebota 5 m sobre una cabeza (7 m si se salta) y da 0.5 s de invulnerabilidad al aterrizar. |
 
 El daño del dash y del stomp depende de la velocidad: ×0.75 quieto, ×1 corriendo y ×1.5 a la velocidad máxima.
@@ -65,7 +65,7 @@ Es la acción principal para eliminar mutantes, avanzar de ronda y ganar puntos.
 Apuntar con la mira central, disparar con clic izquierdo y recargar con R.
 
 **Reglas:**  
-El catálogo tiene diez armas (ver [[04 - Objetos y Coleccionables]]); se pueden portar dos a la vez. La pistola inicial es semiautomática. Las balas llegan al instante (hitscan); el Cohete es el único proyectil que viaja y explota en un radio de 4.5 m. Las escopetas disparan perdigones (8 la Escopeta y 9 la Escopeta de bomba).
+El catálogo tiene nueve armas (ver [[04 - Objetos y Coleccionables]]); se pueden portar dos a la vez. La pistola inicial es semiautomática. Las balas llegan al instante (hitscan). Las escopetas disparan perdigones (8 la Escopeta y 9 la Escopeta de bomba).
 
 **Entrada:**  
 Clic izquierdo para disparar, R para recargar, teclas 1 y 2 o rueda del mouse para cambiar de arma.
@@ -91,16 +91,16 @@ Depende de la compra de armas y del sistema de economía; se combina con el movi
 **Casos límite:**  
 Cambiar de arma durante una recarga la cancela sin añadir munición. Si ambas ranuras están ocupadas, comprar otra arma reemplaza la activa. Estas reglas deben mantenerse iguales en todas las armas.
 
-### Mecánica 03 — Compra de armas, munición, mejoras y puerta
+### Mecánica 03 — Compra de armas, munición, pilas y puertas
 
 **Propósito:**  
-Traduce el desempeño en combate (puntos) en mejoras y en expansión del mapa disponible.
+Traduce el desempeño en combate (puntos) en equipo y en expansión del mapa disponible.
 
 **Activación:**  
 Acercarse a un punto de compra y pulsar E con los puntos necesarios.
 
 **Reglas:**  
-Cada zona tiene sus compras de pared (ver [[02 - Niveles]]). Siete puertas conectan las zonas de BROTE; cada una permanece abierta después del pago hasta terminar la partida. Si el jugador ya posee el arma de la pared y no está llena, la misma compra repone su munición (precio en [[06 - Economía y Recursos]]).
+Cada zona abierta tiene sus compras de pared (ver [[02 - Niveles]]). Tres puertas conectan las zonas de BROTE; cada una permanece abierta después del pago hasta terminar la partida. Si el jugador ya posee el arma de la pared y no está llena, la misma compra repone su munición (precio en [[06 - Economía y Recursos]]).
 
 **Entrada:**  
 Tecla E frente al objeto interactuable.
@@ -109,7 +109,7 @@ Tecla E frente al objeto interactuable.
 Puntos disponibles, arma/power-up/zona aún no adquirida.
 
 **Estado final:**  
-Se descuentan los puntos y se equipa el arma, se repone munición, se aplica la mejora o se abre la puerta.
+Se descuentan los puntos y se equipa el arma, se repone munición, se instala la pila o se abre la puerta.
 
 **Recursos utilizados:**  
 Puntos.
@@ -132,7 +132,7 @@ Si faltan puntos, no se realiza la compra; el costo parpadea en rojo y se reprod
 Medir cuánto castigo aguanta Tannat y premiar que salga un momento del combate.
 
 **Activación:**  
-Recibir daño de los mutantes o del muro del Incinerador.
+Recibir daño de los mutantes.
 
 **Reglas:**  
 Tannat tiene 100 de vida. Tras 2.5 s sin recibir daño empieza a regenerarse a 60 de vida por segundo. Recibir un golpe no da invulnerabilidad: un mutante quita 40 por golpe, así que tres golpes seguidos lo derriban. La pila BLINDAJE sube la vida máxima a 160 y FILTRO acelera la regeneración.
@@ -144,9 +144,9 @@ Si Tannat cae con RESPALDO instalado, se reinicia con 2 s de invulnerabilidad; s
 
 Lista las mecánicas que complementan la experiencia pero no constituyen el núcleo.
 
-- **Mejoras:** reponer munición en la pared, estaciones de mejora MK1–MK4, impresora 3D y arnés Exo (ver [[04 - Objetos y Coleccionables]]).
+- **Mejoras:** reponer munición en la pared y la impresora 3D (ver [[04 - Objetos y Coleccionables]]).
 - **Pilas y power-ups:** 4 pilas instaladas de un catálogo de 7, y 5 power-ups que sueltan los mutantes.
-- **Trampas:** ducha de descontaminación y anillo electrificado; 1,000 puntos, activas 20 s. Sus bajas no dan puntos.
+- **Trampas:** el anillo electrificado; 1,000 puntos, activo 20 s. Sus bajas no dan puntos.
 - **Rango de estilo:** de D a S; multiplica los puntos ganados de ×1 a ×2.5 (ver [[06 - Economía y Recursos]]).
 
 

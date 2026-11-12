@@ -20,9 +20,9 @@ Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
 
 | Categoría | Opciones |
 |---|---|
-| Audio | Volumen general, de música y de efectos. *(propuesta)* |
-| Video | Resolución y pantalla completa. *(propuesta)* |
-| Controles | Sensibilidad del mouse. *(propuesta)* Esquema fijo, sin reasignación. |
+| Audio | Volumen general y de música. |
+| Video | Campo de visión. Resolución y pantalla completa. *(propuesta)* |
+| Controles | Sensibilidad. Esquema fijo, sin reasignación. |
 | Accesibilidad | Pendiente de aprobar (ver [[03 - Accesibilidad]]). |
 | Jugabilidad | Ninguna. |
 

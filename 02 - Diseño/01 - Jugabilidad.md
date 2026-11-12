@@ -14,7 +14,7 @@ Describe el ciclo que se repite durante la experiencia.
 
 **Bucle del proyecto:**
 
-`Combatir la ronda → Eliminar mutantes y ganar puntos → Comprar armas, munición o mejoras y abrir zonas → Afrontar la siguiente ronda → Repetir hasta morir`
+`Combatir la ronda → Eliminar mutantes y ganar puntos → Comprar armas, munición o pilas y abrir zonas → Afrontar la siguiente ronda → Repetir hasta morir`
 
 Los mutantes también pueden soltar power-ups al morir.
 
@@ -23,8 +23,8 @@ Los mutantes también pueden soltar power-ups al morir.
 | Acción | Propósito | Resultado |
 |---|---|---|
 | Moverse (correr, doble salto, deslizamiento, dash y stomp) | Mantener distancia y buscar rutas para evitar que los mutantes rodeen al jugador. | Tannat corre a 13 m/s, salta obstáculos y usa el dash y el stomp también para atacar. |
-| Disparar / combatir | Eliminar mutantes con cualquiera de las diez armas para avanzar de ronda y obtener puntos. | El mutante recibe daño o muere, otorgando puntos al jugador. |
-| Comprar armas, munición, mejoras, pilas y puertas | Mejorar el equipo y abrir nuevas zonas. | Se descuentan puntos y se entrega la compra o se abre la puerta durante el resto de la partida. |
+| Disparar / combatir | Eliminar mutantes con cualquiera de las nueve armas para avanzar de ronda y obtener puntos. | El mutante recibe daño o muere, otorgando puntos al jugador. |
+| Comprar armas, munición, pilas y puertas | Mejorar el equipo y abrir nuevas zonas. | Se descuentan puntos y se entrega la compra o se abre la puerta durante el resto de la partida. |
 
 ## Experiencia segundo a segundo
 
@@ -36,13 +36,13 @@ El jugador aprende a correr, saltar, deslizarse, hacer dash y stomp, y disparar 
 
 ¿Qué actividades se repiten durante una sesión?
 
-El jugador combate, revisa su munición y decide si compra un arma de pared, ahorra para abrir una puerta o invierte en una pila, una mejora MK o la impresora 3D. Cada zona abierta suma armas, mejoras y rutas para mantener distancia.
+El jugador combate, revisa su munición y decide si compra un arma de pared, ahorra para abrir una puerta o invierte en una pila o en la impresora 3D. Cada zona abierta suma armas, pilas y rutas para mantener distancia.
 
 ## Experiencia a largo plazo
 
 ¿Qué hace que el jugador quiera continuar?
 
-La motivación es superar la ronda alcanzada en partidas anteriores, aprender a controlar las hordas en las zonas de BROTE y aprovechar las combinaciones de armas, mejoras y pilas.
+La motivación es superar la ronda alcanzada en partidas anteriores, aprender a controlar las hordas en las zonas de BROTE y aprovechar las combinaciones de armas y pilas.
 
 ## Condición de victoria
 
@@ -62,7 +62,7 @@ Describe cómo alternan:
 
 - **Exploración** — reunir puntos para abrir nuevas zonas y conocer sus rutas y puntos de compra.
 - **Acción** — combate continuo contra oleadas de mutantes en cada ronda.
-- **Descanso** — una pausa de 10 s entre rondas. Durante el combate, los mutantes persiguen al jugador de forma continua.
+- **Descanso** — una pausa de 2 s entre rondas. Durante el combate, los mutantes persiguen al jugador de forma continua.
 - **Desafío** — crece con cada ronda conforme aumenta la cantidad/dificultad de mutantes.
 - **Recompensa** — puntos obtenidos al eliminar mutantes, usados de inmediato en compras.
 - **Historia** — se revela de forma ambiental al llegar a ciertos puntos del mapa, sin interrumpir el ritmo de acción.

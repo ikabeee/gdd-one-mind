@@ -21,11 +21,12 @@ Representación estilizada mediante modelos low poly.
 **Formas predominantes:**  
 Geometría facetada. En los personajes, las aristas duras se biselan una vez y las extremidades tienen al menos 8 lados y se adelgazan hacia los extremos. Se evita el "look Roblox" (bloques rígidos que flotan en las articulaciones, manos de manopla y color plano uniforme) y también el extremo contrario (formas suavizadas o realistas).
 
-**Iluminación:** Luz fría de laboratorio con zonas en penumbra. Cada zona de BROTE tiene su propio color de acento (ver [[06 - Galería de Arte]]) y el rojo de emergencia marca las alarmas.
+**Iluminación:** Luz fría de laboratorio con zonas en penumbra. Cada zona de BROTE tiene su propio color de acento (ver [[06 - Galería de Arte]]) y el rojo de emergencia marca las alarmas. El filtro de visor (CRT) se retiró; el volumen mantiene grano 0.15 y viñeta 0.25.
 
 **Materiales:**
-- **Personajes:** texturas pixel art en un solo atlas (256 px para Cuyus y 512 px para Tannat), con la misma densidad de píxeles para que se vean coherentes juntos.
-- **Escenario:** el laboratorio post-apocalíptico ("laboratorio con brechas") usa materiales sucios y realistas, con relieve, calcomanías y suciedad: metal, vidrio, óxido, agua y vegetación.
+- **Un solo estilo para todo el juego:** "Realista sucio" con texturas generadas por las herramientas del proyecto, filtrado *point* y 256 px por metro (25 % de tolerancia). Sin texturas fotográficas. CICADAMATA queda como capa gráfica encima: numerales de zona, señalética y un color reservado para lo usable.
+- **Personajes:** texturas pixel art en un solo atlas (256 px para Cuyus y 512 px para Tannat), con la misma densidad de píxeles para que se vean coherentes juntos. Mallas continuas con dedos reales y movimiento secundario.
+- **Escenario:** el laboratorio post-apocalíptico ("laboratorio con brechas") usa esos materiales generados, sucios y realistas, con relieve, calcomanías y suciedad: metal, vidrio, óxido, agua y vegetación.
 - **Efectos de armas:** planos y gráficos, sin realismo.
 
 ## Paleta de color

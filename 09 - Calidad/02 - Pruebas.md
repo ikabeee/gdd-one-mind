@@ -97,11 +97,21 @@ Medir FPS con distintas cantidades de enemigos activos en equipos de gama media 
 2. Revisar la pantalla de derrota.
 3. Pulsar R (o X / botón sur en el mando).
 
-**Resultado esperado:** La pantalla «HAS CAIDO» muestra las rondas sobrevividas, las bajas y los puntos. La nueva partida empieza en la ronda 1, Zona 1, con la pistola, 500 puntos, sin mejoras y con las puertas cerradas.
+**Resultado esperado:** La pantalla "GAME OVER" muestra las rondas sobrevividas ("Sobreviviste N rondas"). La nueva partida empieza en la ronda 1, Sala de Contención, con la pistola, 500 puntos, sin pilas y con las puertas cerradas.
+
+> [!warning] Recortado para la entrega (2026-11-12)
+> La pantalla «HAS CAIDO» quedó reemplazada por "GAME OVER". Ver [[05 - Gestión de Cambios]].
 
 **Resultado obtenido:**
 
 **Estado:** Correcto / Incorrecto
+
+## Pendiente de verificar en la entrega (2026-11-12)
+
+- Partida completa en la build: recorrido de Sala de Contención y Morgue, Rotonda tras el arnés, gap de 2 s y máquinas silenciosas.
+- Apertura y costura del menú; pasos, ambiente y murmullo de la horda en juego.
+- Rendimiento en player standalone y en Windows; 60 FPS sin comprobar.
+- `ShutdownBodyPlayTests` (falla intermitente, un caso distinto cada vez).
 
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Criterios de Calidad]] · [[03 - Bugs y Seguimiento]] →

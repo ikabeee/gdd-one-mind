@@ -38,7 +38,7 @@ El desafío está en mantener distancia, apuntar y administrar los recursos fren
 - **Dónde ir:** se inicia en la Sala de Contención (Zona 1) y se puede ampliar el recorrido pagando las puertas hacia las demás zonas.
 - **Con qué interactuar:** los puntos de compra muestran su costo y la tecla E al acercarse.
 - **Qué ocurrió:** los cambios de munición y puntos y las respuestas visuales y sonoras confirman las acciones.
-- **Por qué perdió:** la partida termina cuando Tannat cae sin RESPALDO; la pantalla «HAS CAIDO» resume las rondas, las bajas y los puntos.
+- **Por qué perdió:** la partida termina cuando Tannat cae sin RESPALDO; la pantalla «GAME OVER» muestra las rondas sobrevividas («Sobreviviste N rondas»).
 
 
 > **Navegación:** [[00 - Índice]] · ← [[06 - Galería de Arte]] · [[02 - UI y Menús]] →

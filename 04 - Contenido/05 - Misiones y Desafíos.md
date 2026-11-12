@@ -41,7 +41,7 @@ La siguiente ronda aumenta la presión. La derrota elimina el progreso de la par
 Tannat, Cuyus y mutantes infectados por Neuroplex.
 
 **Nivel relacionado:**  
-BROTE, con sus seis zonas y el Incinerador (ver [[02 - Niveles]]).
+BROTE, con sus cuatro zonas abiertas (ver [[02 - Niveles]]).
 
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Objetos y Coleccionables]] · [[01 - Dirección de Arte]] →

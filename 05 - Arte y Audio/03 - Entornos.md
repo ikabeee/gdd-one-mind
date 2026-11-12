@@ -11,12 +11,15 @@ El nivel jugable en Unity es **BROTE**: el laboratorio de Neuroplex sellado tras
 | Zona | Color de acento | Compras en pared | Estado del arte |
 |---|---|---|---|
 | Sala de Contención (inicio, Zona 1) | Rojo de emergencia y azul | Rifle y escopeta | Ambientación post-apocalíptica aplicada |
-| Administración y Pasillo rojo | Blanco frío; rojo en el pasillo | Blaster y subfusil | Blockout |
 | Laboratorio Central (Zona 2) | Rojo | Rifle de asalto y la impresora 3D | Ambientación en curso |
 | Morgue | Cian | Escopeta de bomba | Blockout |
 | Celdas | Verde frío | Ametralladora | Blockout |
-| Pruebas Exo | Blanco azulado | Rifle de tirador | Blockout |
-| Incinerador (sótano secreto) | Naranja | — | Blockout |
+| Administración y Pasillo rojo | Blanco frío; rojo en el pasillo | — | Sellada |
+| Pruebas Exo | Blanco azulado | — | Sellada |
+| Incinerador (sótano) | Naranja | — | Cáscara inaccesible |
+
+> [!warning] Recortado para la entrega (2026-11-12)
+> Administración y Pruebas Exo se sellaron porque aún no estaban ambientadas; el Incinerador quedó inaccesible. Las compras de Blaster, Subfusil y Rifle de tirador salen solo de la impresora 3D. Ver [[05 - Gestión de Cambios]].
 
 Planos, blockout y capturas: [[06 - Galería de Arte]].
 
@@ -40,17 +43,20 @@ Iluminación fría de laboratorio con fluorescentes, zonas en penumbra y luces d
 
 - [x] Partículas: fogonazo del disparo.
 - [ ] Clima: no aplica (interior).
-- [ ] Humo *(propuesta)*
-- [ ] Fuego
+- [x] Humo y fuego de ambiente: llamas, humo, ascuas, ceniza, goteos, vapor, chispas y polvo.
 - [ ] Agua
 - [ ] Magia / energía
 - [x] Impactos: sobre mutantes y superficies.
+- [x] Atmósfera: emisores, parpadeos, balizas de alarma y lámparas que fallan.
 
 ## Recursos requeridos
 
-Ya existen en Unity: Tannat (completo y brazos en primera persona), Cuyus, el científico infectado, las diez armas, el blockout de BROTE y la interfaz. Falta la ambientación post-apocalíptica de las zonas que siguen en blockout.
+Ya existen en Unity: Tannat (completo y brazos en primera persona), Cuyus, el científico infectado, las nueve armas obtenibles, el blockout de BROTE y la interfaz. Falta la ambientación post-apocalíptica de las zonas que siguen en blockout.
 
-- **Modelos:** piezas del laboratorio (paredes, suelo, techo), cápsulas rotas, monitores, puerta de seguridad, soportes de armas, estaciones de mejora, Tannat (brazos en primera persona), científicos infectados y las diez armas.
+> [!warning] Recortado para la entrega (2026-11-12)
+> Las estaciones de mejora (Pack-a-Punch) y el Cohete salieron de la partida; el código y las pruebas quedan. Ver [[05 - Gestión de Cambios]].
+
+- **Modelos:** piezas del laboratorio (paredes, suelo, techo), cápsulas rotas, monitores, puerta de seguridad, soportes de armas, Tannat (brazos en primera persona), científicos infectados y las nueve armas obtenibles.
 - **Texturas y materiales:** metal, vidrio, plástico y suciedad del brote.
 - **Efectos:** fogonazo, impactos y luces de emergencia.
 - **Interfaz:** iconos de vida, munición y puntos; textos de costo y de la tecla E.

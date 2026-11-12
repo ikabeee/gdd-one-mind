@@ -8,11 +8,11 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 | Sistema | Propósito | Dependencias | Estado |
 |---|---|---|---|
-| Sistema de armas e inventario | Gestionar las diez armas, su compra, munición y mejoras MK, y el límite de dos armas equipadas. | Economía (puntos) | Implementado en Unity |
+| Sistema de armas e inventario | Gestionar las nueve armas, su compra, munición y reposición, y el límite de dos armas equipadas. | Economía (puntos) | Implementado en Unity |
 | Sistema de IA de mutantes | Controlar la aparición y el comportamiento de mente colmena de los mutantes. | Sistema de rondas y sistema de zonas | Implementado en Unity |
 | Sistema de rondas | Controlar el incremento de dificultad y la cantidad de mutantes por ronda. | Sistema de IA de mutantes | Implementado en Unity |
 | Sistema de economía | Gestionar la obtención y gasto de puntos. | Sistema de rondas, sistema de armas | Implementado en Unity |
-| Sistema de zonas | Abrir las siete puertas de BROTE y limitar la aparición a la zona de Tannat y a las zonas abiertas conectadas con ella. | Economía (puntos) | Implementado en Unity |
+| Sistema de zonas | Abrir las tres puertas de BROTE y limitar la aparición a la zona de Tannat y a las zonas abiertas conectadas con ella. | Economía (puntos) | Implementado en Unity |
 
 ## Sistemas
 
@@ -53,13 +53,13 @@ Los mutantes deben recorrer todas las zonas abiertas sin atravesar obstáculos, 
 
 ### Sistema de armas e inventario
 
-El jugador inicia con la pistola en la primera ranura. Al comprar un arma se ocupa la ranura libre; si las dos están llenas, se sustituye la activa. El sistema controla disparo, recarga, cambio de arma y munición, y actualiza el HUD. Debe impedir disparar sin munición y mantener independientes las reservas de cada arma. Las armas deben distinguirse por modo de disparo (semiautomático, automático, perdigones o proyectil explosivo), cadencia, dispersión y alcance.
+El jugador inicia con la pistola en la primera ranura. Al comprar un arma se ocupa la ranura libre; si las dos están llenas, se sustituye la activa. El sistema controla disparo, recarga, cambio de arma y munición, y actualiza el HUD. Debe impedir disparar sin munición y mantener independientes las reservas de cada arma. Las armas deben distinguirse por modo de disparo (semiautomático, automático o perdigones), cadencia, dispersión y alcance.
 
 ### Sistema de rondas
 
 Al iniciar cada ronda calcula cuántos mutantes deben aparecer y su vida según el número de ronda. Lleva el conteo de enemigos pendientes de aparecer y vivos, respetando el límite de enemigos activos. Cuando ambos llegan a cero, inicia la transición entre rondas (ver [[07 - Reglas y Estados del Juego]]) y después comienza la siguiente ronda.
 
-La primera ronda empieza a los 3 s y entre rondas hay 10 s de pausa. Puede haber como máximo 32 mutantes vivos a la vez. El retraso de aparición es de 2 s, ×0.95 por ronda, con un mínimo de 0.1 s.
+La primera ronda empieza a los 3 s y entre rondas hay 2 s de pausa. Puede haber como máximo 32 mutantes vivos a la vez. El retraso de aparición es de 2 s, ×0.95 por ronda, con un mínimo de 0.1 s.
 
 | Ronda | 1 | 2 | 3 | 4 | 5 | 6 | 10 |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -77,7 +77,7 @@ Al comenzar, solo está habilitada la Sala de Contención (Zona 1). Pulsar E fre
 
 ## Relaciones entre sistemas
 
-El sistema de aparición utiliza la zona de Tannat y las zonas abiertas conectadas con ella. La IA conduce a los enemigos hasta Tannat y comunica sus bajas a rondas y economía. Los puntos permiten comprar armas, munición, mejoras y pilas y abrir puertas; al abrir una puerta, la zona nueva puede generar mutantes.
+El sistema de aparición utiliza la zona de Tannat y las zonas abiertas conectadas con ella. La IA conduce a los enemigos hasta Tannat y comunica sus bajas a rondas y economía. Los puntos permiten comprar armas, munición y pilas y abrir puertas; al abrir una puerta, la zona nueva puede generar mutantes.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Mecánicas]] · [[04 - Controles]] →

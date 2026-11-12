@@ -15,7 +15,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | **Equipo**                   | Aron Balam, Carlos González, Kevin Javier Velázquez Molinero, Raul Arias, Sebastian Perez Viñas |
 | **Responsable del proyecto** | Sebastian Perez Viñas                                                                             |
 | **Fecha de inicio**          | 2026-09-25                                                                                         |
-| **Última actualización**   | 2026-11-09                                                                                         |
+| **Última actualización**   | 2026-11-12                                                                                         |
 | **Repositorio**              | NA                                                                                                 |
 
 ## Identidad del videojuego
@@ -58,7 +58,7 @@ Primera persona - cámara libre
 
 Controlas a Tannat, un robot que protege en su interior a Cuyus, una niña de 10 años que se refugió en él tras encontrarlo en un laboratorio.
 
-El objetivo es sobrevivir al mayor número de rondas frente a mutantes infectados por Neuroplex. Cada baja otorga puntos para comprar armas, obtener mejoras y abrir zonas del laboratorio.
+El objetivo es sobrevivir al mayor número de rondas frente a mutantes infectados por Neuroplex. Cada baja otorga puntos para comprar armas, pilas y munición, y para abrir zonas del laboratorio.
 
 ## Estado actual
 

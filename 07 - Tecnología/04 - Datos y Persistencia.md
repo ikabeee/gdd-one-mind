@@ -7,7 +7,7 @@ Define qué información necesita conservar el juego y cómo se estructura.
 ## Datos persistentes
 
 - **Progreso:** no se conserva entre partidas.
-- **Configuración:** persistencia pendiente de decidir.
+- **Configuración:** sensibilidad, campo de visión, volumen maestro y volumen de música; persisten entre sesiones.
 - **Inventario:** las armas compradas se pierden al reiniciar la partida.
 - **Estadísticas:** el resultado se muestra al terminar; guardar récords entre sesiones sigue pendiente.
 - **Desbloqueos:** la puerta vuelve a estar cerrada al iniciar una nueva partida.
@@ -15,7 +15,7 @@ Define qué información necesita conservar el juego y cómo se estructura.
 
 ## Modelo de datos
 
-Durante una partida se necesitan vida, puntos, ronda, armas, munición y estado de la puerta. Esto describe la información del juego; todavía no se ha definido una estructura de archivos ni un modelo de guardado.
+Durante una partida se necesitan vida, puntos, ronda, armas, munición, estado de las tres puertas, pilas instaladas y power-ups temporizados activos. Esto describe la información del juego; todavía no se ha definido una estructura de archivos ni un modelo de guardado.
 
 ## Formato
 

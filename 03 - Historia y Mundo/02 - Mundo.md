@@ -6,7 +6,10 @@ Define el contexto donde ocurre el videojuego: lugares, culturas, reglas, histor
 
 ## Concepto del mundo
 
-El escenario se limita al interior de un laboratorio sellado, BROTE, con seis zonas conectadas por puertas de pago y un sótano secreto, el Incinerador. Sus elementos visuales muestran el lugar donde se investigaba Neuroplex.
+El escenario se limita al interior de un laboratorio sellado, BROTE, con cuatro zonas abiertas conectadas por puertas de pago. Administración y Pruebas Exo están selladas y el Incinerador es una cáscara inaccesible bajo el nivel. Sus elementos visuales muestran el lugar donde se investigaba Neuroplex.
+
+> [!warning] Recortado para la entrega (2026-11-12)
+> Administración y Pruebas Exo se sellaron porque aún no estaban ambientadas; el Incinerador quedó inaccesible. Ver [[05 - Gestión de Cambios]].
 
 **Época:** Futuro cercano, con robótica avanzada y experimentación biológica.
 
@@ -39,9 +42,12 @@ No aplica: el juego es endless y no tiene un desenlace narrativo. La partida ter
 
 | Lugar | Descripción | Función jugable | Importancia narrativa |
 |---|---|---|---|
-| Zona 1 — Sala de Contención | Espacio de inicio con el banco de cápsulas, un entrepiso y una torre de monitoreo; compras del Rifle y la Escopeta. | Área de inicio. | Las cápsulas rotas y el letrero «BROTE» muestran cómo empezó el brote. |
-| Zona 2 — Laboratorio Central de Neuroplex | Rotonda que se abre con la puerta 2; pasarela y perchas para rodear a las hordas, Rifle de asalto, anillo electrificado e impresora 3D. | Ampliar el espacio de maniobra y las opciones de armamento. | Muestra el lugar donde se investigaba Neuroplex; los monitores con alertas de cuarentena y el área del experimento revelan el origen del virus. |
-| Administración, Morgue, Celdas, Pruebas Exo e Incinerador | Zonas que se abren con las puertas 1 y 3 a 7; el Incinerador solo se alcanza por los ductos. Detalle en [[02 - Niveles]]. | Más espacio, armas y mejoras. | Sin definir. |
+| Zona 1 — Sala de Contención | Espacio de inicio con el banco de cápsulas, un entrepiso y una torre de monitoreo; compras del Rifle y la Escopeta. | Área de inicio. | Las cápsulas rotas muestran cómo empezó el brote. |
+| Zona 2 — Laboratorio Central de Neuroplex | Rotonda que se abre con la puerta 2; pasarela y perchas para rodear a las hordas, Rifle de asalto, anillo electrificado e impresora 3D. | Ampliar el espacio de maniobra y las opciones de armamento. | Muestra el lugar donde se investigaba Neuroplex; el tanque central y el área del experimento revelan el origen del virus. |
+| Morgue | Rampa a una planta alta; compra de la Escopeta de bomba. Detalle en [[02 - Niveles]]. | Más espacio y armas. | Sin definir. |
+| Celdas | Pasarelas en altura; compra de la Ametralladora. Detalle en [[02 - Niveles]]. | Más espacio y armas. | Sin definir. |
+| Administración y Pruebas Exo | Zonas selladas con persiana de acero y barreras CUARENTENA. | Sin acceso en la partida. | Sin definir. |
+| Incinerador | Cáscara vestida bajo el nivel, sin acceso. | Sin acceso en la partida. | Sin definir. |
 
 ## Facciones
 

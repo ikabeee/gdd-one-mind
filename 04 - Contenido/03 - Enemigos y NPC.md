@@ -12,7 +12,7 @@ Documenta las entidades controladas por el juego y su comportamiento.
 Enemigo cuerpo a cuerpo que presiona al jugador para que mantenga distancia. Es el único enemigo del juego: un científico de Neuroplex infectado.
 
 **Comportamiento:**  
-Emerge del suelo en 0.8 s, conoce la posición de Tannat desde que aparece, lo persigue y lo ataca al alcanzarlo. Desde la ronda 3 algunos saltan hacia Tannat y enloquecen (ver **Ataques**). Un mutante que pasa 30 s sin contacto con Tannat (10 s si está a más de 40 m) se recicla y vuelve a aparecer. Sus voces no son verbales.
+Emerge en 0.8 s desde el suelo (1.2 s por las ventanas), conoce la posición de Tannat desde que aparece, lo persigue y lo ataca al alcanzarlo. Desde la ronda 3 algunos saltan hacia Tannat y enloquecen (ver **Ataques**). Un mutante que pasa 30 s sin contacto con Tannat (10 s si está a más de 40 m) se recicla y vuelve a aparecer. Sus voces no son verbales.
 
 **Vida:**  
 150 en la ronda 1 y +100 por ronda hasta la ronda 9 (950). Desde la ronda 10, ×1.1 por ronda.

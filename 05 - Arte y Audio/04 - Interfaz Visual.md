@@ -6,23 +6,21 @@ Documenta la información que el juego muestra al jugador y las reglas visuales 
 
 ## HUD
 
-Elementos definidos por la jugabilidad: vida de Tannat, munición, puntos y avisos de interacción. La última imagen compartida por el equipo es la referencia visual del HUD; sus posiciones y medidas quedan pendientes de documentar.
+El HUD muestra: contador de ronda (parpadea al empezar), «RESTANTES» (mutantes que quedan), puntos, multiplicador y placa de rango de estilo, munición, icono del arma activa y dos ranuras de arma, iconos de dash y stomp, bloque de estado (UNIDAD / SISTEMAS, señal y porcentaje), retrato de Cuyus con la bahía de pilas, iconos de power-ups con duración, mira fina (se oculta al apuntar), visor del Rifle de tirador, y efectos de glitch de daño y de ronda.
 
-- **Vida:** vida de Tannat.
-- **Energía:** no se ha definido una barra; el movimiento no consume estamina.
-- **Munición:** munición del arma equipada.
-- **Objetivo:** ronda actual; su presentación en el HUD está pendiente de confirmar.
-- **Mapa:** no se ha confirmado un minimapa ni una pantalla de mapa.
+- **Vida:** bloque de estado de Tannat (UNIDAD / SISTEMAS).
+- **Energía:** no hay barra; el movimiento no consume estamina.
+- **Munición:** munición del arma equipada; «SIN MUNICION» y «R recargar» con un cuarto de cargador.
+- **Objetivo:** ronda actual y «RESTANTES».
+- **Mapa:** no hay minimapa ni pantalla de mapa.
 - **Recursos:** puntos disponibles.
-- **Indicadores contextuales:** costo y tecla E al acercarse a una compra.
+- **Indicadores contextuales:** costo y tecla E al acercarse a una compra («E comprar <arma> [precio]», «E municion <arma> [precio]», «E abrir <zona> [precio]», «E imprimir arma [950]», «E tomar <arma>», «E activar trampa [1000]», «trampa activa», «trampa recargando», avisos de instalación de pilas, «sin energia»).
 
 ## Jerarquía visual
 
-¿Qué información debe verse primero, segundo y tercero?
+Retrato y bahía arriba a la izquierda; dash y stomp a la izquierda; ronda abajo a la izquierda; iconos de power-ups con duración sobre «RESTANTES» abajo al centro; puntos y rango de estilo a la derecha; arma, munición y ranuras abajo a la derecha.
 
-La distribución visual debe seguir la referencia elegida por el equipo. Falta confirmar la ubicación de cada indicador.
-
-Prioridad *(propuesta)*:
+Prioridad:
 
 1. Vida de Tannat y munición del arma equipada.
 2. Puntos disponibles y ronda actual.
@@ -30,7 +28,7 @@ Prioridad *(propuesta)*:
 
 ## Estados
 
-Al disparar se actualiza la munición. Una compra válida descuenta puntos y reproduce una confirmación. Si faltan puntos, el costo parpadea en rojo y se reproduce un rechazo. Al llegar a cero de vida se muestra la derrota.
+Al disparar se actualiza la munición. Una compra válida descuenta puntos. Si faltan puntos, el costo se agranda en rojo y muestra «Faltan N». Los iconos de power-ups con duración se mantienen fijos y parpadean en los últimos 5 s (más rápido en los últimos 2 s); los instantáneos muestran «PURGA!» o «MUNICION MAXIMA!» durante 2.5 s. Al llegar a cero de vida se muestra la derrota.
 
 ## Referencia visual
 
@@ -54,13 +52,13 @@ El HUD es un visor de casco: los módulos laterales giran hacia el centro en per
 
 ## Pantallas
 
-- **Menú principal:** Jugar, Controles y Salir.
-- **Pausa:** reanudar, reiniciar partida o volver al menú.
-- **Configuración:** opciones pendientes de acordar.
-- **Inventario:** dos ranuras de armas; no se ha definido una pantalla independiente.
-- **Mapa:** pantalla no confirmada.
+- **Menú principal:** «ONE MIND» sobre el diorama (Cuyus trepa a Tannat en bucle). Opciones: JUGAR («ENTRAR AL BROTE»), AJUSTES («SENSIBILIDAD, CAMPO DE VISION Y VOLUMEN») y SALIR («CERRAR ONE MIND», con confirmación «SALIR DE ONE MIND?» / «SI, SALIR» / «NO»). Esquina «+ ONEMIND_01 / VER. 0.1_PROTO». JUGAR carga BROTE directamente; no hay pantalla de nivel.
+- **Pausa:** «PAUSA» con CONTINUAR, REINICIAR PARTIDA, AJUSTES, CONTROLES (columnas de teclado y mando), MENU PRINCIPAL y SALIR DEL JUEGO, con confirmaciones SI / NO. Funciona con teclado, ratón y mando.
+- **Configuración:** cuatro ajustes guardados (sensibilidad, campo de visión, volumen general y volumen de música).
+- **Inventario:** dos ranuras de armas; no hay pantalla independiente.
+- **Mapa:** no hay pantalla de mapa.
 - **Victoria:** no aplica como final del modo endless.
-- **Derrota:** muestra las rondas superadas y los puntos totales obtenidos, con posibilidad de reintentar.
+- **Derrota:** «GAME OVER» con las rondas sobrevividas; permite reintentar o volver al menú principal.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Entornos]] · [[05 - Audio y Música]] →

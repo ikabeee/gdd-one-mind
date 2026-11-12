@@ -46,6 +46,17 @@ Esta sección conserva las decisiones importantes del proyecto y el razonamiento
 | 2026-11-09 | Plataforma | PC (Windows) con teclado y mouse o mando; sin táctil. Reemplaza «sin mando ni táctil». | |
 | 2026-11-09 | Movimiento | Tannat corre siempre, tiene doble salto, deslizamiento, dash y stomp; reemplaza «WASD y salto simple». | |
 | 2026-11-09 | Estilo visual | Low poly con look retro (texturas pixel art sin suavizado) y animación moderna; ver [[06 - Galería de Arte]]. | |
+| 2026-11-12 | Mapa | BROTE con cuatro zonas abiertas; Administración y Pruebas Exo selladas y el Incinerador inaccesible. Reemplaza «BROTE, con seis zonas y el Incinerador (sótano secreto)». | |
+| 2026-11-12 | Armas | Nueve armas obtenibles; el Cohete queda fuera por objeto incompleto. Reemplaza «Diez armas (pistola inicial, ocho de pared y el Cohete de la impresora 3D)». | |
+| 2026-11-12 | Obtención de armas | Blaster, Subfusil y Rifle de tirador solo desde la impresora 3D. Reemplaza su compra en pared de «Diez armas (pistola inicial, ocho de pared y el Cohete de la impresora 3D)». | |
+| 2026-11-12 | Mejoras | Sin estaciones de mejora MK1–MK4, sin arnés Exo y sin orbes de dash; se repone munición, con 7 pilas y 5 power-ups. Reemplaza «Reponer munición en la pared, estaciones MK1–MK4, impresora 3D, arnés Exo, 7 pilas y 5 power-ups; sin compra de armadura ni de vida». | |
+| 2026-11-12 | Impresora 3D | Una impresora fija en la Rotonda; nunca falla ni se mueve. Reemplaza la impresora móvil de «... impresora 3D ...» (2026-11-09). | |
+| 2026-11-12 | Energía | BROTE con energía desde el inicio; sin interruptor ni puertas con energía. | |
+| 2026-11-12 | HUD de power-ups | Temporizados como iconos e instantáneos como mensaje. | |
+| 2026-11-12 | Menú | JUGAR carga BROTE directo; PRUEBAS sale del menú. Reemplaza el plan de dos niveles jugables («Dos zonas conectadas ...» y «BROTE, con seis zonas ...»). | |
+| 2026-11-12 | Plataforma | Builds de macOS y Windows de 64-bit. Reemplaza «PC (Windows) con teclado y mouse o mando; sin táctil». | |
+| 2026-11-12 | Enemigos | El científico infectado sigue como único enemigo; las 12 apariencias quedan congeladas. Mantiene «El científico infectado por Neuroplex es el único enemigo». | |
+| 2026-11-12 | Game over | Secuencia B (laboratorio vacío). | |
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Referencias e Inspiración]] · [[04 - Historial de Versiones]] →

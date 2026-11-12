@@ -12,13 +12,13 @@ Define objetos que el jugador puede recoger, utilizar, equipar, vender, intercam
 Armas equipables.
 
 **Descripción:**  
-El juego tiene diez armas. Las balas llegan al instante (hitscan); el Cohete es el único proyectil que viaja. El Subfusil es la antigua SMG de este documento.
+El juego tiene nueve armas. Las balas llegan al instante (hitscan). El Subfusil es la antigua SMG de este documento.
 
 **Función:**  
 Eliminar mutantes y permitir distintas formas de afrontar la distancia y la cantidad de enemigos.
 
 **Cómo se obtiene:**  
-La pistola se entrega al iniciar. Las demás se compran en la pared de su zona, excepto el Cohete, que solo sale de la impresora 3D.
+La pistola se entrega al iniciar. El Rifle, la Escopeta, el Rifle de asalto, la Escopeta de bomba y la Ametralladora se compran en la pared de su zona; el Blaster, el Subfusil y el Rifle de tirador solo salen de la impresora 3D.
 
 **Cómo se utiliza:**  
 Clic izquierdo para disparar, R para recargar y 1/2 o rueda del mouse para cambiar de arma.
@@ -36,7 +36,7 @@ No se ha establecido un sistema de rarezas.
 Se necesita munición para disparar y puntos para comprar. Con ambas ranuras ocupadas, una compra reemplaza el arma activa. Volver a usar la compra de pared de un arma que ya se tiene repone su munición (ver [[#Mejoras]]).
 
 **Interacciones:**  
-Combate, inventario, economía, estaciones de mejora y acceso a las zonas.
+Combate, inventario, economía y acceso a las zonas.
 
 **Representación visual:**  
 Modelos 3D low poly en blanco y negro con un pequeño detalle de color. Renders en [[06 - Galería de Arte]].
@@ -46,72 +46,60 @@ Modelos 3D low poly en blanco y negro con un pequeño detalle de color. Renders 
 | Pistola | Semiautomático | Arma inicial | 0 |
 | Rifle | Semiautomático | Pared · Sala de Contención | 500 |
 | Escopeta | 8 perdigones, doble cañón | Pared · Sala de Contención | 500 |
-| Blaster | Semiautomático, disparo de energía | Pared · Administración | 750 |
+| Blaster | Semiautomático, disparo de energía | Solo impresora 3D | 750 |
 | Rifle de asalto | Automático | Pared · pasarela del Laboratorio Central | 1,000 |
-| Subfusil | Automático | Pared · Administración | 1,250 |
+| Subfusil | Automático | Solo impresora 3D | 1,250 |
 | Escopeta de bomba | 9 perdigones, de bomba | Pared · Morgue | 1,250 |
-| Rifle de tirador | Semiautomático, con mira | Pared · Pruebas Exo | 1,500 |
+| Rifle de tirador | Semiautomático, con mira | Solo impresora 3D | 1,500 |
 | Ametralladora | Automático | Pared · Celdas | 2,000 |
-| Cohete | Proyectil explosivo (radio de 4.5 m); solo se dispara desde la cadera | Solo en la impresora 3D | 950 por uso de la impresora |
+
+> [!warning] Recortado para la entrega (2026-11-12)
+> El Cohete salió del nivel para la entrega; su asset, su código y sus pruebas siguen en el proyecto. Ver [[05 - Gestión de Cambios]].
 
 ## Mejoras
 
-Las mejoras se compran con puntos (E) y se pierden al terminar la partida. Las pilas y los power-ups tienen sus propias secciones más abajo. No hay compra de armadura ni de vida: la vida se regenera sola (ver [[02 - Mecánicas]]) y la pila BLINDAJE sube la vida máxima.
+La reposición de munición y la impresora 3D se compran con puntos (E) y se pierden al terminar la partida. Las pilas y los power-ups tienen sus propias secciones más abajo. No hay compra de armadura ni de vida: la vida se regenera sola (ver [[02 - Mecánicas]]) y la pila BLINDAJE sube la vida máxima.
 
 | Mejora | Dónde | Costo | Efecto |
 |---|---|---:|---|
-| Reponer munición | La compra de pared del arma | Mitad del precio del arma × (nivel de mejora + 1) | Llena la munición de esa arma. |
-| Estación de mejora MK1–MK3 | Administración, Celdas y Pruebas Exo | 3,000 / 4,500 / 6,000 | Daño ×1.5 / ×2 / ×2.75. |
-| Estación de mejora MK4 | Solo la estación Experimental | 7,500 | Daño ×3.75. |
-| Impresora 3D | Laboratorio Central al inicio; 5 ubicaciones | 950 | Un arma al azar. |
-| Arnés Exo | Pruebas Exo | 1,500 | Mejora el movimiento de Tannat. |
+| Reponer munición | La compra de pared del arma | Mitad del precio del arma | Llena la munición de esa arma. |
+| Impresora 3D | Laboratorio Central | 950 | Un arma al azar. |
 | Interruptor del stomp | Celdas | Gratis | Suelta un power-up al azar. |
-| Orbes de dash | Laboratorio Central (6) y Pruebas Exo (3) | Gratis | Recargan el dash y los saltos en el aire. |
 
 ### Reponer munición
 
 **Cómo se obtiene:** Usando otra vez la compra de pared de un arma que ya se tiene y que no está llena.
 
-**Valor:** Costo de munición × (nivel de mejora del arma + 1). El costo de munición es la mitad del precio del arma; la tabla completa está en [[06 - Economía y Recursos]].
+**Valor:** La mitad del precio del arma, sin multiplicador: ya no hay niveles de mejora. La tabla completa está en [[06 - Economía y Recursos]].
 
 ### Estaciones de mejora (MK)
 
-Funcionan como el Pack-a-Punch de los zombies clásicos: mejoran el arma en mano y cada mejora también repone su munición.
-
-| Nivel | Costo | Daño |
-|---|---:|---|
-| MK1 | 3,000 | ×1.5 |
-| MK2 | 4,500 | ×2 |
-| MK3 | 6,000 | ×2.75 |
-| MK4 | 7,500 | ×3.75 |
-
-**Dónde:** Hay tres estaciones: Administración, Celdas y la Experimental, en la planta alta de Pruebas Exo. Solo la Experimental ofrece MK4, que se desbloquea al tomar la llave del incinerador.
+> [!warning] Recortado para la entrega (2026-11-12)
+> Las estaciones de mejora (Pack-a-Punch) se quitaron para la entrega junto con la llave del incinerador, los ductos y la zona de trituración. Ver [[05 - Gestión de Cambios]].
 
 ### Impresora 3D
 
-Es la caja misteriosa del juego.
+Es la caja misteriosa del juego. Imprime a la vista, en el suelo del Laboratorio Central: el pórtico y el cabezal barren, la cama baja y la pieza crece por capas.
 
 **Valor:** 950 puntos por uso.
 
-**Cómo se utiliza:** Imprime durante 3 s y ofrece el arma durante 8 s. Los primeros 4 usos siempre imprimen; después, cada uso tiene un 20 % de probabilidad de fallar: devuelve los puntos y la impresora se mueve a otra ubicación.
+**Cómo se utiliza:** Al pagar («E  imprimir arma  [950]»), imprime durante 3 s y ofrece el arma durante 8 s («E  tomar <arma>»). Si el jugador ya lleva las 8 armas del bombo, devuelve los puntos.
 
-**Ubicación:** 5 posibles; empieza en el Laboratorio Central.
+**Ubicación:** una sola, fija en el suelo del Laboratorio Central.
 
-**Contenido:** Cualquiera de las 9 armas que no son la pistola. Es la única forma de conseguir el Cohete.
+**Contenido:** una de 8 armas al azar (Rifle, Escopeta, Blaster, Subfusil, Rifle de asalto, Escopeta de bomba, Ametralladora y Rifle de tirador), nunca una que el jugador ya lleve. No falla ni se mueve de sitio.
 
 ### Arnés Exo
 
-**Dónde:** Pruebas Exo.
-
-**Valor:** 1,500 puntos, una vez por partida.
-
-**Efecto:** +1 salto en el aire, velocidad ×1.1, altura de salto ×1.15 y enfriamientos ×0.9.
+> [!warning] Recortado para la entrega (2026-11-12)
+> La estación del arnés Exo se quitó para la entrega. Ver [[05 - Gestión de Cambios]].
 
 ### Interruptor del stomp y orbes de dash
 
 **Interruptor del stomp (Celdas):** Un stomp con potencia de 0.35 o más hunde la celda y suelta un power-up al azar. La celda vuelve a subir a los 20 s; el interruptor tiene un enfriamiento de 60 s.
 
-**Orbes de dash:** Recargan el dash y los saltos en el aire, y reaparecen a los 2 s.
+> [!warning] Recortado para la entrega (2026-11-12)
+> Los orbes de dash de la Rotonda y de Pruebas Exo se quitaron para la entrega. Ver [[05 - Gestión de Cambios]].
 
 ## Pilas de Tannat
 
@@ -119,7 +107,7 @@ Las pilas sustituyen a los perks de los zombies clásicos con una ficción propi
 
 **Tipo:** Mejora comprable e instalable.
 
-**Cómo se obtiene:** Comprándola con puntos en su estación de carga (E). Cada nivel tiene una estación por pila.
+**Cómo se obtiene:** Comprándola con puntos en su estación de carga (E). El nivel tiene una estación por pila.
 
 **Cómo se utiliza:** Se aplica en cuanto se instala y dura hasta el final de la partida o hasta que un reinicio de RESPALDO la queme.
 
@@ -129,7 +117,7 @@ Las pilas sustituyen a los perks de los zombies clásicos con una ficción propi
 
 **Rareza:** No aplica; todas están siempre a la venta.
 
-**Restricciones:** Con la bahía llena no se puede instalar otra. RESPALDO solo puede instalarse 3 veces por partida. El aviso de la estación explica por qué no se puede comprar («Bahia llena 4/4», «RESPALDO agotado», «Ya tienes RAFAGA»).
+**Restricciones:** Con la bahía llena no se puede instalar otra. RESPALDO solo puede instalarse 3 veces por partida. Una máquina que no puede vender no muestra texto; al pulsar E se escucha el barrido de la mano y Cuyus pone cara de rechazo.
 
 **Interacciones:** Vida, regeneración, armas, movimiento, economía y la derrota (RESPALDO).
 
@@ -175,7 +163,7 @@ Al morir, un mutante puede soltar un power-up que flota sobre el suelo. Tannat l
 
 **Interacciones:** Puntos, combate, munición y movimiento.
 
-**Representación visual:** Una gema que gira y flota con su nombre encima. Al recogerlo se anuncia en pantalla; los efectos temporales muestran sus segundos restantes en la parte de abajo y parpadean los últimos 5 s.
+**Representación visual:** Una gema que gira y flota. Al recoger un efecto temporal aparece su icono blanco de 7×7 píxeles abajo al centro, sobre «RESTANTES»: fijo mientras dura y parpadeante los últimos 5 s (más rápido los últimos 2 s). Al recoger PURGA o MUNICION MAXIMA aparece su mensaje en pantalla durante 2.5 s.
 
 | Power-up | Efecto | Duración |
 | --- | --- | --- |

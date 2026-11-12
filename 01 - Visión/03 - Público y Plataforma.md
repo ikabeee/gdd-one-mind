@@ -34,7 +34,7 @@ Familiaridad con controles básicos de FPS: movimiento WASD, salto y apuntado co
 
 ## Restricciones de plataforma
 
-El prototipo se plantea para equipos de gama media durante el showcase de la UT Cancún. Se buscarán 60 FPS mediante un nivel de seis zonas, un límite de 32 mutantes vivos a la vez y reutilización de objetos. El rendimiento con ese límite deberá comprobarse en los equipos de prueba.
+El prototipo se plantea para equipos de gama media durante el showcase de la UT Cancún. Se buscarán 60 FPS mediante un nivel de cuatro zonas abiertas, un límite de 32 mutantes vivos a la vez y reutilización de objetos. El rendimiento con ese límite deberá comprobarse en los equipos de prueba.
 
 ## Sesión de juego
 
@@ -53,7 +53,7 @@ Prototipo académico. Sin venta directa; se presenta en un showcase en la UT Can
 ## Consideraciones
 
 - [x] Controles adaptados a la plataforma (esquemas fijos de teclado y mouse, y de mando)
-- [ ] Interfaz legible (pendiente de definir el HUD)
+- [x] Interfaz legible (HUD definido en [[02 - UI y Menús]])
 - [x] Rendimiento considerado (60 FPS, límite de enemigos activos)
 - [x] Resoluciones consideradas (1920 × 1080, 16:9)
 - [x] Guardado compatible (no aplica: no hay guardado de partida)

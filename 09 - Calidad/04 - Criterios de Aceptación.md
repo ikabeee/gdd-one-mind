@@ -46,7 +46,10 @@ Los criterios de aceptación permiten decidir objetivamente si una característi
 
 **Cuando:** Tannat cae.
 
-**Entonces:** se desactiva el control y la pantalla «HAS CAIDO» muestra las rondas sobrevividas, las bajas y los puntos, con la opción de reintentar (R) o volver al menú (Q).
+**Entonces:** se desactiva el control y la pantalla "GAME OVER" muestra las rondas sobrevividas ("Sobreviviste N rondas"), con la opción de reintentar (R) o volver al menú (Q).
+
+> [!warning] Recortado para la entrega (2026-11-12)
+> La pantalla «HAS CAIDO» quedó reemplazada por "GAME OVER". Ver [[05 - Gestión de Cambios]].
 
 ## Criterios del proyecto
 

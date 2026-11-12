@@ -10,7 +10,7 @@ La narrativa se cuenta a través del entorno, de textos breves en el HUD y de la
 
 - [ ] Diálogo
 - [ ] Cinemáticas
-- [x] Texto ambiental (monitores, letreros de las zonas y textos del HUD)
+- [x] Texto ambiental (avisos del HUD)
 - [x] Objetos (cápsulas rotas)
 - [x] Exploración (recorrer las zonas de BROTE)
 - [x] Expresiones de Cuyus en el HUD
@@ -21,10 +21,14 @@ La narrativa se cuenta a través del entorno, de textos breves en el HUD y de la
 
 | Dónde | Texto |
 |---|---|
-| Monitores del laboratorio | «CUARENTENA» y «EXPERIMENTO NEUROPLEX / CONTENCION FALLIDA» |
-| Letreros | Uno por zona; la Sala de Contención muestra «BROTE». |
-| HUD de Tannat | «SISTEMAS OK», «UNIDAD_01», «TANNAT» y «RESPALDO reiniciando...» |
-| Menú principal | «PILOTO · [NOMBRE DE LA NINA]», «NINA A BORDO» y la descripción de BROTE, «INSTALACION DE INVESTIGACION TOMADA» |
+| HUD de Tannat | «SISTEMAS OK», «UNIDAD / SISTEMAS», «TANNAT», «RESPALDO reiniciando...», «E comprar <arma> [precio]», «E municion <arma> [precio]», «E abrir <zona> [precio]», «E imprimir arma [950]», «E tomar <arma>», «E activar trampa [1000]», «trampa activa», «trampa recargando», «sin energia», «SIN MUNICION», «R recargar», «Faltan N», «RESTANTES» |
+| Power-ups | «PURGA!» y «MUNICION MAXIMA!» durante 2.5 s |
+| Menú principal | «ONE MIND», «JUGAR», «ENTRAR AL BROTE», «AJUSTES», «SENSIBILIDAD, CAMPO DE VISION Y VOLUMEN», «SALIR», «CERRAR ONE MIND», «SALIR DE ONE MIND?», «SI, SALIR», «NO» y «+ ONEMIND_01 / VER. 0.1_PROTO» |
+| Pausa | «PAUSA», «CONTINUAR», «REINICIAR PARTIDA», «AJUSTES», «CONTROLES», «MENU PRINCIPAL», «SALIR DEL JUEGO», «SI» y «NO» |
+| Derrota | «GAME OVER» y las rondas sobrevividas |
+
+> [!warning] Recortado para la entrega (2026-11-12)
+> Los monitores son paneles oscuros sin texto legible y los letreros de zona («BROTE», «CUARENTENA») se retiraron hasta que exista la señalética propia del laboratorio. Ver [[05 - Gestión de Cambios]].
 
 Los textos van sin acentos porque la fuente pixel del juego no los dibuja.
 
@@ -55,7 +59,7 @@ No aplica: el juego no tiene diálogos ni conversaciones.
 
 Describe el lenguaje, humor, formalidad y estilo de comunicación.
 
-Sombrío y tenso. Los textos son breves, técnicos y fríos: alertas de cuarentena, letreros y mensajes de sistema de Tannat. El único contrapunto son algunas expresiones de Cuyus, como el llanto cómico al caer.
+Sombrío y tenso. Los textos son breves, técnicos y fríos: avisos del HUD y mensajes de sistema de Tannat. El único contrapunto son algunas expresiones de Cuyus, como el llanto cómico al caer.
 
 ## Decisiones narrativas
 

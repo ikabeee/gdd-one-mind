@@ -6,15 +6,25 @@ Registra juegos, películas, libros, fotografías, artículos, diseños o cualqu
 
 ## Referencias
 
-### Call of Duty: Zombies *(propuesta)*
+### Call of Duty: Zombies (era Jason Blundell: BO1, BO2, BO3)
 
 **Tipo:** Videojuego (modo de juego).
 
 **Enlace:**
 
-**Qué nos interesa:** Supervivencia por rondas sin final, puntos por baja, compra de armas en soportes y apertura de zonas con puntos.
+**Qué nos interesa:** Supervivencia por rondas sin final, puntos por baja, compra de armas en soportes, apertura de zonas con puntos, caja misteriosa (impresora 3D) y mejoras por perks (pilas).
 
-**Qué NO queremos copiar:** Su complejidad (muchos mapas, armas, power-ups y secretos). ONE MIND se limita a un nivel (BROTE, con seis zonas y el Incinerador) y diez armas.
+**Qué NO queremos copiar:** Su complejidad (muchos mapas, armas, power-ups y secretos). ONE MIND se limita a un nivel (BROTE, con cuatro zonas abiertas) y nueve armas obtenibles, sin estaciones de mejora.
+
+### Titanfall
+
+**Tipo:** Videojuego.
+
+**Enlace:**
+
+**Qué nos interesa:** El movimiento continuo y rápido en combate: carrera constante, deslizamiento, dash y doble salto encadenados con el disparo.
+
+**Qué NO queremos copiar:** Su carrera por paredes (wall-run). ONE MIND no tiene wall-run ni escalada de bordes; el dash y el stomp son sus herramientas de movimiento y hacen daño.
 
 ### Shooters clásicos (por ejemplo, DOOM) *(propuesta)*
 

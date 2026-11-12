@@ -13,7 +13,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Rol:** Protagonista y personaje controlado por el jugador.
 
-**Función jugable:** Se controla en primera persona. Se defiende con diez armas (dos a la vez) y se mueve con carrera constante, doble salto, deslizamiento, dash y stomp.
+**Función jugable:** Se controla en primera persona. Se defiende con nueve armas obtenibles (dos a la vez) y se mueve con carrera constante, doble salto, deslizamiento, dash y stomp.
 
 **Función narrativa:** Funciona como armadura y mantiene con vida a Cuyus, que permanece en su interior durante toda la partida. Sus mensajes breves de sistema aportan contexto sobre lo ocurrido en el laboratorio.
 
@@ -31,7 +31,10 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Arco del personaje:** No aplica: al ser modo endless, no hay un arco narrativo cerrado.
 
-**Habilidades:** Uso de diez armas; carrera constante a 13 m/s, doble salto, deslizamiento, dash y stomp.
+**Habilidades:** Uso de nueve armas obtenibles; carrera constante a 13 m/s, doble salto, deslizamiento, dash y stomp.
+
+> [!warning] Recortado para la entrega (2026-11-12)
+> El Cohete salió de la partida porque el objeto no estaba completo. Ver [[05 - Gestión de Cambios]].
 
 **Debilidades:** Si cae sin la pila RESPALDO, la partida termina y Cuyus queda desprotegida.
 
@@ -52,7 +55,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Descripción física:** Niña de 10 años con cabello a la altura de los hombros y un fleco que le cubre parte de un ojo. Viste un vestido sin mangas de falda acampanada con un corazón en el pecho, medias largas y zapatos redondeados.
 
-**Personalidad:** La hoja de expresiones define seis registros: melancolía, enojo contenido, locura, neutro, sonrisa infantil y desprecio. En "locura" y "desprecio" aparece una mancha negra sobre el ojo.
+**Personalidad:** La hoja de expresiones define doce registros: neutro, sonrisa infantil, melancolía, enojo contenido, desprecio, locura, feliz, brillo, sorpresa, puchero, sonrojo y llanto cómico. En "locura" y "desprecio" aparece una mancha negra sobre el ojo.
 
 **Motivaciones:** Sobrevivir al virus Neuroplex.
 
